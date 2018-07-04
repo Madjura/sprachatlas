@@ -21,7 +21,6 @@ palatovelare = Combine((rundung | grundwerte_vokal_basis) + (Literal("$") | Lite
 # can be grundwerte_vokal_basis + the literals OR palatovelare + the literals
 nasalierung = Combine((palatovelare | grundwerte_vokal_basis) + Literal("+") + Optional(Literal("..") | Literal(".")
                                                                                         | Literal("1")))("Nasalierung")
-
 quantitat = Combine((nasalierung | grundwerte_vokal_basis) + Literal("-") + Optional(Literal("1") | Literal("2")
                                                                                      | Literal("3")))("Quantität")
 reduktion = Combine((quantitat | grundwerte_vokal_basis) + OneOrMore(Literal("&")))("Reduktion")
@@ -29,35 +28,58 @@ grenzwert = Combine((reduktion | grundwerte_vokal_basis) + grundwerte_vokal_basi
 akzent = Combine((grenzwert | grundwerte_vokal_basis) + Literal("'") + Optional(Literal("1")))("Akzent")
 silbentrager = Combine((akzent | grundwerte_vokal_basis) + (Literal("4") | Literal("4.")))("Silbenträger")
 
-all_vokal = silbentrager | akzent | grenzwert | reduktion | nasalierung | palatovelare | rundung | offnungsgrad_halbwert | offnungsgrad
+vokale = (silbentrager | akzent | grenzwert | reduktion | nasalierung | palatovelare | rundung
+          | offnungsgrad_halbwert | offnungsgrad | reduktionsvokal | halbvokal | grundwert_vokal)("Vokale")
 
 ##########
 # konsonanten
 # grundzeichen
-konsonanten_basis = CaselessLiteral("B") | CaselessLiteral("C") | CaselessLiteral("D") | CaselessLiteral("F") \
-                    | CaselessLiteral("G") | CaselessLiteral("H") | CaselessLiteral("K") | CaselessLiteral("L") \
-                    | CaselessLiteral("M") | CaselessLiteral("N") | CaselessLiteral("P") | CaselessLiteral("Q") \
-                    | CaselessLiteral("R") | CaselessLiteral("S") | CaselessLiteral("T") | CaselessLiteral("V") \
-                    | CaselessLiteral("W") | CaselessLiteral("X") | CaselessLiteral("Y") | CaselessLiteral("Z")
-bilabiale_reibelaute = (CaselessLiteral("V6") | CaselessLiteral("F6"))("Bilabiale Reibelaute")
-s_laute = (CaselessLiteral("S") + (Literal("6") | Literal("7") | Literal("8") | Literal("9") | Literal("86")))("s-Laut")
-# ch_laute = CaselessLiteral("X" + (Literal("7") | Literal("7.") | Literal("78") | Literal("7$") | Literal("7$1")
-#                                   | Literal("78$") | Literal("6") | Literal("6.") | Literal("68") | Literal("8")
-#                                   | Literal("$") | Literal("8$")))("ch-Laut")
+konsonanten_basis = (CaselessLiteral("B") | CaselessLiteral("C") | CaselessLiteral("D") | CaselessLiteral("F")
+                     | CaselessLiteral("G") | CaselessLiteral("H") | CaselessLiteral("K") | CaselessLiteral("L") \
+                     | CaselessLiteral("M") | CaselessLiteral("N") | CaselessLiteral("P") | CaselessLiteral("Q") \
+                     | CaselessLiteral("R") | CaselessLiteral("S") | CaselessLiteral("T") | CaselessLiteral("V") \
+                     | CaselessLiteral("W") | CaselessLiteral("X") | CaselessLiteral("Y") | CaselessLiteral("Z"))\
+    ("Konsonant")
+grenzwert_konsonant = Combine(konsonanten_basis + konsonanten_basis + Literal(":"))("Grenzwert (Konsonant)")
+fortisierung = Combine((grenzwert_konsonant | konsonanten_basis) + (Literal("2") | Literal("22")))("Fortisierung")
+lenisierung = Combine((fortisierung | konsonanten_basis) + (Literal("1") | Literal("11")))("Lenisierung")
+stimmhaftigkeit = Combine((lenisierung | konsonanten_basis) + Literal("%"))("Stimmhaftigkeit")
+implosion = Combine((stimmhaftigkeit | konsonanten_basis) + Literal("%"))("Implosion")
+quantitat_konsonant = Combine((implosion | konsonanten_basis) + Literal("-"))("Quantität (Konsonant)")
+reduktion_konsonant = Combine((quantitat_konsonant | konsonanten_basis) + Literal("&"))("Reduktion (Konsonant)")
+kehlkopfverschluss = Combine(CaselessLiteral("H") + Literal(","))("Kehlkopfverschluss")
+silbische_funktion = (CaselessLiteral("M4") | CaselessLiteral("M4.") | CaselessLiteral("N4") | CaselessLiteral("N4.")
+                      | CaselessLiteral("R4") | CaselessLiteral("R4."))("Silbische Funktion")
+spirantisierung = (CaselessLiteral("B7") | CaselessLiteral("D7") | CaselessLiteral("G7"))("Spirantisierung")
+bilabiale_reibelaute = (CaselessLiteral("V6") | CaselessLiteral("W"))("Bilabiale Reibelaute")
+
+
+s_laute = Combine(CaselessLiteral("S") + (Literal("7") | Literal("8") | Literal("86") | Literal("9") | Literal("6") |
+                                          Literal("6.")))("s-Laut")
+ich_laute = (CaselessLiteral("X7") | CaselessLiteral("X7.") | CaselessLiteral("78"))("Ich-Laut")
+ach_laute = (CaselessLiteral("X6") | CaselessLiteral("X6.") | CaselessLiteral("X68") | CaselessLiteral("X")
+             | CaselessLiteral("X8"))("Ach-Laut")
 nasale = (CaselessLiteral("N7") | CaselessLiteral("N7.") | CaselessLiteral("M7"))("Nasale")
 r_laute = (CaselessLiteral("R") + Optional(Literal(",") | Literal("9") | Literal("9.") | Literal("7") | Literal("7,")
                                            | Literal("8") | Literal("6") | Literal("8%")))("r-Laut")
-l_laute = (CaselessLiteral("L") + Optional(Literal("4") | Literal("4.") | Literal("5") | Literal("7") | Literal("77")
-                                           | Literal("7.") | Literal("57") | Literal("8") | Literal("9") | Literal(";9")
-                                           | Literal("99") | Literal("$") | Literal("$$") | Literal(";$$") |
-                                           Combine(Literal(";") + halbvokal + Literal(":=")) | Literal(";")
-                                           | Literal(";$") | CaselessLiteral("D:") | CaselessLiteral("R:")
-                                           | CaselessLiteral("D:4") | CaselessLiteral("D&:")
-                                           | CaselessLiteral("D&:4")))("l-Laut")
-# variationen
+r_reduktion = Combine(CaselessLiteral("r") + (Literal("&") | Literal(",&") | Literal("7&") | Literal("&&")))\
+    ("R-Reduktion")
+l_laute = Combine(CaselessLiteral("L") + Optional(Literal("$") | Literal("7") | Literal("7.") | Literal("77")
+                                                  | Literal("9") | Literal("9.") | Literal(";")))("L-Laute")
+konsonanten = l_laute | r_reduktion | r_laute | nasale | ach_laute | ich_laute | s_laute | bilabiale_reibelaute \
+              | spirantisierung | silbische_funktion | kehlkopfverschluss | reduktion_konsonant | quantitat_konsonant \
+              | implosion | stimmhaftigkeit | lenisierung | fortisierung | grenzwert_konsonant | konsonanten_basis
 
+konsonant_or_vokal = konsonanten | vokale
 
-for match in all_vokal.scanString("a2=."):
+parse_all = OneOrMore(konsonant_or_vokal)
+
+#u5-2nd2a2vi5-s7we2ne,u5-2ndn4gs7da5-2ndni-s
+for match in quantitat.scanString("u5-2"):
+    print(match)
+
+raise Exception
+for match in vokale.scanString("a2=."):
     r = match[0]
     print(r)
 
