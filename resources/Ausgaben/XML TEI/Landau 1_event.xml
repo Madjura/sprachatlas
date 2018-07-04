@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:exmaralda="http://www.exmaralda.org" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title />
+         </titleStmt>
+         <publicationStmt>
+            <authority />
+            <availability>
+               <licence target="someurl" />
+               <p />
+            </availability>
+            <distributor />
+            <address>
+               <addrLine />
+            </address>
+         </publicationStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording type="video">
+                  <media mimeType="audio/xxx" url="file:/C:/Users/qfdick01/Documents/PACE/Daten%20SNiB/Tonaufnahmen/130Landau/ANALOG/Landau.F'39.b.Brunner_01a.wav" />
+                  <media mimeType="audio/xxx" url="file:/C:/Users/qfdick01/Documents/PACE/Daten%20SNiB/Tonaufnahmen/130Landau/ANALOG/Landau.F'39.b.Brunner_01a.mp3" />
+                  <broadcast>
+                     <ab><!--Fill me in--></ab>
+                  </broadcast>
+                  <equipment>
+                     <ab><!--Fill me in--></ab>
+                     <ab><!--Fill me in--></ab>
+                  </equipment>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <person xml:id="AB" n="AB" sex="1">
+               <persName />
+            </person>
+            <person xml:id="Int" n="Int" sex="1">
+               <persName />
+            </person>
+         </particDesc>
+         <settingDesc>
+            <place><!--Fill me in--></place>
+            <setting>
+               <activity><!--Fill me in--></activity>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application ident="EXMARaLDA" version="1.5.3">
+               <label>EXMARaLDA Partitur-Editor</label>
+               <desc>Transcription Tool providing a TEI Export</desc>
+            </application>
+         </appInfo>
+         <transcriptionDesc ident="HIAT" version="2004">
+            <desc><!--Fill me in--></desc>
+            <label><!--Fill me in--></label>
+         </transcriptionDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2018-01-13T17:35:44.584+01:00">Created by XSL transformation from an EXMARaLDA basic transcription</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="en">
+      <timeline unit="s" origin="#T_START">
+         <when xml:id="T_START" absolute="00:00:00.0" />
+         <when xml:id="T0" interval="0.013332928212251212" since="#T_START" />
+         <when xml:id="T1" interval="1.793278844547788" since="#T_START" />
+         <when xml:id="T2" interval="3.4065631582301847" since="#T_START" />
+         <when xml:id="T3" interval="6.639798474353636" since="#T_START" />
+         <when xml:id="T4" interval="8.11941932469488" since="#T_START" />
+         <when xml:id="T5" interval="9.3865577917515" since="#T_START" />
+         <when xml:id="T6" interval="10.953205801263033" since="#T_START" />
+         <when xml:id="T7" interval="11.573949168792769" since="#T_START" />
+         <when xml:id="T8" interval="12.677944582322912" since="#T_START" />
+         <when xml:id="T16" interval="12.966516267724906" since="#T_START" />
+         <when xml:id="T9" interval="14.269937328380234" since="#T_START" />
+         <when xml:id="T10" interval="16.077929387925536" since="#T_START" />
+         <when xml:id="T11" interval="17.81992173733257" since="#T_START" />
+         <when xml:id="T12" interval="19.51991427119707" since="#T_START" />
+         <when xml:id="T13" interval="20.45391016921439" since="#T_START" />
+         <when xml:id="T196" interval="22.001903370639237" since="#T_START" />
+         <when xml:id="T14" interval="22.71389995237298" since="#T_START" />
+         <when xml:id="T15" interval="23.20639749509018" since="#T_START" />
+         <when xml:id="T18" interval="24.005894569383035" since="#T_START" />
+         <when xml:id="T19" interval="25.81988660257727" since="#T_START" />
+         <when xml:id="T20" interval="28.019876940519563" since="#T_START" />
+         <when xml:id="T21" interval="29.263871477065113" since="#T_START" />
+         <when xml:id="T22" interval="30.95186429585486" since="#T_START" />
+         <when xml:id="T23" interval="32.452523972999614" since="#T_START" />
+         <when xml:id="T24" interval="34.69584762056627" since="#T_START" />
+         <when xml:id="T25" interval="35.752921103043604" since="#T_START" />
+         <when xml:id="T26" interval="36.64599530578343" since="#T_START" />
+         <when xml:id="T27" interval="37.91983346125988" since="#T_START" />
+         <when xml:id="T28" interval="38.8496731275308" since="#T_START" />
+         <when xml:id="T185" interval="39.71151309244714" since="#T_START" />
+         <when xml:id="T186" interval="39.855824958649094" since="#T_START" />
+         <when xml:id="T29" interval="40.47982221813818" since="#T_START" />
+         <when xml:id="T30" interval="41.123819389790384" since="#T_START" />
+         <when xml:id="T31" interval="43.15581046556254" since="#T_START" />
+         <when xml:id="T32" interval="43.487808661108154" since="#T_START" />
+         <when xml:id="T33" interval="44.80380323097012" since="#T_START" />
+         <when xml:id="T34" interval="46.0567982477855" since="#T_START" />
+         <when xml:id="T35" interval="47.67866174139539" since="#T_START" />
+         <when xml:id="T36" interval="50.02764507641788" since="#T_START" />
+         <when xml:id="T37" interval="52.589626900312155" since="#T_START" />
+         <when xml:id="T188" interval="53.23162234564398" since="#T_START" />
+         <when xml:id="T187" interval="53.4866205365468" since="#T_START" />
+         <when xml:id="T38" interval="54.67461210828232" since="#T_START" />
+         <when xml:id="T39" interval="56.57659861454575" since="#T_START" />
+         <when xml:id="T40" interval="59.52257771415252" since="#T_START" />
+         <when xml:id="T41" interval="61.61956283698869" since="#T_START" />
+         <when xml:id="T42" interval="63.20955155673572" since="#T_START" />
+         <when xml:id="T43" interval="64.39154317103822" since="#T_START" />
+         <when xml:id="T44" interval="65.58253472149025" since="#T_START" />
+         <when xml:id="T45" interval="66.82452591012284" since="#T_START" />
+         <when xml:id="T46" interval="67.53852084465075" since="#T_START" />
+         <when xml:id="T47" interval="68.9815106072891" since="#T_START" />
+         <when xml:id="T48" interval="70.59849913548466" since="#T_START" />
+         <when xml:id="T49" interval="72.24848742956176" since="#T_START" />
+         <when xml:id="T50" interval="73.27748012932257" since="#T_START" />
+         <when xml:id="T51" interval="76.39445895087115" since="#T_START" />
+         <when xml:id="T52" interval="77.37909766154976" since="#T_START" />
+         <when xml:id="T190" interval="78.30641124819905" since="#T_START" />
+         <when xml:id="T53" interval="78.63065504158556" since="#T_START" />
+         <when xml:id="T54" interval="79.4694362001865" since="#T_START" />
+         <when xml:id="T55" interval="80.13421859323017" since="#T_START" />
+         <when xml:id="T56" interval="81.269997644765" since="#T_START" />
+         <when xml:id="T57" interval="82.83541232010377" since="#T_START" />
+         <when xml:id="T58" interval="84.61439969899055" since="#T_START" />
+         <when xml:id="T59" interval="85.80839122815908" since="#T_START" />
+         <when xml:id="T60" interval="87.13738405941767" since="#T_START" />
+         <when xml:id="T61" interval="88.8193734057377" since="#T_START" />
+         <when xml:id="T62" interval="90.15884770562671" since="#T_START" />
+         <when xml:id="T63" interval="94.21984084588503" since="#T_START" />
+         <when xml:id="T64" interval="96.32183729523814" since="#T_START" />
+         <when xml:id="T65" interval="97.34283557058997" since="#T_START" />
+         <when xml:id="T189" interval="99.28883074676963" since="#T_START" />
+         <when xml:id="T191" interval="99.90229123829408" since="#T_START" />
+         <when xml:id="T66" interval="101.04828310799853" since="#T_START" />
+         <when xml:id="T67" interval="103.75126393156849" since="#T_START" />
+         <when xml:id="T68" interval="104.83125801798793" since="#T_START" />
+         <when xml:id="T69" interval="106.59210315209528" since="#T_START" />
+         <when xml:id="T70" interval="108.08623317691654" since="#T_START" />
+         <when xml:id="T71" interval="109.1632255361414" since="#T_START" />
+         <when xml:id="T72" interval="111.10721174443587" since="#T_START" />
+         <when xml:id="T73" interval="111.61120513129957" since="#T_START" />
+         <when xml:id="T74" interval="113.02535517054534" since="#T_START" />
+         <when xml:id="T75" interval="114.1994984513681" since="#T_START" />
+         <when xml:id="T76" interval="116.57948799877839" since="#T_START" />
+         <when xml:id="T77" interval="118.59547914482005" since="#T_START" />
+         <when xml:id="T78" interval="121.35146704089685" since="#T_START" />
+         <when xml:id="T79" interval="122.78744919091834" since="#T_START" />
+         <when xml:id="T80" interval="123.93912070782827" since="#T_START" />
+         <when xml:id="T81" interval="127.58409484838045" since="#T_START" />
+         <when xml:id="T82" interval="129.4490816171403" since="#T_START" />
+         <when xml:id="T83" interval="129.80407909859326" since="#T_START" />
+         <when xml:id="T84" interval="131.4790672153079" since="#T_START" />
+         <when xml:id="T192" interval="133.14905536749504" since="#T_START" />
+         <when xml:id="T193" interval="133.60405213949812" since="#T_START" />
+         <when xml:id="T85" interval="134.68904444196698" since="#T_START" />
+         <when xml:id="T86" interval="136.50903152997935" since="#T_START" />
+         <when xml:id="T87" interval="137.5890238679207" since="#T_START" />
+         <when xml:id="T88" interval="138.8440149643248" since="#T_START" />
+         <when xml:id="T89" interval="141.28899761827543" since="#T_START" />
+         <when xml:id="T90" interval="143.9339788533263" since="#T_START" />
+         <when xml:id="T91" interval="145.8889649835813" since="#T_START" />
+         <when xml:id="T17" interval="146.0589637775165" since="#T_START" />
+         <when xml:id="T92" interval="147.38895434183323" since="#T_START" />
+         <when xml:id="T93" interval="149.86393678294888" since="#T_START" />
+         <when xml:id="T94" interval="150.52893206510723" since="#T_START" />
+         <when xml:id="T95" interval="150.90892936919772" since="#T_START" />
+         <when xml:id="T96" interval="152.5489177342198" since="#T_START" />
+         <when xml:id="T97" interval="153.72390939818382" since="#T_START" />
+         <when xml:id="T98" interval="156.13889226496937" since="#T_START" />
+         <when xml:id="T99" interval="156.58888907244497" since="#T_START" />
+         <when xml:id="T100" interval="158.8788728260429" since="#T_START" />
+         <when xml:id="T101" interval="160.5338610846475" since="#T_START" />
+         <when xml:id="T102" interval="161.35885756130097" since="#T_START" />
+         <when xml:id="T199" interval="162.43926169633343" since="#T_START" />
+         <when xml:id="T103" interval="163.63384419450827" since="#T_START" />
+         <when xml:id="T104" interval="164.1138356863421" since="#T_START" />
+         <when xml:id="T105" interval="165.85382334191428" since="#T_START" />
+         <when xml:id="T106" interval="167.8788089755544" since="#T_START" />
+         <when xml:id="T107" interval="169.138800036486" since="#T_START" />
+         <when xml:id="T108" interval="170.37379127478005" since="#T_START" />
+         <when xml:id="T109" interval="170.73378872076054" since="#T_START" />
+         <when xml:id="T110" interval="171.30878464142376" since="#T_START" />
+         <when xml:id="T111" interval="172.33877733409005" since="#T_START" />
+         <when xml:id="T112" interval="173.4687693173065" since="#T_START" />
+         <when xml:id="T197" interval="174.80375984615074" since="#T_START" />
+         <when xml:id="T113" interval="175.35375594417644" since="#T_START" />
+         <when xml:id="T114" interval="176.48374792739287" since="#T_START" />
+         <when xml:id="T198" interval="177.39874143592652" since="#T_START" />
+         <when xml:id="T115" interval="177.79373863359953" since="#T_START" />
+         <when xml:id="T194" interval="178.61873278063808" since="#T_START" />
+         <when xml:id="T195" interval="178.82873129079337" since="#T_START" />
+         <when xml:id="T116" interval="179.56372607633682" since="#T_START" />
+         <when xml:id="T117" interval="182.7637033739409" since="#T_START" />
+         <when xml:id="T118" interval="185.1036867728139" since="#T_START" />
+         <when xml:id="T119" interval="186.1436793945352" since="#T_START" />
+         <when xml:id="T120" interval="187.56700914040252" since="#T_START" />
+         <when xml:id="T121" interval="188.27366428325294" since="#T_START" />
+         <when xml:id="T122" interval="189.60365484756963" since="#T_START" />
+         <when xml:id="T184" interval="370.002" since="#T_START" />
+      </timeline>
+      <body>
+         <annotationBlock who="#AB" start="#T0" end="#T31">
+            <u xml:id="u_d1e367">
+               <w xml:id="w_TIE1_0">Ja, da hat man erst einmal gehabt,</w>
+               <anchor synch="#T1" />
+               <w xml:id="w_TIE1_1">also, das Erste war der Schnürer.</w>
+               <anchor synch="#T2" />
+               <w xml:id="w_TIE1_2">• • • Und des war a • • a Stahldraht.</w>
+               <anchor synch="#T3" />
+               <w xml:id="w_TIE1_3">Meistens hat man einen Kupferdraht hergenommen,</w>
+               <anchor synch="#T4" />
+               <w xml:id="w_TIE1_4">weil er besser stehen geblieben ist.</w>
+               <anchor synch="#T5" />
+               <w xml:id="w_TIE1_5">• • Und da hat man eine Schlaufe gemacht,</w>
+               <anchor synch="#T6" />
+               <w xml:id="w_TIE1_6">wie der Wilderer,</w>
+               <anchor synch="#T7" />
+               <w xml:id="w_TIE1_7">wenn er ein Reh gefangen hat, nicht,</w>
+               <anchor synch="#T8" />
+               <w xml:id="w_TIE1_8">•</w>
+               <anchor synch="#T16" />
+               <w xml:id="w_TIE1_9">aber blos nicht so groß, nicht,</w>
+               <anchor synch="#T9" />
+               <w xml:id="w_TIE1_10">und nachert ist man den, den Schnürer,</w>
+               <anchor synch="#T10" />
+               <w xml:id="w_TIE1_11">des war ja grad ein ganz ein kleines Packerl,</w>
+               <anchor synch="#T11" />
+               <w xml:id="w_TIE1_12">das hat er überall einstecken können.</w>
+               <anchor synch="#T12" />
+               <w xml:id="w_TIE1_13">Das ist nicht aufgefallen, nicht,</w>
+               <anchor synch="#T13" />
+               <w xml:id="w_TIE1_14">weil da waren ja die Fischaufseher auch da, nicht.</w>
+               <anchor synch="#T196" />
+               <w xml:id="w_TIE1_15">((holt Luft,0,6s))</w>
+               <anchor synch="#T14" />
+               <w xml:id="w_TIE1_16">Oh, oh.</w>
+               <anchor synch="#T15" />
+               <w xml:id="w_TIE1_17" />
+               <anchor synch="#T18" />
+               <w xml:id="w_TIE1_18">Ach woher, ja mein.</w>
+               <anchor synch="#T19" />
+               <w xml:id="w_TIE1_19">Bei uns hat ja das ganze Fischwasser da abher nachhereinand,</w>
+               <anchor synch="#T20" />
+               <w xml:id="w_TIE1_20">das hat dem, dem Besitzer,</w>
+               <anchor synch="#T21" />
+               <w xml:id="w_TIE1_21">den ehemaligen von, vo Unter…, von Tannegg,</w>
+               <anchor synch="#T22" />
+               <w xml:id="w_TIE1_22">• • ein gewissen Doktor F,</w>
+               <anchor synch="#T23" />
+               <w xml:id="w_TIE1_23">des war ja, • war ja a • Sau.</w>
+               <anchor synch="#T24" />
+               <w xml:id="w_TIE1_24">• Der wenn dich erwischt hat!</w>
+               <anchor synch="#T25" />
+               <w xml:id="w_TIE1_25">Der hat einmal einen Wilderer,</w>
+               <anchor synch="#T26" />
+               <w xml:id="w_TIE1_26">• • da hat der Wilderer,</w>
+               <anchor synch="#T27" />
+               <w xml:id="w_TIE1_27">der hat, der hat, einen, einen —</w>
+               <anchor synch="#T28" />
+               <w xml:id="w_TIE1_28">• • das war ja</w>
+               <anchor synch="#T185" />
+               <w xml:id="w_TIE1_29">dort</w>
+               <anchor synch="#T186" />
+               <w xml:id="w_TIE1_30">ein Mundraub,</w>
+               <anchor synch="#T29" />
+               <w xml:id="w_TIE1_31">wenn da einer —</w>
+               <anchor synch="#T30" />
+               <w xml:id="w_TIE1_32">• der hat vier, fünf Kinder gehabt und nichts, keine Arbeit,</w>
+            </u>
+            <spanGrp type="">
+               <span from="#T15" to="#T18" />
+            </spanGrp>
+            <spanGrp type="teu">
+               <span from="#T0" to="#T1">i;a5-2do5-2ho5-dma2+-2e2a,s72d2a2mo2e2g2ho5-d</span>
+               <span from="#T1" to="#T2">a2-2e2so2-2de2-se2a,s72d2e2wa5-da2-2s7ni-2e,ra2</span>
+               <span from="#T2" to="#T3">u5nd2e2-swa6-2ra24 / a2s72d2a5-2e2d2ro6-2d</span>
+               <span from="#T3" to="#T4">ma2e1s81dnsho6-bma2+-2r&amp;a2+nk1hu6p1f1a2dro5-dhe2-2a,gnu5m2a</span>
+               <span from="#T4" to="#T5">wa2-2e2de-2a,be2s81a,s7d2e2+bli5mi-s </span>
+               <span from="#T5" to="#T6">/ u5nd2o5-2ho5bma,ra2-2s7la5o2vmbmo2x68d2</span>
+               <span from="#T6" to="#T7">wi-e,da2we$-2i$da,ra,</span>
+               <span from="#T7" to="#T8">we2n2a2-2re-gva5n7gdho5-dne2-d</span>
+               <span from="#T16" to="#T9">o5-wa, blo2-sne2-dso2-2gro$-2u5sne2-d</span>
+               <span from="#T9" to="#T10">u5-ndno5-i-4sma2$dendens7ni-e,ra,</span>
+               <span from="#T10" to="#T11">de2-swa5-ro5gro5-da2-2ga5-2nsa2glo2+-2a,nsb2a2ka,l</span>
+               <span from="#T11" to="#T12">de2-sho5-da,r&amp;i-2wa,ro2-2e2d&amp;a2+2-2s7de2ka,kh&amp;i+-na,</span>
+               <span from="#T12" to="#T13">de2-si-sne2-da-2o2vg2vo5en2e2-2d</span>
+               <span from="#T13" to="#T196">wa2-2e2do5-wa5-no5p1f1i5-s7a-2ovse5-a2r&amp;a2-do5-ne2-d&amp;</span>
+               <span from="#T14" to="#T15">o-o-24</span>
+               <span from="#T15" to="#T18" />
+               <span from="#T18" to="#T19">a2x68wo2-2he2-2a2 / ja6-2ma2+-2e2+</span>
+               <span from="#T19" to="#T20">ba2-2e2u5-nsho5-do-2de2-sga5nt1s2e2vi-s7wo2s8a,do5o5-4wa,ra2na5-nd</span>
+               <span from="#T20" to="#T21">de2-sho5-d2e2m / de2.nbe5si5t1s2a,</span>
+               <span from="#T21" to="#T22">de2-ne2-e,&amp;ma5-2le2gn7vo5n / vo2u5nta,vo2.t1a5ne5kh</span>
+               <span from="#T22" to="#T23">a2-gewis8n4d2o5k1t1a2vro2-m</span>
+               <span from="#T23" to="#T24">de2-swa5-ro6-2a64.a64. / wa5-ro6a5.a5.s2a5-o2</span>
+               <span from="#T24" to="#T25">de2-2a,wende2-da2wi5-2s9d2ho5-d</span>
+               <span from="#T25" to="#T26">de2-2a,ho5-da2-2mo2e2a2nwe$-2e1da,ra,2</span>
+               <span from="#T26" to="#T27">do5-ho5-d2a2we$-2e1da,ra,2</span>
+               <span from="#T27" to="#T28">de2-2a,ho5-dde2-2a,ho5-da2n / a2n</span>
+               <span from="#T28" to="#T185">de2-swa5-ro5</span>
+               <span from="#T185" to="#T186">do5l</span>
+               <span from="#T186" to="#T29">a2-mu5-ndra-2o2b</span>
+               <span from="#T29" to="#T30">we2n2do5-o2+-24.a,+na,</span>
+               <span from="#T30" to="#T31">de2-2a,ho5-dvi5-2e,vi5-mvkhi5-2nda,gho5-du5-ndni5ks8kho2+-2e,o5-2a,wa2-2d</span>
+            </spanGrp>
+         </annotationBlock>
+         <incident who="#AB" type="c" start="#T2" end="#T3">
+            <desc>(hörbares Einatmen)</desc>
+         </incident>
+         <annotationBlock who="#Int" start="#T8" end="#T16">
+            <u xml:id="u_d1e1283">
+               <w xml:id="w_TIE4_0">mhm</w>
+            </u>
+         </annotationBlock>
+         <incident who="#AB" type="c" start="#T9" end="#T10">
+            <desc>(hörbares Einatmen)</desc>
+         </incident>
+         <incident who="#AB" type="c" start="#T11" end="#T12">
+            <desc>(holt hörbar Luft)</desc>
+         </incident>
+         <annotationBlock who="#Int" start="#T14" end="#T18">
+            <u xml:id="u_d1e1286">
+               <w xml:id="w_TIE4_1">Hat man man da</w>
+               <anchor synch="#T15" />
+               <w xml:id="w_TIE4_2">noch Fischen dürfen?</w>
+            </u>
+         </annotationBlock>
+         <annotationBlock who="#Int" start="#T14" end="#T18">
+            <u xml:id="u_d1e1302">
+               <w xml:id="w_TIE5_0">ho5-dma2&amp;do6-</w>
+               <anchor synch="#T15" />
+               <w xml:id="w_TIE5_1">na6+-2vi5s91n4d2e2e,fa,</w>
+            </u>
+         </annotationBlock>
+         <incident who="#AB" type="c" start="#T15" end="#T18">
+            <desc />
+         </incident>
+         <incident who="#AB" type="c" start="#T26" end="#T27">
+            <desc>(hörbares Einatmen,0,5s)</desc>
+         </incident>
+         <incident who="#AB" type="c" start="#T185" end="#T186">
+            <desc>im Sinn von 'damals'</desc>
+         </incident>
+         <annotationBlock who="#Int" start="#T31" end="#T32">
+            <u xml:id="u_d1e1292">
+               <w xml:id="w_TIE4_3">mhm</w>
+            </u>
+         </annotationBlock>
+         <annotationBlock who="#AB" start="#T32" end="#T197">
+            <u xml:id="u_d1e470">
+               <w xml:id="w_TIE1_33">• und hat er einen Rehbock angeschossen.</w>
+               <anchor synch="#T33" />
+               <w xml:id="w_TIE1_34">Dann ist der Rehbock zwischen der…,</w>
+               <anchor synch="#T34" />
+               <w xml:id="w_TIE1_35">• der Doktor F ist aushin gegangen,</w>
+               <anchor synch="#T35" />
+               <w xml:id="w_TIE1_36">• • • und, und, und zwischen den Brücken,</w>
+               <anchor synch="#T36" />
+               <w xml:id="w_TIE1_37">zwischen den beiden Brücken ist der Rehbock • • umher,</w>
+               <anchor synch="#T37" />
+               <w xml:id="w_TIE1_38">und der, der</w>
+               <anchor synch="#T188" />
+               <w xml:id="w_TIE1_39">Dings</w>
+               <anchor synch="#T187" />
+               <w xml:id="w_TIE1_40">ist nachhin danach.</w>
+               <anchor synch="#T38" />
+               <w xml:id="w_TIE1_41">• • Der Rehbock hat ja eh schon nicht mehr gekonnt.</w>
+               <anchor synch="#T39" />
+               <w xml:id="w_TIE1_42">• • Und nachhert ist der F gleich nachhin nachhert hat er ihn derwischt, nicht.</w>
+               <anchor synch="#T40" />
+               <w xml:id="w_TIE1_43">• Dann hat er ihn mit dem Gewehr vorausan,</w>
+               <anchor synch="#T41" />
+               <w xml:id="w_TIE1_44">• hat er den auf L einhin,</w>
+               <anchor synch="#T42" />
+               <w xml:id="w_TIE1_45">und hat ihn ins Amtsgericht aufhin,</w>
+               <anchor synch="#T43" />
+               <w xml:id="w_TIE1_46">über die ganze Stadt aufhin.</w>
+               <anchor synch="#T44" />
+               <w xml:id="w_TIE1_47">So streng waren da die Bräuche,</w>
+               <anchor synch="#T45" />
+               <w xml:id="w_TIE1_48">• gelt.</w>
+               <anchor synch="#T46" />
+               <w xml:id="w_TIE1_49">Und beim Fischen ist es das selbe.</w>
+               <anchor synch="#T47" />
+               <w xml:id="w_TIE1_50">• • Und ich weiß ja wie (unverständlich).</w>
+               <anchor synch="#T48" />
+               <w xml:id="w_TIE1_51">• Meinen Bruder haben sie auch einmal erwischt, nicht.</w>
+               <anchor synch="#T49" />
+               <w xml:id="w_TIE1_52">• Da war eine hölzerne Brücke.</w>
+               <anchor synch="#T50" />
+               <w xml:id="w_TIE1_53">• • • Und da hat man nachher geschaut, was niemand kommt, oder was, nicht.</w>
+               <anchor synch="#T51" />
+               <w xml:id="w_TIE1_54">Nachher hat sich der an die Brücke hingelegt.</w>
+               <anchor synch="#T52" />
+               <w xml:id="w_TIE1_55">Und nachher hast du hinabgeschaut bei den</w>
+               <anchor synch="#T190" />
+               <w xml:id="w_TIE1_56">Läden,</w>
+               <anchor synch="#T53" />
+               <w xml:id="w_TIE1_57">• • wo sie unten sind.</w>
+               <anchor synch="#T54" />
+               <w xml:id="w_TIE1_58">Und wenn niemand gekommen ist,</w>
+               <anchor synch="#T55" />
+               <w xml:id="w_TIE1_59">entweder geschnürt oder,</w>
+               <anchor synch="#T56" />
+               <w xml:id="w_TIE1_60">• oder, • • oder gestochen.</w>
+               <anchor synch="#T57" />
+               <w xml:id="w_TIE1_61">Ja, also jetzt muss ich von dem Schnüren noch weiter…</w>
+               <anchor synch="#T58" />
+               <w xml:id="w_TIE1_62">((atmet hörbar ein,0,3s)) Das war dann ein Kupferdraht,</w>
+               <anchor synch="#T59" />
+               <w xml:id="w_TIE1_63">und (droben) ist eine Schlaufe gewesen, nicht,</w>
+               <anchor synch="#T60" />
+               <w xml:id="w_TIE1_64">und da hat ihm der ein so ein Stängel abgeschnitten,</w>
+               <anchor synch="#T61" />
+               <w xml:id="w_TIE1_65">je nachdem, wie tief dass es gewesen ist,</w>
+               <anchor synch="#T62" />
+               <w xml:id="w_TIE1_66">und hat (Pause,0,9s) (hörbares Einatmen,0,5s) den Draht in das Stängel festgemacht.</w>
+               <anchor synch="#T63" />
+               <w xml:id="w_TIE1_67">• • Und der Fisch, wenn er unten gestanden ist,</w>
+               <anchor synch="#T64" />
+               <w xml:id="w_TIE1_68">und hat sich nicht gerührt,</w>
+               <anchor synch="#T65" />
+               <w xml:id="w_TIE1_69">• • dann ist er ihm mit dem</w>
+               <anchor synch="#T189" />
+               <w xml:id="w_TIE1_70">Glang</w>
+               <anchor synch="#T191" />
+               <w xml:id="w_TIE1_71">einhergefahren, so weit,</w>
+               <anchor synch="#T66" />
+               <w xml:id="w_TIE1_72">• • bis hinter die ersten (unverständlich,0,3s) bis die Kiemen hinterher,</w>
+               <anchor synch="#T67" />
+               <w xml:id="w_TIE1_73">und nachher hat er angezogen.</w>
+               <anchor synch="#T68" />
+               <w xml:id="w_TIE1_74">Oftmals, wenn er natürlich an Fisch hingekommen ist,</w>
+               <anchor synch="#T69" />
+               <w xml:id="w_TIE1_75">• nachher ist der Fisch fort wie der Teufel,</w>
+               <anchor synch="#T70" />
+               <w xml:id="w_TIE1_76">• das hat nicht jedes Mal geraten.</w>
+               <anchor synch="#T71" />
+               <w xml:id="w_TIE1_77">Was alte Fischer gewesen sind, die haben das können,</w>
+               <anchor synch="#T72" />
+               <w xml:id="w_TIE1_78">ne</w>
+               <anchor synch="#T73" />
+               <w xml:id="w_TIE1_79">• • • Und das Zweite war da,</w>
+               <anchor synch="#T74" />
+               <w xml:id="w_TIE1_80">das war der Stecher, ned.</w>
+               <anchor synch="#T75" />
+               <w xml:id="w_TIE1_81">• • • Der hat (alleweil, sagt nachher) der Schmied,</w>
+               <anchor synch="#T76" />
+               <w xml:id="w_TIE1_82">• • der hat da ein altes, äh,</w>
+               <anchor synch="#T77" />
+               <w xml:id="w_TIE1_83">• • • eine alte Mistgabel, eine (zugenützte),</w>
+               <anchor synch="#T78" />
+               <w xml:id="w_TIE1_84">• und da hat er das Haus hergenommen,</w>
+               <anchor synch="#T79" />
+               <w xml:id="w_TIE1_85">also da, wo der Stiel hineingeht,</w>
+               <anchor synch="#T80" />
+               <w xml:id="w_TIE1_86">• • und nachher hat er vier oder fünf, ich meine fünf • • hat er so Zacken hingeschweisst.</w>
+               <anchor synch="#T81" />
+               <w xml:id="w_TIE1_87">• • (hörbares Einatmen,0,3s) und die Zacken hat er dann mit der</w>
+               <anchor synch="#T82" />
+               <w xml:id="w_TIE1_88">Schroten,</w>
+               <anchor synch="#T83" />
+               <w xml:id="w_TIE1_89">nach hat er auch so einen Fischgrät hinein.</w>
+               <anchor synch="#T84" />
+               <w xml:id="w_TIE1_90">• • • Und den hat man auch in die</w>
+               <anchor synch="#T192" />
+               <w xml:id="w_TIE1_91">Joppentasche</w>
+               <anchor synch="#T193" />
+               <w xml:id="w_TIE1_92">einhinschieben können, ned.</w>
+               <anchor synch="#T85" />
+               <w xml:id="w_TIE1_93">Und nach hat ihm der ein Stängel abgeschnitten,</w>
+               <anchor synch="#T86" />
+               <w xml:id="w_TIE1_94">(auch) unten in dem Griesholz,</w>
+               <anchor synch="#T87" />
+               <w xml:id="w_TIE1_95">da ist es ja nicht so genau gegangen.</w>
+               <anchor synch="#T88" />
+               <w xml:id="w_TIE1_96">Ein feststehendes Messer, früher hat ja jeder ein feststehendes Messer gehabt.</w>
+               <anchor synch="#T89" />
+               <w xml:id="w_TIE1_97">• Kein Taschenmesser, • • alle ein feststehendes Messer!</w>
+               <anchor synch="#T90" />
+               <w xml:id="w_TIE1_98">Und einen Schneid dran wie der Teufel</w>
+               <anchor synch="#T91" />
+               <w xml:id="w_TIE1_99" />
+               <anchor synch="#T17" />
+               <w xml:id="w_TIE1_100">• (atmet hörbar ein) Und nach hat er ihm dann ein Stängel abgeschnitten</w>
+               <anchor synch="#T92" />
+               <w xml:id="w_TIE1_101">und nach hat er das da vorn hinan und wenn der Fisch unten gewesen ist nach hat er,</w>
+               <anchor synch="#T93" />
+               <w xml:id="w_TIE1_102">((Pause,0,4s))</w>
+               <anchor synch="#T94" />
+               <w xml:id="w_TIE1_103">abhingestossen,</w>
+               <anchor synch="#T95" />
+               <w xml:id="w_TIE1_104">das war natürlich wesentlich sicheriger,</w>
+               <anchor synch="#T96" />
+               <w xml:id="w_TIE1_105">als wie der Schnürer.</w>
+               <anchor synch="#T97" />
+               <w xml:id="w_TIE1_106">Weil bis der Fisch das gespürt hat,</w>
+               <anchor synch="#T98" />
+               <w xml:id="w_TIE1_107">dass der…</w>
+               <anchor synch="#T99" />
+               <w xml:id="w_TIE1_108">derweil hat ihm der da schon durchgestochen gehabt, ne.</w>
+               <anchor synch="#T100" />
+               <w xml:id="w_TIE1_109">Und dann haben sie noch gegroppt,</w>
+               <anchor synch="#T101" />
+               <w xml:id="w_TIE1_110">ist ein so klar.</w>
+               <anchor synch="#T102" />
+               <w xml:id="w_TIE1_111">Das hand,</w>
+               <anchor synch="#T199" />
+               <w xml:id="w_TIE1_112">das hand • • eine</w>
+               <anchor synch="#T103" />
+               <w xml:id="w_TIE1_113">Schlei,</w>
+               <anchor synch="#T104" />
+               <w xml:id="w_TIE1_114">zum Beispiel, ist eine Schlei,</w>
+               <anchor synch="#T105" />
+               <w xml:id="w_TIE1_115">die hat ein recht ein großes Maul vorne und hinten,</w>
+               <anchor synch="#T106" />
+               <w xml:id="w_TIE1_116">und dem, die,</w>
+               <anchor synch="#T107" />
+               <w xml:id="w_TIE1_117">die tun sich hauptsächlich in</w>
+               <anchor synch="#T108" />
+               <w xml:id="w_TIE1_118">Letten,</w>
+               <anchor synch="#T109" />
+               <w xml:id="w_TIE1_119">auch drinnen.</w>
+               <anchor synch="#T110" />
+               <w xml:id="w_TIE1_120">Also, der Letten, das ist…</w>
+               <anchor synch="#T111" />
+               <w xml:id="w_TIE1_121">ah, wie muss ich denn jetzt da sagen?</w>
+               <anchor synch="#T112" />
+               <w xml:id="w_TIE1_122">Das ist auch ein so ein Ausdruck.</w>
+            </u>
+            <spanGrp type="teu">
+               <span from="#T32" to="#T33">u5-ndho5-da,a2nre5-bo2-go2+-g2s72o2s8n4</span>
+               <span from="#T33" to="#T34">no5-i-sda2-2re5-bo2-gd2s2wi5s8nda2-</span>
+               <span from="#T34" to="#T35">da2do2k1da,vro2-mi-sao2s8e2ga5n7a2</span>
+               <span from="#T35" to="#T36">u-2nd / u-2nd / u2-nd2s2wi5s9n4de2b2ri=kn74</span>
+               <span from="#T36" to="#T37">dswi5s91n4de-2ba2-2e2dn4bri=kn74i-sda2-2re5.-bo2-g / u5-2m2a2</span>
+               <span from="#T37" to="#T188">u5-2nda2-2d2a2-2</span>
+               <span from="#T188" to="#T187">d2i5-2n7gs</span>
+               <span from="#T187" to="#T38">i-sno6-he2da2no5-x / ne2-d</span>
+               <span from="#T38" to="#T39">da2-2re5.-bo2-gho5-do6e5.-4s7a5+-ni5m2a,khi-+na,</span>
+               <span from="#T39" to="#T40">u5-ndno5-di-sda2vro2-ngla2-2e2no5-he2no5-2ho5-da,nda2wi5-2s72dnee2dn4</span>
+               <span from="#T40" to="#T41">d2e2-nho6-da,mi5n7gwe2-2e,vo5-2a,ra-2oso2+.-</span>
+               <span from="#T41" to="#T42">ho5-da,de2n2a5-2o2vla5-2nda,ra2-2e2ne2</span>
+               <span from="#T42" to="#T43">u5-ndho5-dne2-2sa5-2mdsgeri5-2x7d2ao2fe2</span>
+               <span from="#T43" to="#T44">i-wa2de2-2ga5ntse2s7d2o5-dao2fe2</span>
+               <span from="#T44" to="#T45">so2-s7d2re2-2n7wa5-nda6-2de2-2bra2=.e2x78e5</span>
+               <span from="#T45" to="#T46">ge$-2i5$</span>
+               <span from="#T46" to="#T47">u6mba2-2e2mvis9n4is8de2-ss2e$-2i5we2</span>
+               <span from="#T47" to="#T48">u5-2ndi-wo2-2a2sa2-2w...</span>
+               <span from="#T48" to="#T49">ma2-2e2nbru6-2a,d&amp;a2nha-2ms4a2-2a2-2mo2-2e2da2wi5-2s72dn&amp;e2-2d </span>
+               <span from="#T49" to="#T50">do5-2wa5-ra2-2he$e2t1s81a2ne2bru5kh2</span>
+               <span from="#T50" to="#T51">u5-2nd2o5ho5-2bma,no5-2ha,gs7a-2o2dwo2-sne2+e,md2khi5-2mdo2-2da,wo2-2s / ne2-d</span>
+               <span from="#T51" to="#T52">no6-2ho5-dsede2-2a,a2-2bru5k1hi-2gle2-gd2</span>
+               <span from="#T52" to="#T190">u5-2ndno5-2ho5-sdho6-2e2gs7a-2o2dba2-2e2de2-2</span>
+               <span from="#T190" to="#T53">la2-n</span>
+               <span from="#T53" to="#T54">wo2-sh&amp;u5ntha2-2nd</span>
+               <span from="#T54" to="#T55">u5-2nwennea,mp1khema,i5-s</span>
+               <span from="#T55" to="#T56">entwe-2da,gs7ni-2e,do2-da,2-2</span>
+               <span from="#T56" to="#T57">o2-de, / o2-de,gs7do2-2ha,</span>
+               <span from="#T57" to="#T58">i;a5-a2-2so,i$e,t1s81mu6-2a,se2vo2-2de2ns7ni$e,lna5+-wa2-2e2da,</span>
+               <span from="#T58" to="#T59">de-2swa-2da5na2khu5pfa,dro-d</span>
+               <span from="#T59" to="#T60">u5ndro2-2mi-sa2s7la5-2o2vn4gwe2nn4e2-d</span>
+               <span from="#T60" to="#T61">unn4o5ho-de2e,mde2-2a,ra2-2so2-a2s7da2n7gl4o5bgs7ni-+n</span>
+               <span from="#T61" to="#T62">i;e2-na5xde2+-mwi-2e,d2i2-2e,vda2s81gwe2ni-s</span>
+               <span from="#T62" to="#T63">u5-2ndho5-d / de5.ndro5-de2-2nde2-2ss7da2-2n7gl4ve2s81bma5-2xd</span>
+               <span from="#T63" to="#T64">u5-2nd2a2vi5-s7we2ne,u5-2ndn4gs7da5-2ndni-s</span>
+               <span from="#T64" to="#T65">u5-2ndho5-dse2-2ne2gri-2e,d</span>
+               <span from="#T65" to="#T189">da5ni2-sa,re2+e,m2mi-2dde5.n</span>
+               <span from="#T189" to="#T191">gla5-2n7</span>
+               <span from="#T191" to="#T66">a2+-2e2na,2g2vo5-nso2wa2-e2d</span>
+               <span from="#T66" to="#T67">bi2-shi5nte,de2e2-2s7dn4 / bi-2sde2khi5m2e,nhi5nte,ra2-2</span>
+               <span from="#T67" to="#T68">u6-2ndno5-ha2dho5-da,2ro2-2dso2.+-2n7</span>
+               <span from="#T68" to="#T69">o2-2vp1mo-2e2swe2n2a,2na5d2i-2e,le2a2nvi-s7hi2-k1he2me,ri-s</span>
+               <span from="#T69" to="#T70">no5-2i-sda2vi-s7vu5e,twi-2e,da2d2a2-2e2ve2</span>
+               <span from="#T70" to="#T71">de2-sho5-dne2-di;e-2dsmo-2e2gro6-d&amp;n4</span>
+               <span from="#T71" to="#T72">wo2-so2-2e2.de2vis91a,gwe2-2nha2nde2ha5mde-2skhe1+.n2e,</span>
+               <span from="#T72" to="#T73">ne-2e2+</span>
+               <span from="#T73" to="#T74">u5-2nde2-sd2s2wo2e,te2wa5-r&amp;do5-2</span>
+               <span from="#T74" to="#T75">de2-swar&amp;da2-2s2t2e2-ha2ne-d</span>
+               <span from="#T75" to="#T76">de2-2e,ho-d(a5a2wa2e2so5k1d2no5-2ha,d)da2-2s7mi-d</span>
+               <span from="#T76" to="#T77">de2-2e,ho5-ddo5-a2no2-2e2ds / a2e5:</span>
+               <span from="#T77" to="#T78">a2-ro2-2e2demis8go2-we2a2-2d2s2u-2e,gni2-2dsde2</span>
+               <span from="#T78" to="#T79">u5-2ndo5-2ho6-da,de2-sha-2o2she2-2e,gnu-2ma,</span>
+               <span from="#T79" to="#T80">a2-2e2so2do-2wo2-da2-2s7d2e$i5$a2+-2e2ge-d</span>
+               <span from="#T80" to="#T81">u5-nnoho5-da,vi-2e,o2-da,vim2vi-mo2+-2a,vi2mvho5-da,so2ts8a5ka,nhi-2gs7wo2a,s81t1</span>
+               <span from="#T81" to="#T82">u5-2nde2ts8a5ka2nho5-da,da5-2mi5t2a,2</span>
+               <span from="#T82" to="#T83">s72ro2-dn4</span>
+               <span from="#T83" to="#T84">no5$ho5-da,a2a2so2-2a2nvi-s7gra2da2+-2e2+</span>
+               <span from="#T84" to="#T192">u5-2nde2nho5pma,ra2-2i5nt1</span>
+               <span from="#T192" to="#T193">i;o2pm4d2a5s9n4</span>
+               <span from="#T193" to="#T85">a2+-2s7i-2e,mkhi5-ne,ne5.-d</span>
+               <span from="#T85" to="#T86">u5-2nno5-ho5-de2+-2e,mde2-2e,ra2-2s7d2a2n7gl4o6bgs7ni2-n</span>
+               <span from="#T86" to="#T87">a2-2u5ntn4i5-2nde2-2nden7.gri-2e,sho2-2e2ds</span>
+               <span from="#T87" to="#T88">do5-2is8o5-ne2-dso2-2gena-2o2ga5n7a,</span>
+               <span from="#T88" to="#T89">a2-2ve2s2ds7d2e5-a24dsme2s8a,ho5-2do5vr6-2e,ho5-do5i;e-2de,a2v2e2s8d2e5-e,dsme2s8e,gho5-d</span>
+               <span from="#T89" to="#T90">kho2+-2a,d2a5s8n4me2s8a,o6l2e2a2-2ve2s81d2s72de5-a,dsme3s8a,</span>
+               <span from="#T90" to="#T91">u5-2nda2+ns72na2-2e2t1ra5+-wi-2e,da2d2a2-2e2ve2</span>
+               <span from="#T17" to="#T92">u5-2ndno-2ho5-de2+e,mdo5a2s72t1a2n7gl4o6gs72ni+-2n</span>
+               <span from="#T92" to="#T93">u-2ndno5-ho6-da,de2-sdo6-2vo2na6+e2+u-2ndwe2n2da2vi-2s7u5n7k1we2ni-sno5ho6-da,</span>
+               <span from="#T94" to="#T95">o5$e2g2s7d2es8n4</span>
+               <span from="#T95" to="#T96">de2-swa5-na5d2i5$e,le2we2.-sendli-x6s2i-2x78a,&amp;re2-2ga,</span>
+               <span from="#T96" to="#T97">a5-2e2swi5.-2e,da2s7ni-2e,ra,</span>
+               <span from="#T97" to="#T98">wa2-2e2bi-sda2vi-s7a5nde2-2sde2-2sgs7b2i-2e,dho5-d</span>
+               <span from="#T98" to="#T99">da2-sde2-2a,</span>
+               <span from="#T99" to="#T100">da2wa2-2e2ho-dn4e2+e,mde2a,do5-2s7a5+-2du5-2a,he2gs7do2he,gho5-dne2d</span>
+               <span from="#T100" to="#T101">u-2nda5nha5ma2+nsna6+gro2pt1 </span>
+               <span from="#T101" to="#T102">i-2sa2s2o2k2la5-2r&amp;</span>
+               <span from="#T102" to="#T199">de2-sha2-nd</span>
+               <span from="#T199" to="#T103">de2-sha2-nd(:)a2-2</span>
+               <span from="#T103" to="#T104">s72la1+-2i+</span>
+               <span from="#T104" to="#T105">t1s81u5m2ba2-2s7b2i6-2li-2sa2s7la2+-2i+</span>
+               <span from="#T105" to="#T106">de2-2ho5-da2rex68d2a2gro5$o2s81ma-2o2lvo2-na,du5-2ndhi5nt1</span>
+               <span from="#T106" to="#T107">u5-2nde5.-2md2i-2</span>
+               <span from="#T107" to="#T108">de2-2do2+-2e,nse2hao2p1t1se5x6lei-2n</span>
+               <span from="#T108" to="#T109">let1n4</span>
+               <span from="#T109" to="#T110">a2-d2ri5ne,d</span>
+               <span from="#T110" to="#T111">a2-2e2so2d2a2-2le5tn4de2-si-s</span>
+               <span from="#T111" to="#T112">i;a5-2wi-2e,mu5-2a,se2nie,t1s81do5-2 so-n7</span>
+               <span from="#T112" to="#T197">de2-si-sa2a2so2-a2na5.-2o2sd2ru5kh&amp;</span>
+            </spanGrp>
+         </annotationBlock>
+         <incident who="#AB" type="c" start="#T188" end="#T187">
+            <desc>Doktor F</desc>
+         </incident>
+         <incident who="#AB" type="c" start="#T41" end="#T42">
+            <desc>(höbares Einatmen,0,4s)</desc>
+         </incident>
+         <incident who="#AB" type="c" start="#T45" end="#T46">
+            <desc>Rascheln</desc>
+         </incident>
+         <incident who="#AB" type="c" start="#T46" end="#T47">
+            <desc>atmet hörbar ein,0,4s</desc>
+         </incident>
+         <incident who="#AB" type="c" start="#T190" end="#T53">
+            <desc>'Bohlen'</desc>
+         </incident>
+         <incident who="#AB" type="c" start="#T53" end="#T54">
+            <desc>wo = 'ob' </desc>
+         </incident>
+         <incident who="#AB" type="c" start="#T60" end="#T61">
+            <desc>(hörbares Einatmen,0,4s)</desc>
+         </incident>
+         <incident who="#AB" type="c" start="#T62" end="#T63">
+            <desc>(hörbares Einatmen,0,3s)</desc>
+         </incident>
+         <incident who="#AB" type="c" start="#T189" end="#T191">
+            <desc>'Schlinge'</desc>
+         </incident>
+         <incident who="#AB" type="c" start="#T72" end="#T73">
+            <desc>wohl Schlag auf den Tisch</desc>
+         </incident>
+         <incident who="#AB" type="c" start="#T82" end="#T83">
+            <desc>wohl ‚Schrothammer‘</desc>
+         </incident>
+         <incident who="#AB" type="c" start="#T192" end="#T193">
+            <desc>Jackentasche</desc>
+         </incident>
+         <incident who="#AB" type="c" start="#T91" end="#T17">
+            <desc>Klopfen</desc>
+         </incident>
+         <incident who="#AB" type="c" start="#T93" end="#T94">
+            <desc>scharfes Klopfen, wie Harpunenstich</desc>
+         </incident>
+         <incident who="#AB" type="c" start="#T100" end="#T101">
+            <desc>groppen = Fische mit der Hand fangen</desc>
+         </incident>
+         <incident who="#AB" type="c" start="#T103" end="#T104">
+            <desc>'Schleie'</desc>
+         </incident>
+         <incident who="#AB" type="c" start="#T108" end="#T109">
+            <desc>= Schlamm</desc>
+         </incident>
+         <annotationBlock who="#Int" start="#T197" end="#T113">
+            <u xml:id="u_d1e1295">
+               <w xml:id="w_TIE4_4">ja ist es</w>
+            </u>
+         </annotationBlock>
+         <annotationBlock who="#Int" start="#T197" end="#T113">
+            <u xml:id="u_d1e1308">
+               <w xml:id="w_TIE5_2">(i;a5-2is8)</w>
+            </u>
+         </annotationBlock>
+         <annotationBlock who="#AB" start="#T113" end="#T122">
+            <u xml:id="u_d1e755">
+               <w xml:id="w_TIE1_123">Ein Letten ist ein Schlamm,</w>
+               <anchor synch="#T114" />
+               <w xml:id="w_TIE1_124">ist ein Letten…</w>
+               <anchor synch="#T198" />
+               <w xml:id="w_TIE1_125">(atmet hörbar ein)</w>
+               <anchor synch="#T115" />
+               <w xml:id="w_TIE1_126">und da haben die</w>
+               <anchor synch="#T194" />
+               <w xml:id="w_TIE1_127">Hunde</w>
+               <anchor synch="#T195" />
+               <w xml:id="w_TIE1_128">das genau gewusst.</w>
+               <anchor synch="#T116" />
+               <w xml:id="w_TIE1_129">Die haben ihm die Hosen aufgeschlitzt bis da aufher und unter den Bruchsteinen drinnen,</w>
+               <anchor synch="#T117" />
+               <w xml:id="w_TIE1_130">und da hand sie dann mit den zwei Händen rein • • zack,</w>
+               <anchor synch="#T118" />
+               <w xml:id="w_TIE1_131">und da haben sie ihn schon gehabt auch.</w>
+               <anchor synch="#T119" />
+               <w xml:id="w_TIE1_132">Ah, oftmals ist er ihnen auch ausgkommen, nicht,</w>
+               <anchor synch="#T120" />
+               <w xml:id="w_TIE1_133">voraus der Schlei,</w>
+               <anchor synch="#T121" />
+               <w xml:id="w_TIE1_134">weil der recht rutschig gewesen ist.</w>
+            </u>
+            <spanGrp type="teu">
+               <span from="#T113" to="#T114">a2-le5tn4a2-2s72la5m2</span>
+               <span from="#T114" to="#T198">i-sa2-2le5tn4</span>
+               <span from="#T115" to="#T194">u5-2ndo5-ha5mde2-2</span>
+               <span from="#T194" to="#T195">hu6nth&amp;</span>
+               <span from="#T195" to="#T116">de2-sgena-2o2gwis81d2</span>
+               <span from="#T116" to="#T117">de2-2ha5mde2+-2mt1ho2-sn4ao2f1a,gs7li5t1s2d2bi-sdo5ao2f1a,u5-ndu5nta,de2-2bru5-xs7do2+-2a2dri5n2a,d</span>
+               <span from="#T117" to="#T118">u5ntdo5-2ha2+-2nsda5nmi-2det1s2wo2-he2nta2+-2e2+(:)ts9a2k2</span>
+               <span from="#T118" to="#T119">u5-2ndno5ha5msn4s7a5+-gho5-da2-2</span>
+               <span from="#T119" to="#T120">a2-2o24v2bmo2-2e2si-sa,re2+-2e,na,a2-a-2oskhe2ma2/ne2-d</span>
+               <span from="#T120" to="#T121">vo5-2a,ra-2o2sda2-2s7la2+-2e2+</span>
+               <span from="#T121" to="#T122">wa2-2e2de2-2a2rex6d2ru5t1s91e2gwe2-2ni-s</span>
+            </spanGrp>
+         </annotationBlock>
+         <annotationBlock who="#Int" start="#T198" end="#T115">
+            <u xml:id="u_d1e1298">
+               <w xml:id="w_TIE4_5">mhm</w>
+            </u>
+         </annotationBlock>
+         <annotationBlock who="#Int" start="#T198" end="#T115">
+            <u xml:id="u_d1e1311">
+               <w xml:id="w_TIE5_3">mhm</w>
+            </u>
+         </annotationBlock>
+         <incident who="#AB" type="c" start="#T194" end="#T195">
+            <desc>also die, die schwarz gefischt haben</desc>
+         </incident>
+      </body>
+   </text>
+</TEI>
