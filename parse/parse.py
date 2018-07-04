@@ -15,19 +15,30 @@ offnungsgrad_halbwert = Combine(grundwert_vokal + (Literal("1.") | Literal("2.")
     ("Öffnungsgrad (Halbwert)")
 
 # can be grundwerte_vokal_basis + the literals OR offnungsgrad + the literals
-rundung = Combine((offnungsgrad | grundwerte_vokal_basis) + (Literal("=.") | Literal("=") | Literal("==.") | Literal("==")))("Rundung")
+rundung = Combine((offnungsgrad_halbwert | offnungsgrad | grundwerte_vokal_basis) + (Literal("=.") | Literal("=")
+                                                                                     | Literal("==.") | Literal("==")))\
+    ("Rundung")
 # can be grundwerte_vokal_basis + the literals OR rundung + the literals
-palatovelare = Combine((rundung | grundwerte_vokal_basis) + (Literal("$") | Literal("$.") | Literal("$$")))("Palatovelare")
+palatovelare = Combine((rundung | offnungsgrad_halbwert | offnungsgrad | grundwerte_vokal_basis) + (Literal("$")
+                                                                                                    | Literal("$.")
+                                                                                                    | Literal("$$")))\
+    ("Palatovelare")
 # can be grundwerte_vokal_basis + the literals OR palatovelare + the literals
-nasalierung = Combine((palatovelare | grundwerte_vokal_basis) + Literal("+") + Optional(Literal("..") | Literal(".")
-                                                                                        | Literal("1")))("Nasalierung")
-quantitat = Combine((nasalierung | grundwerte_vokal_basis) + Literal("-") + Optional(Literal("1") | Literal("2")
-                                                                                     | Literal("3")))("Quantität")
-reduktion = Combine((quantitat | grundwerte_vokal_basis) + OneOrMore(Literal("&")))("Reduktion")
-grenzwert = Combine((reduktion | grundwerte_vokal_basis) + grundwerte_vokal_basis + Literal(":"))("Grenzwert")
-akzent = Combine((grenzwert | grundwerte_vokal_basis) + Literal("'") + Optional(Literal("1")))("Akzent")
-silbentrager = Combine((akzent | grundwerte_vokal_basis) + (Literal("4") | Literal("4.")))("Silbenträger")
-
+nasalierung = Combine((palatovelare | rundung | offnungsgrad_halbwert | offnungsgrad | grundwerte_vokal_basis)
+                      + Literal("+") + Optional(Literal("..") | Literal(".") | Literal("1")))("Nasalierung")
+quantitat = Combine((nasalierung | palatovelare | rundung | offnungsgrad_halbwert | offnungsgrad
+                     | grundwerte_vokal_basis) + Literal("-") + Optional(Literal("1") | Literal("2") | Literal("3")))\
+    ("Quantität")
+reduktion = Combine((quantitat | nasalierung | palatovelare | rundung | offnungsgrad_halbwert | offnungsgrad
+                     | grundwerte_vokal_basis) + OneOrMore(Literal("&")))("Reduktion")
+grenzwert = Combine((reduktion | quantitat | nasalierung | palatovelare | rundung | offnungsgrad_halbwert
+                     | offnungsgrad | grundwerte_vokal_basis) + grundwerte_vokal_basis + Literal(":"))("Grenzwert")
+akzent = Combine((grenzwert | reduktion | quantitat | nasalierung | palatovelare | rundung | offnungsgrad_halbwert
+                  | offnungsgrad | grundwerte_vokal_basis) + Literal("'") + Optional(Literal("1")))("Akzent")
+silbentrager = Combine((akzent | grenzwert | reduktion | quantitat | nasalierung | palatovelare | rundung
+                        | offnungsgrad_halbwert | offnungsgrad | grundwerte_vokal_basis) + (Literal("4")
+                                                                                            | Literal("4.")))\
+    ("Silbenträger")
 vokale = (silbentrager | akzent | grenzwert | reduktion | nasalierung | palatovelare | rundung
           | offnungsgrad_halbwert | offnungsgrad | reduktionsvokal | halbvokal | grundwert_vokal)("Vokale")
 
@@ -42,11 +53,16 @@ konsonanten_basis = (CaselessLiteral("B") | CaselessLiteral("C") | CaselessLiter
     ("Konsonant")
 grenzwert_konsonant = Combine(konsonanten_basis + konsonanten_basis + Literal(":"))("Grenzwert (Konsonant)")
 fortisierung = Combine((grenzwert_konsonant | konsonanten_basis) + (Literal("2") | Literal("22")))("Fortisierung")
-lenisierung = Combine((fortisierung | konsonanten_basis) + (Literal("1") | Literal("11")))("Lenisierung")
-stimmhaftigkeit = Combine((lenisierung | konsonanten_basis) + Literal("%"))("Stimmhaftigkeit")
-implosion = Combine((stimmhaftigkeit | konsonanten_basis) + Literal("%"))("Implosion")
-quantitat_konsonant = Combine((implosion | konsonanten_basis) + Literal("-"))("Quantität (Konsonant)")
-reduktion_konsonant = Combine((quantitat_konsonant | konsonanten_basis) + Literal("&"))("Reduktion (Konsonant)")
+lenisierung = Combine((fortisierung | grenzwert_konsonant | konsonanten_basis) + (Literal("1") | Literal("11")))\
+    ("Lenisierung")
+stimmhaftigkeit = Combine((lenisierung | fortisierung | grenzwert_konsonant | konsonanten_basis) + Literal("%"))\
+    ("Stimmhaftigkeit")
+implosion = Combine((stimmhaftigkeit | lenisierung | fortisierung | grenzwert_konsonant | konsonanten_basis)
+                    + Literal("%"))("Implosion")
+quantitat_konsonant = Combine((implosion | stimmhaftigkeit | lenisierung | fortisierung | grenzwert_konsonant
+                               | konsonanten_basis) + Literal("-"))("Quantität (Konsonant)")
+reduktion_konsonant = Combine((quantitat_konsonant | implosion | stimmhaftigkeit | lenisierung | fortisierung
+                               | grenzwert_konsonant | konsonanten_basis) + Literal("&"))("Reduktion (Konsonant)")
 kehlkopfverschluss = Combine(CaselessLiteral("H") + Literal(","))("Kehlkopfverschluss")
 silbische_funktion = (CaselessLiteral("M4") | CaselessLiteral("M4.") | CaselessLiteral("N4") | CaselessLiteral("N4.")
                       | CaselessLiteral("R4") | CaselessLiteral("R4."))("Silbische Funktion")
@@ -75,6 +91,9 @@ konsonant_or_vokal = konsonanten | vokale
 parse_all = OneOrMore(konsonant_or_vokal)
 
 #u5-2nd2a2vi5-s7we2ne,u5-2ndn4gs7da5-2ndni-s
+for match in parse_all.scanString("u5-2nd2a2vi5-s7we2ne,u5-2ndn4gs7da5-2ndni-s"):
+    print(match)
+print("---")
 for match in quantitat.scanString("u5-2"):
     print(match)
 
