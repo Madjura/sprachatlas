@@ -23,11 +23,12 @@ def get_total_words_count_wikipedia():
         return row["c"]
 
 
-def get_wordcounts_bavarian(words=None):
+def get_wordcounts_bavarian(words=None, ignore_case=True):
     """
     Extracts word frequencies for words from the Wikipedia word frequency database.
 
     :param words: A list of words.
+    :param ignore_case: Optional. Default: True. Whether the case should be ignored.
     :return: A dictionary mapping the words to their frequency.
     """
     HOST = "127.0.0.1"
@@ -48,7 +49,10 @@ def get_wordcounts_bavarian(words=None):
     freq = defaultdict(int)
     for row in dbc.fetchall():
         row_dict = defaultdict(int, row)
-        word = row_dict["word"].lower()
+        if ignore_case:
+            word = row_dict["word"].lower()
+        else:
+            word = row_dict["word"]
         row_freq = row_dict["freq"]
         word_freq = int(freq[word])
         freq[word] = row_freq if row_freq > word_freq else word_freq
@@ -56,7 +60,7 @@ def get_wordcounts_bavarian(words=None):
     return freq
 
 
-def bavarian_frequencies():
+def bavarian_frequencies(ignore_case=True):
     return [x for x, _ in sorted(get_wordcounts_bavarian().items(), key=lambda k: k[1], reverse=True)]
 
 
