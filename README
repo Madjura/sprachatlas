@@ -1,0 +1,2 @@
+- mysql -u root -p --default-character-set=utf8 --local-infile
+- then import from import.sql in bar_wikipedia_2016_30K
