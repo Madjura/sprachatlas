@@ -1,4 +1,5 @@
 from collections import defaultdict
+from pprint import pprint
 
 import MySQLdb
 
@@ -55,8 +56,12 @@ def get_wordcounts_bavarian(words=None):
     return freq
 
 
+def bavarian_frequencies():
+    return [x for x, _ in sorted(get_wordcounts_bavarian().items(), key=lambda k: k[1], reverse=True)]
+
+
 if __name__ == "__main__":
     freqs = get_wordcounts_bavarian()
-    print(freqs["Fläche"])
+    # print(freqs["stückl"])
     freqs_rank = sorted(freqs.items(), key=lambda k: k[1], reverse=True)
-    # print(freqs_rank)
+    pprint(freqs_rank[:100])
