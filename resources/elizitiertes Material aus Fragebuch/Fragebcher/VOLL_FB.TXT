@@ -1,0 +1,3021 @@
+2	
+Der Aufnahmeort	
+1. Der Aufnahmeort (Name der Altgemeinde) 	002.01
+2. Bewohner des Aufnahmeortes (Altgemeinde) 	002.02
+3. Die Orte der nächsten Umgebung (v.a. die Aufnahme- orte) mit Richtungsadverbien und Artikel 	002.03
+4. Spottnamen der Ortseinwohner und der Leute der Nachbar- orte (Spottsprüche) 	002.03a
+5. Name des Flusses/Baches im Ort 	002.03b
+6. Name des nächsten Haupt- flusses 	002.03c
+7. Name der nächsten größeren Stadt (Richtungsadverb!) 	002.03d
+	
+4	
+1. Wohin ging man früher auf den Markt? 	004.01
+2. Wohin fährt man heute zum Einkaufen? 	004.02
+"3. ""Stadt"" (Welche ist damit gemeint?) "	004.03
+"4. ""Markt"""	004.04
+"5. ""Märkte"" "	004.05
+	
+"6. ""Krämer"" (früher hat man nicht im Supermarkt eingekauft, sondern beim ...) "	004.06
+"7. ""Bürgermeister"" (Wie heißt/hieß der Leiter der Gemeinde?) "	004.07
+"8. ""Gemeinde"""	004.08
+"9. ""Gemeinden"" "	004.09
+	
+"10. ""Kirchweih"" "	004.10
+11. Dult 	004.10a
+"12. ""Dorf"" "	004.10c
+"13. ""Dörfer"""	004.10d
+"14. ""Ort"" (Vorkommen und Bedeutung: Ortschaft, Ende, Spitze, kleiner Bauernhof) (Genus)"	
+	
+6	
+Das Vieh und seine Pflege	
+"1. ""Vieh"" (Kollektivbezeichnung für alle Tiere im Stall. Nach einem Brand: grad noch's ... hat man retten können) "	006.01
+2. Das männliche Zuchttier /Stier/Bummel/ 	006.02
+3. Wie heißt 2. nach der Schrift? /Bulle/Stier/ (wortsoziol. Schichtung) 	006.03
+"4. ""Ochse"" (wenn nicht bei 2.) (Wenn man den Stier kastriert, wird es ein ...) (ev. diff.: im Alter von 1-2 J., als Zugtier ab 2 J.) "	006.04
+5. Man läßt den Stier ... /kastrieren/(ver)heilen/ /schneiden/zwicken/ 	006.05
+6. Wenn die Kuh zum Stier will, tut sie ... . /rindern/stieren/ist stierig/ 	006.06
+	
+8	
+1. Kurz vor der Geburt fallen die Beckenbänder ein, die Kuh tut ... . /einfallen/einbrechen/ab- werden/-reißen/-hängen/ 	008.02
+"2. ""kalben"""	
+"3. ""gekalbt"" (Eine Geiß tut kitzen, aber eine Kuh tut ...) "	008.04
+	008.05
+4. Wie nennt man das, was nach der Geburt noch fort muß? /Nachgeburt/Schönmach/Ge- säubere/(Kuh-)Burt/ 	008.06
+5. Die Nachgeburt von sich geben. /sich säubern/sich schön machen/sich putzen/ 	008.07
+6. Die erste Milch nach dem Kalben (Genus!) /Biest(milch)/ 	008.09
+	
+10	
+1. Das daraus zubereitete Gericht /Auflauf/Nudeln/ 	010.01
+2. Das Junge der Kuh von der Geburt bis ca. 1/2 Jahr (Reflexantwort) /Kalb/ 	010.02
+"3. ""Kalb"""	010.03
+"4. ""Kälber"" "	010.04
+	
+"5. ""Kälblein"" "	010.05
+6. Kosewort für das Kalb (Wie sagen die Kinder?) 	010.06
+7. Weibliches Tier bei der Geburt 	010.07
+8. Männliches Tier bei der Geburt 	010.08
+9. Tränkekübel (Abb.) (Wie heißt das Geschirr, woraus das Kalb die Milch säuft? Material und Form) /Gelte/Eimer/Tränke(r)	010.09
+	
+12	
+1. Wie gibt man dem Kalb die Milch zu trinken? (an der Kuh tut man es...) /tränken/saufen lassen/ /anhalten/ 	012.01
+2. Wie lehrt man das Kalb, aus einem Gefäß zu trin- ken? /den Finger geben/mit dem Sutzler/ 	012.02
+3. Entwöhnen (an Heu gewöhnen) /abnehmen/weg-/abgewöhnen/ 	012.03
+	
+4. - 7. Altersstufen der Kuh 	
+4. Bis ca. 1 Jahr 	012.04
+5. Bis zum Tragen 	012.05
+6. trächtig 	012.06
+7. nach dem ersten Kalben 	012.07
+"8. ""Kuh"""	012.08
+"9. ""Kühe"" "	012.09
+	
+10. Trächtig (verbal?) /tragig/tragend/sie trägt/ 	012.10
+	
+14	
+1. Wie sagt man von einer Kuh, wenn sie eine Zeit- lang vor dem Kalben keine Milch gibt? /sie steht trocken/hat sich gehen lassen/ 	014.01
+2. Wiederkäuen (wenn die Kuh das Fressen wieder heraufholt und zum 2. Mal frißt, tut sie ...) /wiederkäuen/irdrucken/hin- drücken/	014.02
+3. 3. Sg. 	014.02
+4. Kuhfladen (Genus) (Wenn die Kuh auf den Boden scheißt, gibt es eine(n) ...) /Dreck/Kuhdetschn/Flater/ 	014.03
+5. Kotklunkern an den Schenkeln (wenn man die Kühe nicht regelmäßig putzt, dann sind sie voller ...) /Bollen/Schedern/Kleppen/ 	014.04
+6. Stimme der Kuh (Reflexantwort) (ein Hund tut bellen, eine Kuh tut ...) /brüllen/plärren/schreien/ 	014.05
+7. Wenn sie Schmerzen hat, tut die Kuh... (z.B. bei der Geburt) /achezen/	014.06
+"8. ""schreien"""	014.07
+"9. ""geschrien"" (wenn nicht bei 6.) "	014.08
+	
+	
+16	
+1. Stimme des Stiers /brummen/schreien/brüllen/ /blöken/bellen/grüllen/ 	016.01
+2. Lockruf für die Kühe (Wie ruft man, wenn sie kommen sollen?) 	016.02
+"3. ""Das sind schöne Kühe"" "	016.03
+"4. ""Die alte Kuh müßen wir verkaufen"" (Akk.) "	016.04
+"5. ""Euter""(Genus) "	016.05
+6. Die Zitzen (wortsoziologische Schich- tung) /Strich/Zipfel/ 	016.06
+"7. ""Schwanz"""	016.07
+"8. ""Schwänze"" (ev. diff.: Pferd/Schwein/ Kuh)"	016.07a
+"9. ""Schweif"" "	
+"10. ""Schweife"""	
+11. Mit dem Schwanz beim Melken herumschlagen /schweifen/wedeln/schlagen/ /hauen/schwänzeln/ 	016.08
+"12. ""die vorderen Füße sind geschwollen"" "	016.09
+"13. ""die hinteren Füße sind geschwollen"" "	016.10
+	
+18	
+"1. ""Klauen"" der Kuh (Sg.) (was man beschneiden muß)"	018.01
+"2. ""Klauen"" (Pl.) "	
+3. Die kleine Zehe oberhalb der Klaue /Afterklaue/Kläulein/ 	018.02
+"4. ""Horn"""	018.03
+"5. ""Hörner"" "	018.04
+	
+6. Wenn es einer Kuh die Gebärmutter herausdrückt /Vorfall/Vordruck/ 	018.05
+"7. ""blähen"""	018.06
+"8. ""gebläht"" (Wenn die Kuh im Frühjahr zu viel Grünfutter gefres- sen hat, tut es sie ...) "	018.07
+	
+9. Trank (Nach der Geburt gibt man der Kuh etwas Gutes zum Saufen, sie kriegt ein(en) ...) (Genus)	018.08
+10. Kuh, die (aus Altersschwä- che) keine Milch gibt, ist (eine) ... /galt/gelt/menz/	018.08c
+	
+20	
+1. Kuh, die dauernd brünstig ist und trotzdem nicht aufnimmt, die ..., ist ... /bleibt nimmer/kommt .../ /nimmt nicht mehr zu/ /... auf/menz/ 	020.01
+2. hüten (Wenn kein Zaun da ist, schickt man einen Mann mit, der tut das Vieh ...) 	020.02
+"3. ""Hirt"" (Wie heißt der, der hütet? Wen schickt man zum Hü- ten?) /Hirt/Hüter/ "	020.03
+4. Wie sagt man, wenn sich die Kühe an den Bäumen und Zäunen reiben? /scheren/jucken/fretten/ /wetzen/	020.04
+5. anbinden /anbinden/anhenken/ (Die Kühe im Stall festma- chen) 	020.06
+6. mit einer Kette (Womit tut man das?) (unbest. Art.!) (SNOB: 144.04c)	020.07
+7. Wenn zwei Kühe miteinander auf der Weide kämpfen (bös- artig), tun sie ... /stoßen/(ab)raufen/ 	020.08
+	
+22	
+"1. ""seichen"" (Wenn eine Kuh Wasser läßt, dann tut sie ...) "	022.01
+"2. ""Striegel"" (Womit putzt man die Kühe?) "	022.02
+"3. ""striegeln"""	022.03
+"4. ""gestriegelt"" (diff.: Pferd 'striegeln', Kuh 'putzen'?) "	022.04
+	
+"5. ""Bürste"" "	022.05
+"6. ""bürsten"""	022.06
+"7. ""gebürstet"" "	022.07
+	
+8. Hakenartiges Instrument, um das Heu aus dem Heu- stock zu rupfen /Riffel/Raufer/Krail/Häckel/ (Abb.	022.08
+"9. Was vom Heustock übrig- bleibt; staubiger Abfall, Grassamen /Heublumen/Gseftwer/Heusel/ /Heusandl/ (SNOB: 022.09)"	022.11
+	
+24	
+1. Wie sagt man, wenn das frische Heu im Stock zu arbeiten beginnt? (Es wird ...-ad?) /brennen/schwitzen/gären/ /dünsten/schmelzen/ 	024.01
+2. Futterreste in der Krippe, die vor der Mahlzeit ent- fernt werden /Ausraumig/Ausraumet/Aus-/ /Barnputzet/Uriß/ 	024.02
+3. Wählerisch beim Fressen (vom Vieh) /heikel/kabisch/extra/	024.03
+4. Wählerisch beim Essen (vom Menschen) /extra/ausgespitzt/spiessig/ /heikel/ 	024.04
+5. Das kurz geschnittene Heu (Wozu verwendet?) /Häcksel/Gsod/ 	024.05
+6. Das (Kraft)futtergemisch aus Kleie, Kartoffeln usw. (abgebrüht) (Genus) /Misch/Trank/Sied/Brod/ /Abbrennert/	024.06
+7. Futterrübe /Rübe/Dorschen/G-/Runkel/ 	024.07
+8. Das Laub wegmachen auf dem Feld /blecken/(ab-)schöpsen/ /(ab-)haupten/ 	024.08
+9. Wenn man Getreide grob mahlt, dann tut man es ... /schroten/brechen/	024.09
+	
+26	
+1. Was entsteht dabei? /Bruch/Schrot/ 	026.01
+"2. ""Kleie"" "	026.02
+"3. ""füttern"""	026.03
+"4. ""gefüttert"" (Wie sagt man, wenn man dem Vieh etwas zu fressen gibt?) "	026.04
+	
+"5. ""Gib unseren Kühen etwas zum Fressen!"" "	026.05
+6. tränken (Wie sagt man, wenn man dem Vieh etwas zu trinken gibt?) 	026.06
+"7. ""Wasser"" (Was gibt man dem Vieh zu trinken?) "	026.07
+8. Brunnentrog vor dem Haus (Wohin wurde das Vieh zum Tränken getrieben?) /Grand/Uasch/(Küh-)Barn/	026.08
+9. Tröge 	026.08
+10. melken /seideln/melken/ 	026.09
+11. gemolken	026.10
+12. Was tut man vor dem Mel- ken, damit die Milch ins Euter schießt? /anrüsten/vormelken/mas- sieren/putzen/ 	026.11
+	
+28	
+"1. Das Melkgefäß (Name, Form, Material; mit oder ohne Schnabel?) /Eimer/Gelte/Sechter/ /Bitsche/Weidling/ "	028.01
+"2. ""Blech"" "	028.02
+"3. ""seihen"""	028.03
+"4. ""geseiht"" (Wenn Heublumen o.ä. in die Milch gefallen sind, muß man sie ...) "	028.04
+	
+5. Womit tut man das? /Seiher/Filter/ 	028.05
+ 	
+30	
+Zugtiere	
+1. Stehenbleiben! (Ochse/Pferd) /oha/eha/brr/ 	030.01
+2. Weitergehen! (Ochse/Pferd) /hü(o)/wia/ 	030.02
+3. Nach links! (Ochse/Pferd) /wista/ 	030.03
+4. Nach rechts! (Ochse/Pferd) /hot/ 	030.04
+5. Zurück! (Ochse/Pferd) /zauv/ 	030.04a
+"6. ""Menne"" (Zugtier, Gespann oder Person?) "	030.05
+"7. ""mennen"" (Das Vieh am Pflug führen; das Vieh das Ziehen leh- ren; der Weg ist zermennt) "	030.06
+ 	
+32	
+Butter und Käse	
+"1. ""Rahm"" (Fettschicht auf der unge- kochten Milch) (Genus)"	032.01
+2. Gefäß, in dem die Milch aufgestellt wurde (Form, Material) /Weidling/Hafen/ 	032.02
+3. Butter machen /ausbuttern/ausrühren/ 	032.03
+4. Das Stoßbutterfaß /Stoßfaß/-kübel/ (Abb.) 	032.04
+5. Das Drehbutterfaß /Rühr-/Butterfaß/Rührkübel/ (Genus) (Abb.	032.05
+6. Wie nennt man die Kurbel daran? /Werfel/ (Genus)	032.06
+7. Mit der Kurbel muß man... /drehen/treiben/werfeln/ 	
+8. PP. 	
+9. Damit das Wasser heraus- geht, muß man hinterher die Butter noch ... /auskneten/ausdrücken/ /schwingen/	032.07
+10. Butter (Genus) 	032.08
+11. Die Buttermilch /Rührmilch/	032.09
+12. Butterformgefäß (Form, Material) /Model/Rad/	032.09c
+	
+34	
+1. Ungekochte saure Milch /gestöckelte Milch/gestan- dene Milch/Selb-ern/Rötel/ /Schluder/ 	034.01
+2. Quark /Topfen/Topfenkäse/ 	034.02
+"3. ""Käse"" "	034.03
+ 	
+36	
+Ziege	
+"1. ""Geiß"" (gab es/gab es nicht) "	036.01
+"2. ""Geißen"" "	036.02
+3. Junge zur Welt bringen (Eine Kuh tut kalben, eine Geiß tut ...) /kitzen/werfen/ 	036.03
+4. Das Kitzlein /Kitz/ 	036.04
+"5. ""ein Bock"""	036.05
+"6. ""Böcke"" (Das männliche Zuchttier) "	036.06
+	
+7. Die Kuh tut stieren, die Geiß tut ... /bocken/ist bockig/ 	036.07
+8. Die Stimme der Ziege (Ein Hund tut bellen, eine Ziege tut ...) /meckern/bläken/heppern/ /plärren/ 	036.08
+9. Wie sagt man, wenn sie miteinander kämpfen? /stoßen/raufen/ 	036.09
+10. Die haarigen Zäpfchen am Hals (haben nicht alle Rassen) (Sie hat zwei ...) /Zäher/Geißbart/Tröllelein/	036.10
+"11. ""Klauen"" der Ziege (Dim.) "	
+38	
+Schaf	
+1. Schafe gibt/gab es (ja/nein) 	038.01
+"2. ""Schaf"""	038.02
+"3. ""Schafe"" (Genus) "	038.03
+	
+4. Die Stimme des Schafs /blöken/plärren/blazen/ 	038.04
+5. Junge zur Welt bringen (Eine Kuh tut kalben, ein Schaf tut ...) /lammen/werfen/ 	038.05
+6. Das junge weibliche Schaf (bis ca. 1/2 Jahr) /Schäflein/Lamm/Bätzerl/ 	038.06
+7. Mutterschaf /altes Schaf/Bätz/Lamm/ /Schaf/	038.07
+"8. ""Schäfer"" (Der Mann, der die Schafe hütet) "	038.08
+"9. ""Pferch"" (Wo sind in der Nacht die Schafe im Freien?) "	038.09
+ 	
+40	
+"1. ""scheren"" (Wenn man die Wolle will, muß man die Schafe ...) "	040.01
+"2. ""geschoren"" "	040.02
+3. Blutsauger, den man nicht aus der Haut bekommt (Kopf darf beim Entfernen nicht drinnen bleiben) (Genus) /Holzbock/Zecke/ 	040.03
+4. Schranne (Vorkommen und Bedeutung) (Bank, Verkauf, Lagerhaus, Gericht) 	040.05
+5. Schragen (Abb. ) (Gestell, auf dem das ge- brühte Schwein von den Borsten befreit wird/Ge- stell für den Backtrog)	040.06
+ 	
+42	
+Schwein	
+"1. ""Sau"""	042.01
+"2. ""Säue"" (Allg. Bezeichnung für das Schwein) "	042.02
+	
+3. Wie ruft man den Schwei- nen, wenn sie kommen sol- len? /suck,suck/hutsch,hutsch/ 	042.03
+4. Junge zur Welt bringen /ferkeln/suckeln/schütten/ 	042.04
+5. Die jungen Schweine gleich nach der Geburt /Suckel/Fackl/ 	042.05
+6. Das kleinste Schwein, das im Wachstum zurückbleibt /Kümmerling/Nestscheißer/ /Auswürfling/Butzen/ 	042.06
+7. Wie heißen die Ferkel, wenn sie älter werden? (ev. diff. nach Alter, Ge- schlecht, Zuchtfähigkeit) /Läufer/Fresser/Frisch- ling/ 	042.07
+8. schnell gedeihen, fett werden /geraten/fruchten/ein Gut tun/ 	042.07a
+9. Das verschnittene männ- liche Schwein (Masteber) /geschittener Bär/ 	042.08
+10. Das weibliche Zuchttier vor dem Werfen /Los/Gelz/	042.09
+	
+44	
+1. Das weibliche Zuchttier nach dem Werfen (Unterschied zu 42/9.?) /Zucht(l)/Los/Ferkelsau/ /Nasch(-in)/ 	044.01
+2. Brünstig (sie ist ..., sie tut ...) /bärig/wuchern/ 	044.02
+3. Das männliche Zuchttier /Eber/Saubär/Bär/ 	044.03
+4. Woraus fressen die Schwei- ne? /Trog/Barn/(N)Uasch/ 	044.04
+5. Die normale Stimme des Schweins /schreien/grunzen/ 	044.05
+6. Die laut gellende Stimme des Schweins vor dem Schlachten /schreien/plärren/kirren/ /kerren/ 	044.06
+7. schlachten (Diff.: Schwein/Kuh) /schlachten/(ab-)stechen/ /(ab-)schlagen/ 	044.07
+"8. ""stinken"""	044.08
+"9. ""gestunken"" (Wenn man im Saustall lange nicht ausmistet, dann fängt es an zu ...) "	044.09
+	
+"10. ""Gestank"" (Genus) (oder anders gesagt - es gibt dann einen rechten ..."	044.10
+ 	
+46	
+"1. ""brühen"""	046.01
+"2. ""gebrüht"" (Das geschlachtete Schwein muß man zuerst mit heißem Wasser ...) "	046.02
+	
+3. Worin tut man das? (Form, Material, Henkel - wo und wieviele?) /Sautrog/ 	046.03
+4. Gefäß, worin das Fleisch eingesalzen wird (sachlich fixieren) /Sur-/Fleischkübel/-zuber/ /Surfäßlein/	046.04
+"5. ""Dose""/""Büchse"" /Dose/Büchse/ (Welches ist hochdeutsch?) "	046.05
+6. In Gläsern tut man es ... /einwecken/einmachen/ /-büchsen/-dosen/ (Obst)	046.06
+"7. ""Borste"""	046.07
+"8. ""Borsten"" "	046.08
+	
+ 	
+48	
+Geflügel	
+"1. ""Henne"""	048.01
+"2. ""Hennen"" "	048.02
+	
+3. Der Haushahn /Gockel/Gickel/ 	048.03
+4. Wie sagt man, wenn der Hahn auf die Henne springt? (Er tut sie ...) /treten/boseln/aufsitzen/	048.04
+"5. ""Hühnlein"" (die kleinen Hühner, Jung- hühner) "	048.05
+6. Kinderwort von 5. /Biberl/Singerl/Spätzlein/ 	048.06
+"7. ""krähen"""	048.07
+"8. ""gekräht"" (Die Stimme des Hahns) "	048.08
+	
+9. Die Stimme der Henne wenn sie Junge hat /gacke(r)n/(ga)gatzen/ /glutzen/locken (+Dat.?)	048.09
+10. Die Bruthenne /Glucke/Gluck-/Bruthenne/ 	048.09a
+"11. ""brüten"" "	048.9b
+12. Stimme der Henne, nachdem sie ein Ei gelegt hat /gackern/gagatzen/ 	048.10
+13. Wie sagt man, wenn die Hühner beim Futtersuchen scharren? Sie tun ... /scharren/kratzen/krällen/	048.11
+ 	
+50	
+"1. ""Kamm"""	050.01
+"2. ""Kämme"" (des Hahns) "	050.02
+	
+"3. ""Schnabel"""	050.03
+"4. ""Schnäbel"" "	050.04
+	
+5. Wie heißt die krankhafte Verhärtung der Zungen- spitze und des Gaumens? /Zipf/Sipf/ 	050.05
+"6. ""Flügel"" "	050.06
+"7. ""Feder"""	050.07
+"8. ""Federn"" "	050.08
+	
+9. Wo sitzen die Hühner in der Nacht? /Stange/Hahnbaum/ 	050.09
+"10. ""Nest"" "	050.10
+"11. ""Nester"""	050.11
+"12. ""Ei"" "	050.12
+"13. ""Eier"""	050.13
+14. Das Ei, das man im Nest läßt /Nestei/Pilgei/	050.14
+	
+52	
+"1. ""Schale"" (Am Ei außen ist die ...) "	052.01
+"2. ""Kalk"" (Aus was besteht die Schale?"	052.02
+"3. ""Dotter"" (Das Gelbe im Ei) (Genus) "	052.03
+" Was für Geflügel gibt es außer den Hühnern? 4. ""Gans"""	052.04
+"5. ""Gänse"" "	052.05
+	
+6. Männliches Tier bei den Gänsen /Ganser/Ganserer/ 	052.06
+7. Weibliches Tier bei den Gänsen 	052.06a
+"8. ""Ente"""	052.07
+"9. ""Enten"" "	052.08
+	
+10. Männliches Tier bei den Enten /Anter(er)	052.09
+11. Weibliches Tier bei den Enten 	052.09b
+"12. ""eine Taube"" "	052.10
+"13.""Tauben"""	052.10c
+14. Männliches Tier bei den Tauben /Tauberer/	052.11
+15. Weibliches Tier bei den Tauben 	052.11d
+16. Biene (Genus) /Imp/	052.12
+17. Bienen	052.13
+	
+54	
+1. Wie nennt man das Stechen von Bienen? /stechen/angeln/hecken/ 	054.02
+2. Womit stechen die Bienen? /Angel/Stachel/ 	054.03
+3. Was liefern die Bienen dem Menschen? /Honig/Hen(i)g/ (Genus!	054.04
+ 	
+56	
+Pferd	
+ Wie sagt man hier zum Pferd? 1. Roß 	056.01
+2. Gaul Welches ist vornehmer? 	056.02
+3. Das männliche Zuchttier /Hengst/Gaul/ 	056.03
+"4. ""Stute"" "	056.04
+5. Junges Tier /Fohlen/Heiss/ 	056.05
+6. Brünstigsein (vom Pferd) /rossig/rossen/ (Inf.!	056.06
+7. Die Stimme des Pferds /wiehern/rüheln/ 	056.07
+8. Die Mähne des Pferdes /Kanz/Schie/Mang/ 	056.08
+9. Altes, ausgedientes Pferd /Heiter/Krampen/ 	056.09
+ 	
+58	
+"1. ""Kummet""/""Geschirr"" (vom Pferd) (Genus) (Abb."	058.01
+2. Gibt es ein vom Kummet getrenntes Unterpolster? Wie heißt es? /Kiss/Leibel/	058.01a
+3. Geschirr des Ochsen /Goch/Joch/Stirnblatt/ /Büffel/ (Abb.	058.02
+"4. ""Joch"" (Wenn nicht oben) (Abb."	058.03
+5. Plural zu Joch (Jöcher) 	058.04
+"6. ""reiten"""	058.05
+"7. ""geritten"" (Ich bin.../Ich habe geritten) "	058.06
+	
+"8. ""Sattel"" (Worauf sitzt man, wenn man reitet?) "	058.07
+9. Das rechte Pferd (Kuh) in einem Gespann /Sattel-/Hand-/Weierochse/ /-roß/	058.07d
+10. Das linke Pferd (Kuh) /Hand-/Sattel-/Weierochse/ /-roß/ 	058.07e
+"11. ""Wenn das Roß/der Gaul jünger wäre, könnte es/er besser ziehen."" "	058.08
+12. Traktor /Traktor/Bulldog/Schlepper/	058.09
+	
+60	
+Hund	
+"1. ""ein Hund"" (Wie heißt das Tier, das das Haus bewacht?) "	060.01
+"2.""Hunde"""	060.02
+"3. ""Hündlein"" "	060.03
+4. Die Hündin /Matz/Bätze/ 	060.04
+5. Wenn die Hündin brünstig ist, sagt man: Sie ist ... /läufig/läuferisch/ 	060.05
+"6. ""bellen"""	060.06
+"7. ""gebellt"" (die Stimme des Hundes) "	060.07
+	
+8. Das lange, anhaltende, klagende Bellen des Hundes bei Schmerzen oder Mond- schein /weinen/heinen/jammern/ /leinen/jaulen/ 	060.08
+9. Wenn der Hund geprügelt wird, tut er ... /winseln/wimseln/ 	060.09
+10. Wenn der Hund gerannt ist, tut er mit der Zunge ... /schnaufen/lechezen/ /hecheln/ 	060.10
+"11. ""Laß ihn gehen!"" (Imperativ) "	060.11
+ 	
+62	
+Katze	
+"1. ""unsere Katze"" "	062.01
+"2. ""unsere Katzen"" "	062.02
+3. Männliches Tier bei den Katzen 	062.03
+4. Weibliches Tier bei den Katzen /Kätzin/	062.03b
+5. Wenn die Katzen im Febr.- März so verrückt sind, sind sie/tun sie... /läufig/raunzen/märzen/ /brümsig/raunen/ 	062.04
+6. Wenn die Katze sich wohl- fühlt, tut sie ... /schnurren/maulen/raulen/ /burren/ 	062.06
+ 	
+64	
+Heuernte	
+"1. ""Gras"" "	064.01
+2. Wenn im Frühling das Heu ausgeht, holt man dem Vieh Gras, man tut ... /grasen/Gras mähen/Futter holen/ 	064.02
+"3. ""Heu"" (der erste Schnitt) "	064.03
+"4. ""heuen"""	064.04
+"5. ""geheut"" "	064.05
+	
+6. Zeit, Ertrag des Heuens (Heuernte) (Genus) 	064.06
+"7. ""Grummet"" (der zweite Schnitt) "	064.07
+8. den zweiten Schnitt machen 	064.08
+ 	
+66	
+1. Der dritte Schnitt (falls üblich) /Drittel/Dreimahdiges/ /Drittelheu/ 	066.01
+"2. ""mähen"""	066.02
+"3. ""gemäht"" (Die erste Arbeit beim Heuen ist das ...) "	066.03
+	
+"4. ""Der Bauer mäht das Gras"" /mant/ (Nasalierung?"	066.04
+"5. ""Ihr mäht das Gras"" /Es mants/ (Nasalierung?"	066.05
+6. Wenn das Gras zwei Stunden liegt, ist es nicht mehr frisch, sondern ... (ev. von Blumen in der Vase) /welk/schwelch/abgewelkt/ /abgeschwelcht/ 	066.06
+"7. ""Sense"""	066.07
+"8. ""Sensen"" (Abb."	066.08
+	
+9. Sensenstiel (Woran hält man die Sense?) /Worb/Grintl/Knüttel/Knintl/	066.09
+"10. ""Rücken"" (breiter, unscharfer Teil; ev. Messerrücken) "	066.10
+11. Der Sensengriff (vorderer, hinterer) /Gemünd/Krücklein/Handhabe/	066.11
+ 	
+68	
+1. Gehen die beiden Griffe in die gleiche Richtung oder in verschiedene? gleich / verschieden	068.01
+"2. ""sie schneidet nicht mehr"" (""mehr"" unbetont) "	068.02
+"3. ""ich habe keinen Dangel mehr"" (""mehr"" betont) "	068.03
+"4. ""dengeln"""	068.04
+"5. ""gedengelt"" (Anlaut!) (Wenn die Sense nicht mehr schneidet, muß man sie ..) "	068.05
+	
+"6. ""Dengel-Hammer"" (Form) spitz/breit "	068.06
+7. Der eiserne Keil, auf dem gedengelt wird (Form) schmal/breit /Bößlein/Boß/Stöcklein/ (Abb.	068.07
+8. Worin steckt dieser Keil? /Dengelstock/-stuhl/-bock/ /-geiß/ 	068.08
+"9. ""Wetzstein"" (Wenn die Sense auf der Wiese nicht mehr schneidet, braucht man einen ...) "	070.01
+10. Wetzsteinbehälter /Kumpf/Kümpfl/ (Genus!) (Abb.	068.09
+"11. ""wetzen"" "	068.10
+"12. ""gewetzt"""	068.11
+ 	
+70	
+"(1. ""Wetzstein"") "	068.09
+"1. ""Mahde"" (Wie heißt eine Reihe frisch gemähten Grases?) (Genus!"	070.02
+2. Mäher /Mahder/Mäher/ 	070.03
+3. Das frisch gemähte Gras auseinandernehmen /(zer-)streuen/umschlagen/ /zerschlagen/ 	070.04
+"4. ""Gabel"""	070.05
+"5. ""Gabeln"" (Abb."	070.06
+	
+"6. ""Zinken"" "	070.07
+7. Das Heu am Nachmittag des ersten Tages wenden (man tut es ...) /zer-/umschlagen/wenden/um- kehren/heuen/umarmen/ 	070.08
+"8. ""liegen lassen"" (Was macht man am Abend mit dem Heu? Wenn das Wet- ter ganz sicher ist und man hat wenig Zeit, kann man es ...) /liegen lassen/liegad las- sen/"	070.09
+ 	
+72	
+1. Die großen Reihen, die man am Abend macht (Subst.) /Mahde/Reihe/Schlucht/Zeile/ /Straim/Strang/ 	072.01
+2. Man tut dabei ... (verbal) 	072.02
+3. Die Haufen, die man bei drohendem Regenwetter macht /Haufen/Schober/Höder/ 	072.03
+4. Man tut dabei ... 	072.04
+5. Was macht man am nächsten Morgen mit den Reihen bzw. Haufen? /zette(l)n/zerstören/(zer-) /streuen/breiten/zertragen/	072.05
+"6. ""Man kann das Heu nicht naß heimfahren"" /als ein nasses/ "	072.07
+"7. ""Rechen"" (Womit macht man die Rei- hen?) (Abb."	072.08
+8. Der Rechenstiel /Stiel/Stecken/Stange/ 	072.09
+	
+74	
+1. Das Rechenhaupt 	074.01
+"2. ""hölzerne"" Zähne (Der Rechen hat hölzerne Zähne) (-erer/-erne) "	074.02
+"3. ""eiserne"" Zähne (Es gibt auch Rechen mit ... Zähnen) "	074.03
+4. Gibt es Heutrockenge- stelle? (sachl. fixieren) /Heinzen/Bock/Schweden- reiter/Heuger/Männer/ (Abb.	074.04
+5. Wenn man die Trockenge- stelle aufstellt, tut man ... /heinz(n)en/aufbocken/auf- schlagen/-stellen/ 	074.05
+"6. ""dürr"" (Wenn das Heu ganz trocken ist, ist es ...) "	074.06
+"7. ""spör"" (Wenn das Heu zu lange liegt, wird es ...; Wenn es sehr lange nicht ge- regnet hat, ist der Boden ...; oder andere Bed.?)"	
+"8. ""resch"" (Was kann resch sein?) "	074.07
+9. Was macht man vor dem Aufladen? (Reihen oder Haufen?) /Strang/Schlucht/Zeile/ /Straim/	074.08
+10. Wie heißt ein Wagen voll Heu? /Fuder/Fuhre/Fährtlein/	074.09
+	
+76	
+1. Wie heißt die Person, die beim Laden auf dem Wagen steht? /Lader/Fasser(in)/Aufleger/	076.01
+2. Was macht diese? /laden/fassen/auflegen/Heu- richten/	076.02
+"3. ""laden"" (Damit man mit dem Gewehr schießen kann, muß man es zuerst ...) "	
+"4. ""geladen"" "	076.03
+"5. ""er ladet"" "	076.04
+6. Wie heißt die Person, die mit der großen Gabel das Heu auf den Wagen wirft? /Heu-//Auflader/Gabler/Auf- leger/-geber/ 	076.05
+7. Die Tätigkeit dieser Per- son /hinaufgeben/gabeln/laden/ /aufschlagen/auflegen/ 	076.06
+8. Die große Aufladgabel /(Heu)-Gabel/ 	076.07
+"9. ""nachrechen"" (Die Reste zusammenrechen) "	076.08
+10. Schicht auf dem Heuwagen (Sg.) /Leg/(An-)lege/ 	076.10
+11. Pl. (Ein Fuder hat 4-5 ..., bis man oben ist) 	076.10
+ 	
+78	
+1. Gitter am Wagen, damit das Heu beim Laden nicht herunterfällt (feststellen, ob seitlich oder vorne und hinten) /Lad-/Heu-/Streugatter/ /Steige/Wagen-/Heuleiter/ (Genus!	078.01
+2. Der Wiesbaum /Wiesbaum/Heubaum/Wisch- baum/ 	078.02
+3. Den Wiesbaum montieren /raiteln/binden/anlegen/ 	078.03
+4. Das Heu, das man beim Abrechen des Fuders be- kommt /(Abher-)grechet/-grecharad/ /-grechlets/ 	078.06
+5. Ein Arm voll Heu beim Laden /Schaub/Armvoll/Bauschen/ 	078.07
+	
+80	
+Ackerbau	
+"1. ""Pflug"""	080.01
+"2. ""Pflüge"" (Womit ackert man?) (Abb."	080.02
+	
+3. Woran hält man den Pflug? (als Ganzes oder ev. diff. in Handgriff und Seiten- arme) (Abb.) /Hörner/Gerüster/Riester/ /Handhabe/Klöster/Sterz/ (Genus)	080.03
+"4. ""Grindel"" (der Pflugbaum) (Abb."	080.04
+5. Das Streichbrett oder -blech /Moltbrett/Blatt/ (Abb.	080.05
+6. Messer am unteren Ende des Streichbretts, womit die Erde waagrecht vom Unter- grund gelöst wird /Schar/Ackereisen/Su(n)/ (Abb.	080.06
+"7. ""Sech"" (Genus) (Das kleinere senkrechte Messer, womit eine neue Furchenbreite senkrecht abgeschnitten wird; wenn überhaupt vorhanden! Vor- schneider ist oft etwas anderes!) (Abb."	080.07
+8. Der Pflugkarren (ev. das mit zwei Rädern versehene Vordergestell beim alten Holzpflug) /Gereitere/Gerädere/ (Abb.)	080.08
+ 	
+82	
+1. Das Schäuflein am langen Stiel zum Entfernen nassen Drecks an der Pflugschar (auch verbal) /Schäuflein/Reitelchen/ 	082.01
+2. Mit dem Pflug arbeiten /ackern/pflügen/ 	082.02
+3. Leichtes, wenig tiefes Aufackern im Herbst (Was muß man tun, damit nach dem Abernten das Unkraut nicht kommt und damit der Boden wieder atmen kann?) /halm(ein)ackern/-aufreißen/ /zwibrachen/halmschinden/ /-schälen/	082.03
+4. Tiefes Pflügen /herbstackern/(halm)aus- ackern/ackern/ 	082.04
+5. Aus einer Wiese ein Feld machen (unaufgebrochenes Wiesenland das erste Mal aufpflügen) /umbrechen/brachen/auf-/um- reißen/umackern/	082.05
+6. Wie nennt man dieses neue Feld? /Neu-/Umbruch/Brache/Umriß/	082.06
+"7. ""Klee"" "	082.07
+8. Wasen (Oberste Schicht des Gras- bodens mit Humus und Wur- zelwerk) /W-/Mosen/W-/Masen/	082.08
+9. Pl. 	082.08
+	
+84	
+1. Ausdrücke für Erde (Wo viel wächst, da ist ein guter ...,eine gute...) /Boden/Kot/Grund/ 	084.01
+"2. ""Furche"""	084.02
+"3. ""Furchen"" (Genus, Sproßvokal) "	084.03
+	
+4. Zwischen den Furchen in der Mitte des Feldes ste- hengebliebener, ungepflüg- ter Streifen (Da ist ein(e) ... drin) /Rain/Alden/Ranger/ /Saunuasch/ 	084.04
+5. Wie heißt das Randstück des Ackers, wo der Pflug gewendet wird? /Rain/Fürsaum/Anwande/Vor-/ /Tretbeet/Vor-/Tretbifang/	084.05
+"6. ""quer""/""zwerch"" (Der Fürsaum wird ... ge- pflügt; Zum Saateineggen muß man ... eggen) /nach der Quer/ "	084.06
+7. Womit wird die Erde gewen- det, wenn man mit dem Pflug nicht hinkommt oder im Garten? /Spaten/Schaufel/ 	084.07
+8. Die dicken Erdschollen /Sch(r)ollen/Brocken/ /Batzen/ 	084.08
+9. Die dicken Erdschollen einebnen /zerschlagen/zerhauen/	084.09
+	
+86	
+"1. ""Egge"" (Wie heißt das Zuggerät, mit dem man die Erde fein macht?) (versch. Typen?) (Abb.) "	086.01
+"2. ""eggen"""	086.02
+"3. ""geeggt"" (Wie heißt die Arbeit da- mit?) "	086.03
+	
+4. Wie hat man früher den Ak- ker gemessen? (großes Maß) /Morgen/Tagwerk/Ar/Hektar/ 	086.04
+5. Wie hat man früher den Ak- ker gemessen? (kleines Maß) /Dezimal/Ar/ 	086.05
+6. Die Grenze des Ackers /Mark/Grenze/ 	086.06
+"7. ""Stein"" Womit wird diese Grenze gekennzeichnet? /Markstein/Grenzstein/"	086.07
+"8. ""Steine"" "	086.08
+9. feuchtes Wiesenstück, Sumpfwiese /Moos/Loh/Ried/Seige/ 	086.10
+ 	
+88	
+Getreide	
+1. Wie heißt das auf dem Ak- ker stehende, noch nicht gemähte Getreide (allg.) /Korn/(Ge-)treide/ 	088.01
+"Welche Getreidearten werden angepflanzt? 2. ""Roggen"" "	088.02
+"3. ""Weizen"" /-s-/-ts-/ "	088.03
+"4. ""Gerste"" "	088.04
+"5. ""Hafer"" "	088.05
+6. Mais (kannte man ihn früher?) /Kukuruz/Polenta/ 	088.07
+"7. ""Korn"" (Laut und Bed., wenn nicht schon oben) "	088.08
+8. Hirse /Brein/ 	
+"9. ""säen"" 10. ""gesät"" (im Frühling muß man ...) "	088.09
+	088.10
+ 	
+90	
+"1. ""Samen"" (Was sät man?) (Wie nennt man das, was in den Boden kommt?) "	090.01
+"2. ""Ähre"""	090.02
+"3. ""Ähren"" (Abb."	090.03
+	
+"4. ""Halm"" "	090.04
+"5. ""Halme"" "	090.04
+"6. ""Ernte"" (Zeit der Getreideernte) "	090.05
+"7. ""Sichel"" (Womit wurde früher das Getreide geschnitten?) (Abb."	090.06
+8. Sense mit Korngestell /Wächler/Getreidesense/ (Abb.	090.07
+"9. ""Mähdrescher"" "	090.09
+"10. ""Schatten"" (Wenn die Sonne recht sticht, dann ist man froh um einen Baum und ein wenig ..."	090.10
+ 	
+92	
+1. Wenn man genug gearbeitet hat, kann man auch einmal ein bißchen ... /rasten/schauen/ausruhen/	092.01
+2. fest/hart arbeiten /schuften/werken/sich pla- gen/sich schinden/ 	092.02
+3. Es wird zum stehenden Ge- treide hin gemäht (welche Sorte?	092.03
+4. Wie nennt man das Hinmä- hen? 	092.03
+5. Wie heißt die dabei verwendete Sense? 	092.03
+"6. Dann muß einer das Korn ""sammeln"" /weglegen/auslegen/auf-/ /nachhinklauben/ausnehmen/"	092.04
+7. Womit tut man das? /Sichel/Holzhäckel/Hand/	092.05
+8. Die Haufen, die dabei ent- stehen /Häuflein/Garbe/Bäuschlein/	092.06
+9. Hat man das Getreide beim Hinmähen in Reihen gelegt? Wie heißen diese Reihen? /Reihe/Mahde/	092.07a
+10. Wegmähen /Danhermähen/	092.08
+11. Wie nennt man die Reihen beim Wegmähen? /Leg/Mahde/	092.08b
+12. Die Reihen (von 9 oder 11) 	
+ zu Garben zusammen- schieben /antragen/auslegen/ /zusammengabeln/	092.09
+	
+94	
+1. Instrument dazu 	094.01
+2. Wie heißen die Haufen, die man aus den Reihen zusam- mengeschoben hat? /Häuflein/Bauschen/Büschel/	094.02
+3. Womit wurden die Garben gebunden? (Sg.) /Stroh-/Garbenband/Band/	094.03
+4. Pl. 	094.03
+5. Das Auslegen der Bänder /Seil schlagen/Bänder schlagen/	094.04
+"6. ""Garbe"""	094.05
+"7. ""Garben"" (Ergebnis des Bindens) "	094.06
+	
+8. Wurden die Garben zu Hau- fen aufgestellt? Name der Haufen /Männlein/Böcklein/	094.07
+9. Wie heißt diese Tätig- keit? /mandeln/aufbocken/böckeln/ /aufstellen/	094.08
+10. Stoppeln auf dem Feld (Stechen, wenn man barfuß darüber geht) /Stoppeln/Halm/ 	094.09
+11. Wie nennt man das abge- mähte Getreidefeld? (Genus) /Hälmacker/-feld/ /Stoppelfeld/ 	
+	
+96	
+1. Nachlese halten (arme Leute, Kinder mußten noch ...) /Ähren lesen/-sammeln/-klau- ben/ähren 	096.02
+"2. ""dreschen"" "	096.03
+"3.""gedroschen"""	096.04
+"4. Das Getreide legt man im Tenn aus; wie nennt man die auf einmal gedroschene Menge Garben? /(Ge-)Leg/Lage/Schuber/ /Ströhwel/Riet/ "	096.05
+5. Flegel (Womit hat man gedro- schen?) /(Dresch-)Flegel/Drischel/ (Abb.	096.06
+"6. ""drehen"""	096.07
+"7. ""gedreht"" (der Flegelstiel muß sich ...) "	096.08
+	
+"8. Dresch-""Maschine"" (Betonung) "	096.09
+9. Die Person, die oben steht, tut... /einlassen/einfüttern/ /eingeben/ 	096.11
+ 	
+98	
+1. Der unten steht, muß ... /Garben-/Schaubbinden/ 	098.01
+"2. ""Stroh"" (Was bleibt nach dem Dre- schen übrig?) "	098.02
+3. Bündel ausgedroschenen Weizenstrohs /Schütte/Büschel/Schien/ /Schaub/ 	098.03
+4. Reinigen der Körner mit der Maschine /putzen/abmahlen/flaudern/ 	098.04
+5. Name der Maschine /Putzmühle/Staub-/Windmühle/ (Abb.	098.05
+6. Getreidesieb (Sg.) /Reiter/Sieb/ 	098.06
+7. Siebe (Pl.) 	098.06
+8. grob (Abb.	098.07
+9. mittel (Abb.	098.08
+10. fein (Abb.	098.09
+11. Tätigkeit des Siebens /reitern/sieben/ 	098.10
+ 	
+100	
+1. Minderwertiges Getreide, das man meist den Hühnern gab /Nachtreid/Hennenweizen/ /Afterkorn/	100.01
+2. Aufbewahrungsort für das gedroschene Getreide /Getreideboden/-kasten/ 	100.02
+3. Wie heißt der Abfall, der zum Rohr der Windmühle hinausfliegt? /Spreu/Ahm/Afters/Vlaige/ 	100.04
+4. Hülsen des Hafers /Flaudern/Afters/Vlaige/ 	100.05
+5. Hülsen des Weizens /Afters/Flaudern/ 	100.07
+6. Haare der Gerste /Gräten/ 	100.08
+7. Alte Getreidemaße (ev. aufzählen lassen nach Größe) /Viertel/Scheffel/Metzen/ /Zentner/Lander/	100.09
+ 	
+102	
+Wagen, Karren	
+Welche vierräderigen Gefährte gibt es?	
+1. Für Heu /Heu-/Leiterwagen/ (Abb.	102.01
+2. Für Mist /Mistwagen/ 	102.02
+3. Für Jauche /Odlwagen/ (Abb.	102.03
+4. Wie nennt man den Aufsatz für Kies/Sand? /Bretter/Schuber/ (Abb.	102.04
+"5. ""Wagen"""	102.05
+"6. ""Wägen"" "	102.06
+	
+"7. ""Wägelein"" (Sg.) "	102.07
+"8. ""Wägelein"" (Pl.) "	102.08
+9. Handkarren mit Leitern /Leiter-/Hand-/Heuwägelein/ 	102.09
+"10. ""Karren""  (Genus)"	102.10
+"11. ""Karren"""	102.11
+ 	
+104	
+Welche einräderigen Karren gibt es?	
+1. Mit Kiste /Schubkarre/Radtrage/ /Scheibtrage/ (Abb.	104.01
+2. Mit Brücke /Mistkarren/Bruckwagen/wie 1./ (Abb.)	104.02
+3. Aus Blech /wie 1./ 	104.03
+"4. ""Langwiede"" (die lange Stange, die Hinter- und Vorderachse verbindet)"	104.04
+"5. ""Achse"""	104.05
+"6. ""Achsen"" "	104.06
+	
+7. Der Balken, in dem die Wagenleitern ruhen, mit seitl. eingelassenen Stützen /Kipfstock/-stuhl/ (Abb.	104.07
+8. Wie heißen die seitlichen Stützen? /Kipfen/Leisten/Stehbrüder/ (Abb.	104.08
+	
+106	
+"1. Ein Dreieck bildende Bal- ken, an denen die Deichsel vorne befestigt ist; Verbindung zwischen Deich- sel und Wagen /Schere/(Deichsel-)Arme/ "	106.01
+2. Renkscheit (Abb.) (hinteres Verbindungsstück der Arme) /Reib-/Tragscheit/ (Abb.	106.03
+"3. ""Rad"""	106.04
+"4. ""Räder"" "	106.05
+	
+"5. ""Rädlein"" "	106.06
+"6. ""Felge"" (Sproßvokal) "	106.07
+"7. ""Speiche"""	106.08
+"8. ""Speichen"" (Genus) (-au-) "	106.09
+	
+9. Nabe/Haufen 	106.10
+10. Nagel, der verhindert, daß das Rad wegfällt (Achsnagel) /Lan(d)er(er)	106.11
+ 	
+108	
+1. Die Bremsvorrichtung als Ganzes /Schleife/Bremse/ /(Ge-)Sperre/ 	108.01
+2. Damit tut man ... 	108.02.
+3. Die Kurbel zum Festdrehen der Bremse /Werfel/Kurbel/ 	108.03
+"4. ""Leiterbaum"" (Abb.) "	108.04
+5. Die dazwischen stehenden Sprossen (versch. Formen) /Speichen/Sprüßling/ 	108.05
+6. Querverbindung der oberen Leiterbäume, vorne und hinten /Spreizstecken/Schubholz/ /Brille/	108.06
+7. Unterstützprügel der Wagenleitern: von der Achse ausgehend zum oberen Leiterbaum /Leis(t)e/Kipf/Spreizstek- ken/ 	108.07
+8. Die Arme, die, von der hinteren Achse ausgehend, sich nach vorne vereinigen und an der Langwiede befe- stigt sind (Einzel-oder Gesamtvor- richtung?) /Wetter/Schere/(Gewetter-) Arme/ 	108.08
+"9. ""eine neue Deichsel"" (Genus!) "	108.09
+ 	
+110	
+1. Der Einspänner hat statt der normalen Deichsel eine ... /Gabeldeichsel/D-/A(i)nze/ /Einspännlein/	110.01
+"2. ""Waage"" (Abb.) (Ziehscheit als Ganzes) (Einspänner?) (Abb."	110.02
+3. Das große Ziehscheit /Waagscheit/Waagbalken/ /-baum/Vorschlag/Waage/ 	110.03
+4. Die zwei kleinen Zieh- scheite /Waagscheite/Einspännlein/ /Vorschlag/Ziehscheite/ 	110.04
+5. Kettenteile mit Querrie- gel, an denen das Zugseil befestigt wird (Abb.) /Knebel/Waagläufel/ (Abb.	110.05
+6. Wenn am Wagen etwas hin ist, dann muß man es ... /her-/zusammen-/richten/ 	110.06
+ 	
+112	
+Spontanbelege	
+ 	
+114	
+"1. ""ziehen"" "	114.01
+"2. ""gezogen"" "	114.02
+"3. ""ich ziehe"" "	114.03
+"4. ""Da zieh' ich."" (Pers.pron. unbetont) "	114.03b
+"5. ""du ziehst"" "	114.04
+"6. ""Zieh ihn weg!"" "	114.04c
+"7. ""er zieht"" "	114.05
+"8. ""wir ziehen"" "	114.06
+"9. ""ihr zieht"" "	114.07
+"10. ""sie ziehen"" "	114.08
+"11. ""zöge"" (wir kämen viel schneller weiter, wenn er fester ..."	114.08d
+"12. ""schieben"" (Die Pferde ziehen, aber hinten muß man ..."	114.09
+13. Das Seil, mit dem man die Pferde lenkt /Leitsam/-seil/Handzügel/ /Weier/	114.10
+14. führen (wenn man das Pferd aus dem Stall holt, tut man es am Halfter ...) /führen/weisen/	
+ 	
+116	
+"1. ""Peitsche"" (Vorkommen) (Womit treibt der Fuhrmann die Zugtiere an?) (Abb."	116.01
+"2. ""Geißel"" (Vorkommen) (sachl. Unterschied von 1 und 2!) "	116.02
+3. Der Geißelstock /Stecken/Stiel/ 	116.03
+4. Das knallende Ende der Peitschenschnur /Schnur/Schnürlein/	116.04
+5. Mit der Peitsche knallen /knallen/tuschen/schnalzen/ /schnappen/ 	116.05
+6. Die Peitschenschnur /Schnur/Geißel/ 	116.06
+ 	
+118	
+Schlitten	
+"1. ""Schlitten"" (Abb."	118.01
+"2. ""Schlitten"" (Pl.) "	118.02
+3. Die Kufen des Schlittens (Genus!) (nicht verwechseln mit Ei- senbeschlag = Sohle) /Kufen/Kuchen/	118.04
+ 	
+120	
+Düngung	
+1. Die Wiese im Frühjahr von Steinen säubern /abräumen/ausputzen/ab- klauben/ 	120.01
+2. Die Wiesen/Felder mit Stallmist versehen (Gesamtvorgang) /düngen/Mist fahren/Mist führen/ 	120.02
+"3. ""führen"" (wenn nicht schon oben) "	120.03
+"4. ""düngen"" (wenn nicht schon oben) "	120.04
+"5. ""misten"" (Wenn man den Stall sauber macht, tut man ...) (mit oder ohne Objekt) "	120.05
+"6. ""Mist"" (Der feste Dünger ist der ...) "	120.06
+7. Abziehen des Mistes auf dem Feld /Haufen machen/abschlagen/ /abkräueln/abherhäckeln/ 	120.07
+8. Mit welchem Instrument ge- schieht das? /Misthaken/-Kräuel/ (Abb.	120.08
+9. Die Haufen auf dem Feld verteilen /breiten/streuen/zerwerfen/ 	120.09
+	
+122	
+"1. ""Mistgabel"" (womit geschieht das?) (Abb."	122.01
+2. Liegengebliebenes im näch- sten Frühjahr noch zer- kleinern (auf der Wiese) /ein-/zerreiben/ein-/zer- eggen/Mist(ein)rechen/ 	122.02
+3. Jauche /(Mist)lacken/Odel/ (Genus)	122.03
+4. Mit Jauche düngen /Odelfahren/-führen/odeln/ /Lackefahren/	122.04
+5. Gefäß, womit man die Jau- che von der Grube ins Faß schöpft (Genus) /Schapfe/Schöpfer/ /Stielsechter/ 	122.05
+6. Pumpe für diesen Zweck /Gumpe/	122.06
+7. Das Faß auf dem Wagen (Form!) /Truhe/Faß/	122.07
+ 	
+124	
+Zäune 	
+1. Allgemeine Bezeichnung des Zaunes (Gibt es sachliche Unterschiede?) (Sg.	124.01
+2. Pl. 	124.01
+"3. ""lebendig"" (Zaun aus jungen Fichten, Sträuchern) "	124.02
+4. Zaun mit senkrechten Lat- ten /Latten-/Hanickel-/ /Sprüßlingzaun/ (Abb.	124.03
+5. einzäunen /Zaun machen/zäunen/ 	124.06
+6. Zaun nur mit waagrechten Brettern oder Stangen /Bretter-/Schwartenzaun/ /liegender Zaun/ (Abb.	124.07
+"7. ""Draht"" (Sg.) (Woraus ist der Zaun mit den Stacheln?"	124.08
+"8. ""Drähte"" (Pl.) "	124.08a
+9. Türe im Gartenzaun /Gartentürlein/Gatter/ /Falltor/Falter/	124.09
+ 	
+126	
+1. Durchlaß auf der Viehweide mit verschiebbaren Stangen /Gatter/(Weide-)Stangen/ /Schranke/ (Abb.	126.01
+"2. ""Gatter""/""Getter"" (Bedeutung, Genus) (wenn nicht bereits oben) "	126.02
+	
+Boden und Flur 	
+"3. ""Lehm"" (bläulicher bzw. gelbli- cher, fettiger, zäher Boden) "	126.03
+"4. ""Lett(en)"" (Genus!) (was der Fluß anschwemmt: Schwemmland, lehmig, sandig, Blauton) "	126.04
+"5. ""Sand"" (Genus) "	126.05
+"6. ""Kies"" (Genus) "	126.06
+"7. ""Leise"""	126.07
+"8. ""Leisen"" (Genus) (Schlitten-, Wagenspur) (Ge-?) "	126.08
+	
+"9. ""Brücke"" (Wenn man eine Straße über einen Bach baut, macht man eine ..."	126.09
+"10. ""Brücken"" "	126.09a
+"11. ""Steg"" (ganz schmale Brücke) "	126.10
+ 	
+128	
+"1. ""Bach"""	128.01
+"2. ""Bäche"" (darunter fließt der ...) "	128.02
+	
+"3. ""Weg"""	128.03
+"4. ""Wege"" (das ist keine Straße, sondern nur ein ...) "	128.03a
+	
+5. Die Wegbiegung /Kurve/Eck/Reib(en)/ 	128.04
+"6. ""Straße"""	128.05
+"7. ""Straßen"" (einen breiten, geteerten Weg nennt man eine ...) "	128.06
+	
+"8. ""Sträßlein"" "	128.07
+"9. ""Straßengraben"" (Sg.) "	128.07b
+10. Pl. dazu 	
+"11. ""Weide"" (Wohin treibt man das Vieh zum Fressen; im Frühjahr oder im Herbst?) "	128.08
+12. Wie heißt die Fläche, auf der Gras wächst und auf der Heu geerntet wird? /Wiese/Grasboden/Hobat/ 	128.09
+"13. ""Feld"" (Bedeutung feststellen) "	128.10
+"14. ""Felder"""	128.11
+"15. ""Acker"" (Bedeutung feststellen) "	128.12
+"16. ""Äcker"""	128.13
+	
+130	
+"1. ""Wiese"" (wenn nicht schon oben) "	130.01
+2. Abgezäunte Wiese mit Obst nahe beim Haus /Point/Baum-/Obstgarten/ /Hof-/Hauswiese/Hobat/ /Anger/ 	130.02
+3. Wie nennt man die Arbei- ten, die man für die Ge- meinde machen muß? (größere Gemeinschaftsar- beiten) /scharwerken/robaten/Gemein- dearbeit/Hand- und Spann- dienst/ 	130.04
+ 	
+132	
+Geländeformen 	
+1. Kleinere, natürliche Erhe- bung (Das ist noch lange kein Berg, das ist nur ein ...) /Buckel/Hügel/Hübel/	132.01
+"2. ""Berg"" (große Erhebung, wo man hinauf steigen muß)"	132.02
+"3. ""Heute sieht man die Berge."" "	
+4. Natürliche Vertiefung in der Wiese /Mulde/Senke/Loch/	132.03
+"5. ""er geht auf den Berg hinauf"" "	132.04
+6. Steiler Grashang /Leite/Rang(er)/Hang/ /Gestecken/	132.05
+"7. ""Haufen"" (Sg.) "	132.06
+"8. ""Haufen"" (Pl.) "	132.07
+"9. ""Häuflein"" (Dim.) "	132.07b
+"10. ""Rain"" "	132.08
+"11. ""Raine"" "	132.09
+"12. ""ein ebenes Feld"" "	132.10
+"13. ""eben"" (Adj.) (das Feld ist eben) "	132.11
+	
+134	
+"1. ""Graben"""	134.01
+"2. ""Gräben"" "	134.02
+	
+"3. ""Wir graben einen Graben."" "	134.02c
+4. Graben ausputzen /grama/Gräben räumen/	134.02d
+"5. ""Da würde ich mich fürch- ten"" /mir/"	134.03
+"6. ""Da habe ich mich gefürchtet"" "	134.03f
+"7. ""Da hat er sich gefürch- tet"" /sich/ihm/ "	
+"8. ""Da haben sie sich gefürchtet"" /sich/ihnen/ "	
+"9. ""Das hat sie sich nicht getraut"" /sich/ihr/ihm/ "	
+	
+Fischerei	
+"10. ""Ruder"" "	134.04
+"11. ""Netz"" "	134.05
+"12. ""Netze"""	134.06
+"13. ""Fisch"" "	134.07
+"14. ""Fische"""	134.08
+"15. ""Forelle"" "	134.09
+"16. ""Hecht"" "	134.10
+"17. ""Flosse"" (Genus) "	134.11
+	
+136	
+Hanf und Flachs	
+1. Flachs /Flachs/Har/Lein/	136.01
+"2. ""Hanf"" (Stricke sind aus Hanf) "	136.02
+3. Den Flachs/Hanf ernten /ausraufen/-reißen/ 	136.03
+4. Den Hanf/Flachs brechen 	136.04
+5. Womit geschah das? /Breche/ (Abb.	136.05
+"6. ""Hächel"" (vom Bild her fragen) (Abb."	136.06
+ 	
+136	
+7. Leinsamen (Genus!) /Linset/ 	136.06b
+8. Feiner Stoff /Leinwand/-tuch/Linat/ /Leinen/leinenes Tuch/ /feine/härbene Leinwand/ 	136.07
+9. Grober Stoff /wirkenes Tuch/Sackleinwand/ /grobe/rupferne Leinwand/ /härbene Leinwand/ 	136.08
+"10. ""Wir weben nicht mehr."" (wirken?) "	136.09
+"11. ""gewoben"" "	136.10
+"12. ""Riffel"" (zum Entfernen der Samen braucht man einen ...) (Abb."	136.11
+"13. ""bleichen"" (Damit die Leinwand weiß wurde, mußte man sie ...) "	
+ 	
+138	
+Wald und Holz	
+"1. ""durch den Wald"" "	138.01
+"2. ""Holz"" "	138.02
+"3. ""Tanne"""	138.03
+"4. ""Tannen"" (Weiß-/Rot-) "	138.04
+	
+"5. ""Fichte"""	138.05
+"6. ""Fichten"" "	138.05a
+	
+"7. ""Lärche"""	138.06
+"8. ""Lärchen"" "	138.07
+	
+"9. ""Pech"" "	138.07b
+"10. ""Kien"""	138.07c
+11. Weidenbaum /(P)fälber/Zainel/Wide/ 	138.08
+"12. ""Wald"" "	138.09
+"13. ""Wälder"""	138.10
+"14. ""der lange Ast ist mir im Weg"" /Nast/Ast/ "	138.11
+"15. ""die langen Äste schlagen wir ab"" "	138.12
+ 	
+140	
+"1. ""Das sind lange Äste"" "	140.01
+"2. ""Föhre"" (Ziger?) "	140.02
+"3. ""Birke"" "	140.03
+"4. ""Birken"" "	140.04
+5. Tannennadeln (grün/dürr?) /Nadeln/ 	140.05
+6. Tannenzapfen /Butzelkühe/Tannenkühe/ 	140.06
+7. Föhrenzapfen /Butzelkühe/Reigerl/ 	140.07
+"8. ""ein hoher Baum"" "	140.08
+"9. ""hohe Bäume"" "	140.09
+"10. ""Erle"" "	140.10
+"11. ""Erlen"" "	140.11
+12. Wacholder /Kranbeerstaude/ /Kranewitstaude/	140.12
+	
+142	
+"1. ""Esche"" "	142.01
+"2. ""Eschen"" "	142.02
+"3. ""Buche"" "	142.03
+"4. ""Buchen"" "	142.04
+"5. ""Eiche"" "	142.05
+"6. ""Eichen"" "	142.06
+"7. ""Die Buben sind auf die Ei- che gestiegen."" "	142.07
+8. steigen /kraxeln/	142.08
+"9. ""Laub"" (Was liegt im Herbst unter den Bäumen?) (Genus)"	142.09
+"10. ""Baum"" "	142.09b
+"11. ""Bäume"" "	142.09b
+"12. ""Bäumlein"" "	142.09b
+"13. ""Moos"" (Genus)"	142.09c
+"14. ""Wurzeln"" "	142.10
+"15. ""Stock"" (Was nach dem Fällen im Boden bleibt, ist der ..."	142.11
+"16. ""Stöcke"" "	142.13
+	
+144	
+"1. ""Rinde"" (Was außen um den Stamm ist, ist die....) "	144.01
+2. Entasten des Baumes /ausasten/-nasten/-witten/ /schnaiten/ 	144.01a
+3. Die Stämme mit den Pferden aus dem Wald herausholen /schleifen/reißen/streifen/ /schleipfen/ 	144.02
+"4. ""Kette"""	144.03
+"5. ""Ketten"" "	144.04
+	
+6. Der Drehknüttel zum Fest- drehen des Strickes oder der Kette beim Holz- transport (an der Lang- holzfuhre) /Raitel/Spänge/ 	144.05
+7. Wie nennt man diese Tätig- keit? /raiteln/spängen/schwaibeln/ 	144.06
+"8. Gibt es eine Vorrichtung zum Steuern einer Lang- holzfuhre? (hinten; bes. für kurvenreiche Straßen) (Subst. oder Verb) /Starz/starzen/Starz trei- ben/führen/ "	144.07
+"9. ""Säge"" (Abb."	144.08
+10. Mit der Säge tut man ein Brett... /absägeln/abschneiden/	144.09
+	
+144	
+11. abgeholztes Waldstück /Waldblöße/ 	
+12. Stamm/Stämme /Bloch/Blöcher/Stämmling/ 	
+13. Spitzhacke zum Ziehen der Stämme (auch beim Triften) (Akzent!) /Sapi/Streifhaken/ 	
+14. Holz mit beweglichem Haken zum Drehen der Stämme /Drehhaken/Reib-/Wendhaken/ 	
+15. entrinden /schepsen/schinten/ 	
+16. Womit geschieht das? /Schepseisen/Schinter/	
+ 	
+146	
+"1. ""Blatt"" (der Säge) "	146.01
+2. Sägewerk (dort, wo die Bretter ge- schnitten werden) /Schneidmühle/Säge(mühle) 	146.02
+	
+"3. ""Er sagt es nur mir"" /bloß/sched/grad/(g)netta/ (Pers.Pron. bet.) "	146.03
+"4. ""Er sagt es nur dir"" "	146.04
+"5. ""Er sagt es nur ihm"" "	
+"6. ""Er sagt es nur uns"" "	146.05
+"7. ""Er sagt es nur euch"" "	146.06
+"8. ""Er sagt es einem Mann"" "	146.07
+"9. ""Ich sag's nur ihnen bei- den/denen zwei"" (Pers.Pron. oder Dem. Pron. bet."	146.07a
+ 	
+148	
+Brennholz	
+1. Wie heißen die vom Stamm gesägten ca. 1 m langen Rundhölzer? /Prügel/Rundling/ (Abb.	148.01
+2. Diese Rundhölzer tut man ... /spalten/klieben/hauen/ 	148.02
+3. Womit geschieht das? Axt mit schwerem Haus /Hacke/Schlegel(hacke)/ 	148.03
+"4. ""Keil"" (Abb."	148.05
+5. Ergebnis des Spaltens /Scheiter/ (Abb.	148.06
+6. Worauf werden die Rundhöl- zer zu Hause zersägt? (Sachl. fixieren!) /Bock/Schragen/Säg-/Holz- geiß/ 	148.07
+7. Sägemehl (Abfall beim Sägen) /Sägkleie/-späne/-schaiten/ 	148.08
+ 	
+150	
+1. Ergebnis des Zersägens /Scheiter(lein)/Stöcklein/ /Wutzel/Prügel/ (Abb.	150.01
+2. Die zersägten Klötze tut man... /klieben/hauen/hacken/ /spalten/ 	150.02
+3. Worauf tut man das? /Hack-/Holz-/Haustock/ 	150.03
+4. Ergebnis dieses Vorgangs (=Ofenholz) /Scheit(lein)/ (Abb.	150.04
+5. Die als Ofenholz gerichte- ten Holzscheiter auf- schichten /aufscheiteln/auf-/anrich- ten/Holz legen/ 	150.06
+6. Der so aufgeschichtete Holzstoß (Reihe) /Holz-Stoß/Schar/Tristen/ /Zeile/Leg/	150.07
+7. Die schwere Spaltaxt /Schlegel-/Kliebhacke/ (Abb.	150.08
+8. Die Asthacke zum Entasten der Bäume 	150.09
+	
+152	
+1. Das Handbeil zum Holzhak- ken /Hacke/ (Abb.	152.01
+2. Die Breitaxt (Zimmermannsaxt) (Abb.	152.02
+3. Der Axtstiel /Halm/ 	152.03
+4. Was macht man aus dem gröberen Reisig, das im Wald herumliegt? /Bündel/(Stutz)bürdlein/ /Burd/	152.04
+5. Das Haumesser dafür (Form) /Häcklein/Schneithaken/ /Schneiter/	152.05
+6. Name für grünes Reisig /Reisad/Grasset/Wit/Ge- reisere/	152.06
+7. Name für dürres Reisig (Woraus wurden Besen ge- macht?) /Reisad/Wit/	152.07
+"8. ""Klafter"" (3 Ster sind ein ...)"	152.07g
+	
+154	
+Körbe	
+1. Normaler Holzkorb mit zwei Ohren (Abb.	154.01
+2. Korb mit einem Bogen zum Einkaufen (Abb.	154.02
+"3. ""flechten"" "	154.03
+"4.""geflochten"""	154.04
+5. Rückentragekorb (Wozu verwendet?) /Kürbe/ (Abb.	154.05
+6. Rückentragegestell (Holz- oder Weidenkonstruktion) /Krächsen/ (Abb.	154.06
+7. Rückentragegerät für Flüs- sigkeiten (Milch/Most) oder auch für Beeren /Butte/Krächsen/ (Abb.	154.07
+ 	
+156	
+1. Einen schweren Korb kann man nicht /heben/derheben/ 	156.01
+ Vorkommen und Bedeutung von 	
+ 	
+2. der Kretzen 	156.05
+3. Schwinge 	156.07
+4. Zegger 	
+"5. ""Kürbe"" "	156.08
+"6. ""Korb"""	156.09
+"7. ""Körbe"" "	156.10
+	
+ 	
+158	
+Nutzholz	
+(Abb.)	
+	
+1. Das erste und letzte Brett eines Stammes /Schwartling/Säumling/ 	158.01
+"2. ""Brett"" "	158.02
+"3. ""Bretter"" (BSA 482.05)"	158.02a
+"4. ""Riemen"" (Brett oder Antriebsriemen, Gürtel?) "	158.03
+5. Dickeres Brett (4-8cm) (Genus) /Laden/Brett/Pfosten/ 	158.04
+6. Noch dickeres Brett (z.B. für Tennenboden) /Laden/Pfosten/Blette/ 	158.05
+7. Was braucht man für den Dachstuhl? /Balken/Kantholz/Bretten/ /Rafen/Hölzl/Zimmerbaum/ 	158.06
+"8. ""Latte"" (Woran werden die Dachzie- gel eingehängt?"	158.07
+ 	
+160	
+Rundholz	
+1. Vier bis fünf Meter langes, dünnes Rundholz, in der Regel Fichtenstamm /Hanickel/Stange/ 	160.01
+"2. ""Stange"" (wenn nicht oben) "	160.02
+"3. ""Stecken"" "	160.04
+"4. ""Einen Stecken in den Bo- den stecken"" "	160.05
+5. Wenn man von einer Stange ein kurzes Stück abschnei- det, bekommt man einen ... /Prügel/Zöllein/Stempen/ 	160.06
+"6. ""Pfahl"""	160.07
+"7. ""Pfähle"" "	160.08
+	
+"8. ""Säule"""	160.09
+"9. ""Säulen"" (nicht zugespitzte Zaun- säule o.a.) "	160.10
+	
+"10. ""Schreiner"" "	160.11
+ 	
+162	
+"1. ""bohren"""	162.01
+"2. ""gebohrt"" "	162.02
+	
+3. Instrument dazu (der gewöhnliche kleine Lochbohrer) /Neiger/Eiger/ (Abb.	162.03
+"4. ""Nagel"""	162.04
+"5. ""Nägel"" "	162.05
+	
+"6. ""Nägelein"" "	162.06
+"7. ""nageln"" (zwei Bretter zusammen...) "	162.07
+"8. ""Ich würde einen Nagel einschlagen, dann würde es besser halten/haben"" /dann/nach(her)/aft/ "	162.08
+"9. ""Ich kann das nicht hal- ten."" /halten/haben/ "	
+"10. ""Das hat nicht gehalten."" /gehabt/ "	162.09
+"11. ""leimen"" "	162.10
+12. Wenn eine Schüssel zer- brochen ist, tut man sie ... oder zwei Zettel zu- sammen... /pappen/bicken/	162.11
+ 	
+164	
+"1. ""eine Schraube"" (Genus) (-m, -v)"	164.01
+"2. ""Hobel"" (Sg.) (Womit glättet man die Bretter? (Abb.)"	164.02
+"3. ""Hobel"" (Pl.) "	164.02
+"4. ""hobeln"""	164.03
+"5. ""gehobelt"" "	164.04
+	
+6. Der Abfall vom Hobeln /Späne/Schaiten/Schnitzel/ 	164.05
+"7. ""Feile"" "	164.06
+"8. ""Schlag mir einen Nagel ein."" "	164.07
+"9. ""Faß"" "	164.08
+"10. ""Fässer"""	164.09
+"11. ""Fäßlein"" (Sg.) "	164.10
+"12. ""Fäßlein"" (Pl.) "	164.11
+"13. ""eichen"" (Inf.) "	164.12
+"14. ""Reifen"" (Sg.) (hält die Dauben zusam- men) "	164.13
+"15. ""Reifen"" (Pl.) "	164.14
+	
+166	
+"1. ""eine neue Daube"" (Anlaut!) "	166.01
+"2. ""neue Dauben"" "	166.02
+3. Handwerker, der die Fässer macht /Binder/Schäffler/ 	166.02a
+4. Die Schneidbank zum Fest- klemmen von Sprossen u.ä. /Hainzelbank/-geiß/ /Schnitzelbank/ (Abb.)	166.03
+"5. ""Dechsel"" (das axtartige Instrument zum Aushöhlen von Dach- rinnen und Brunnentrögen) /-ss-/-ks-/ (Abb."	166.03b
+"6. ""Leck"" werden; wenn die Dauben durch Sonnen- bzw. Lufteinwirkung Sprünge be- kommen /der-/zer-/entlechßen/ "	166.04
+7. Wieder dicht machen (durch Einlegen in -heißes- Was- ser) /verquellen/aufgeschwellen/ /dechteln/de(i)deln/ /wässern/ 	166.05
+"8. ""Rohr"" (Worin leitet man das Was- ser? In einem eisernen ...)"	166.07
+ 	
+168	
+Obst	
+"1. ""Apfel"""	168.01
+"2. ""Äpfel"" "	168.02
+	
+"3. ""auf den Bäumen"" (Wo wachsen die Äpfel?) "	168.03
+"4. ""Äpfelchen"" "	168.04
+"5. ""ein großer Apfel"" "	168.05
+"6. ""ein mürber Apfel"" /mar/teigig/"	168.06
+7. Wenn der Apfel vom Baum fällt, kriegt er eine(n) ... /Delle/Tumpf/Mal/ 	168.07
+8. Wenn der Apfel einen Wurm hat, ist er /wurmstichig/wurmig/wurwig/ 	168.08
+9. Äußeres des Apfels (Unterschied, ob am Apfel oder abgeschält?) /Schale/Schind/Haut/ 	168.09
+"10. ""schälen"" "	168.10
+"11. ""Dieses Jahr git es ziemlich viel Obst."" /wohlgetan/rätlich/hübsch/"	
+ 	
+170	
+"1. ""an den Ästen""/""an den Bäumen"" (Woran hängen die Äpfel? - eins von beiden) "	170.01
+2. Das Kerngehäuse (Was übrig bleibt beim Es- sen des Apfels) /Butzen/Spaigern/ 	170.02
+"3. ""dörren"" "	170.03
+"4. ""Birne"""	170.04
+"5. ""Birnen"" "	170.05
+	
+6. die würgenden Birnen /Druck-/Drossel-/Most-/ /Holz-/Haferbirne/ 	170.06
+7. getrocknete Äpfel /Hutzel/Speitel/Schnittel/ 	170.06c
+8. getrocknete Birnen /Hutzel/Klözen/ 	170.06d
+"9. ""würgen"" "	170.07
+"10. ""Stiel""/""Stengel"" /Stingel/ "	170.08
+"11. ""Obst"" (Äpfel und Birnen zusammen nennt man ...) "	170.09
+"12. ""ein gutes Jahr"" "	170.10
+	
+172	
+"1. ""Kirsche"""	172.01
+"2. ""Kirschen"" "	172.02
+	
+"3. ""blühen"""	172.03
+"4. ""geblüht"" (Im Mai tun die Kirsch- bäume ...) "	172.04
+	
+"5. ""Pflaume"""	172.05
+"6. ""Pflaumen"" "	172.06
+	
+"7. ""Zwetschge"" "	172.07
+"8. ""Zwetschgen"""	172.08
+"9. ""Ich will auch eine Birne."" "	172.09
+"10. ""Ich hab' noch welche."" "	172.09b
+"11. ""Ich habe keine mehr."" (Pl.)"	172.10
+"12. ""Nuß"" "	172.11
+"13. ""Nüsse"""	172.12
+"14. ""Kastanie"" /Kestn/ "	172.12c
+"15. ""Kern"" "	172.13
+"16."" Kerne"""	172.14
+"17. ""wachsen"" "	172.15
+"18. ""gewachsen"" "	172.16
+"19. ""er wächst"" "	172.17
+20. Obstbäume veredeln /ab-/pelzen/ 	172.17d
+	
+174	
+"1. ""Leiter"" (Womit steigt man auf die Bäume?"	174.01
+2. Johannisbeere /Ribisel/(Johannis)Wein- beerlein/	174.02
+3. Heidelbeere /Schwarzbeere/	174.03
+4. Gartenerdbeere /Erd-/Rotbeere/Ananas/	174.04
+5. Walderdbeere /Rotbeere/	174.05
+6. Himbeere /Molbeere/	174.05a
+7. Brombeere 	174.05b
+8. Preiselbeere /Preiselbeere/Zwengerlen/ /Grandlbeere/	174.05c
+9. Hagebutte /Honabutte/Haarwuzel/ /Hägebeck/Hagelbutze/	174.05d
+"10. ""Dorn"" "	174.06
+"11. ""Dornen"""	174.07
+12. Beeren pflücken /brocken/zupfen/ 	174.08
+13. Woran wachsen die Erdbeeren? /Staude/Stock/Buschen/ 	174.09
+14. Woran wachsen die Johannisbeeren? /Staude/Stock/ 	174.10
+15. Woran wächst die Haselnuß o.ä.? /Staude/	174.11
+	
+176	
+1. Stauden der Kartoffel (grün/getrocknet?) /Reben/Sterken/Kraut/Staude/ /Doschet/	176.01
+"2. ""Staude"" (wenn nicht schon oben) "	176.02
+3. gären (Wie sagt man, wenn der Most im Faß zu arbeiten beginnt?) 	176.07
+"4. ""Most"" "	176.08
+ 	
+178	
+"1. ""Die Flaschen sind gewiß voll"" "	178.06
+"2. ""eine volle Flasche"" "	178.07
+"3. ""Gib mir die volle Fla- sche!"" /d'volle/die volle/ "	
+ 	
+180	
+"1. ""Trichter"" (-o-, -a-"	180.01
+	
+Weinbau	
+"2. ""Rebe""/""Reben"" (Sg. oder Pl.) "	180.03
+"3. ""Traube"" "	180.04
+"4. ""Träublein"" "	180.05
+"5. ""Wein"" "	180.06
+"6. ""Saft"" "	180.07
+"7. ""saftig"" "	180.08
+	
+182	
+Haus	
+1. Was bedeutet: 1. Stock? Erdgeschoß / Obergeschoß	182.01
+ 	
+2. Das Austragshaus /Austrags-/Ausnahm-/Zu-/i-/ /Leibgeding-/Nahrungshäusel/	182.02
+"3. ""ein Haus"" (unbest. Art.) "	182.03
+"4. ""euer Haus"" "	182.04
+"5. ""unser Haus"" "	182.05
+"6. ""Stube"""	182.06
+"7. ""Stuben"" "	182.06c
+	
+"8. ""Stüblein"" "	182.06d
+"9. ""Küche"" /Kuchel/ "	182.07
+"10. ""Keller"" "	182.08
+"11. ""Höhe"" (Das ist nicht die Länge des Tisches, sondern die ..."	182.09
+"12. ""Breite"" "	182.11
+ 	
+184	
+"1. ""Gewölbe"" "	184.01
+2. Hausgang (Genus) /Fletz/ 	184.02
+3. Oberer Hausgang /Diele/Gang/Iler(boden)	184.03
+"4. ""Stiege"" (Treppe im Haus aus Holz) "	184.04
+5. Stufe aus Stein z.B. vor der Haustür /Staffel/Gredstein/ /Haustürstein/	184.06
+6. Platz vor dem Haus /Gred/ 	
+"7. ""Kammer"""	184.07
+"8. ""Kammern"" "	184.08
+	
+9. Dachboden /oberer Boden/(Obern)Boden/ /Spitzboden/Hochboden/ 	184.09
+10. Vorbauten am Haus /Schrot/Altane/Veranda/ /Gang/Laube/ 	184.10
+ 	
+186	
+1. Das WC /Scheiß-/Schiß-/Häuslein/ /Abtritt/Abort/	186.02
+2. Raum, in dem das Heu liegt /Stadel/Heu-/Futterboden/ /Scheuer/ 	186.03
+"3. Abteilung links und rechts der Tenne; geht sie bis zum Erdboden? /Viertel/Es/Stock/ "	186.05
+4. Boden über der Tenne /Gerüst/Hoch-/Übertenne/ /Obern/	186.06
+5. Boden ganz unter dem Dach (falls vorhanden) /Hochgerüst/ 	186.07
+ 	
+188	
+"1. ""Tenne"" (Genus!) "	188.01
+"2. ""Tor"""	188.02
+"3. ""Tore"" "	188.03
+	
+"4. ""Stall"""	188.05
+"5. ""Ställe"" "	188.06
+	
+"6. ""Gang"" (im Stall; wo? seitlich/in der Mitte?) /Stall-/Futter-/Mistgang/ "	188.09
+7. Graben, in dem die Jauche abrinnt (sachl. vor- handen?) /Seich-/Lacken-/Odelrinne/ /-graben/ 	188.10
+"8. ""Misthaufen"" (ev. auf der Wiese) "	188.11
+ 	
+190	
+1. Der Mistlagerplatz (gemauert, nur Holzboden?) /Miststatt/Misthaufen/ 	190.01
+2. Wohin rinnt die Jauche? /Odel-/Lackengrube/Mist- schwemme/	190.02
+3. Standort des Viehs im Stall (beid-, einseitig, erhöht? Pferde erhöht?) (Das Vieh steht auf der...) /Bruck/Stand/Statt/ 	190.03
+"4. ""Streue"" (oder verbal: streuen) (Was legt man dem Vieh unter?) "	190.04
+"5. ""Raufe"" (Woraus frißt das Vieh im Stall?) (oben! ev. nur für Pferde?) "	190.05
+"6. ""Barn"" (der Trog, aus dem die Kühe fressen) "	190.06
+7. Freistehende, landwirt- schaftlich genutzte kleinere Gebäude: in der Nähe des Wohnhauses? auf dem Feld? (Genus, Pl.) /Hütte/Stadel/Schupfen/ 	190.07
+"8. ""in einer alten Hütte"" "	190.08
+"9. ""das alte Haus muß man wieder herrichten"" "	190.09
+"10. ""Die alten Häuser hat man abgerissen."" "	190.10
+ 	
+192	
+Dachstuhl	
+(Abb.)	
+	
+"1. ""Zimmermann"" (Der Handwerker, der den Dachstuhl macht) "	192.01
+"2. ""First"" (Wie heißt der oberste Balken im Dachstuhl?) (Dach-)/First/Firstbaum/ "	192.02
+3. Die Pfetten (Parallel zum First) (Wieviele? Wie heißt die mittlere?) /Pfette/Gelege/Lang-/Stuhl- baum/Durchzug/Geleit/Sei- tenfirst/	192.03
+4. Die auf der Mauer aufliegende Pfette /Mauerbank/-baum/	192.04
+5. Die Balken auf denen die Dachlatten liegen /Gesperre/Rafen/	192.05
+6. Die Dachrinne /Scharrinne/-röhre/	192.06
+"7. Die Dach- ""Traufe"" (Genus) (Wenn keine Dachrinne da ist) /Trapf/Schar/Schartrapf/"	192.07
+"8. ""Dach"""	192.08
+"9. ""Dächer"" "	192.09
+	
+194	
+Der Mensch	
+"1. ""Kopf"""	194.01
+"2. ""Köpfe"" "	194.02
+	
+3. Synonyme und wortsoziolo- gische Schichtung /Bilmes/Schädel/Bellein/ /Birne/Rübe/Mörser/Grind/ 	194.03
+"4. ""Er hat (sich) den Kopf angeschlagen"" /sich/ihm/"	194.05
+"5. ""Beule"" /Horn/Dübel/Beule/Ballen/ /Pinkel/ "	194.06
+"6. ""geschwollen"" (Wenn einen eine Biene sticht, wird er ...) "	194.07
+"7. ""Das geschieht dir recht"" "	194.08
+"8. ""Das ist dir recht geschehen"" (BSA: 216.03)"	194.08c
+"9. ""Schläfe"" (Genus) /Schlaf/ "	194.09
+	
+196	
+"1. ""Haar"" (Sg. oder Pl.?) (Art."	196.01
+"2. ""schwarze Haare"" "	196.02
+"3. ""graue Haare"" /-w-/-b-/ "	196.03
+"4. ""kurze Haare"" "	196.04
+"5. ""kürzer"" "	196.05
+"6. ""weiße Haare"" "	196.06
+7. Kamm 	196.07
+8. kämmen 	196.08
+"9. ""Zopf"" "	196.09
+"10. ""Die langen Zöpfe stehen dir gar nicht gut"" "	196.10
+11. Kopfschuppen /Schuppen/Schueppen/Lucht/ 	196.11
+ 	
+198	
+"1. ""das Ohr"""	198.01
+"2. ""die Ohren"" "	198.02
+	
+3. Wenn jemand schlecht hört oder nicht hören will, dann sagt man, bist du ...? /dohred/gehörlos/	198.03
+"4. ""das Auge"" "	198.05
+"5. ""sie hat blaue Augen"" "	198.06
+"6. ""aber seine Augen sind braun"" "	198.07
+"7. ""Äuglein"" "	198.08
+"8. ""einäugig"" "	198.08d
+9. Gerstenkorn /(Ge-)Werre/Wernlöchel/ 	198.09
+"10. ""Ich sehe noch gut ohne Brille."" /Brille/Augenglas/ "	198.10
+"11. ""sie ist blind"" "	198.11
+ 	
+200	
+1. Augenbrauen /Augenbrau(n)en/-brämen/ /-brant/	200.01
+"2. ""schielen"" "	200.02
+"3. ""Hirn"" "	200.03
+"4. ""lesen"""	200.04
+"5. ""gelesen"" "	200.05
+	
+"6. ""ich lese die Zeitung"" /-e-/-i-/ "	200.06
+"7. ""du liest ein Buch"" "	200.07
+"8. ""er liest ..."" "	200.08
+"9. ""wir lesen ..."" "	200.09
+"10. ""ihr lest ..."" "	200.10
+"11. ""sehen"" "	200.11
+ 	
+202	
+"1. ""Das habe ich wirklich gesehen"" "	202.01
+"2. ""ich sehe niemanden"" "	202.02
+"3. ""Siehst du jemanden?"" "	202.03
+"4. ""du siehst nichts"" "	202.04
+"5. ""er sieht nichts"" "	202.05
+"6. ""wir sehen"" "	202.06
+"7. ""ihr seht"" "	202.07
+"8. ""sie sehen"" "	202.08
+"9. ""er sähe"" "	202.08c
+"10. ""die Nase"" "	202.09
+"11. ""Nasenloch"" "	202.10
+"12. ""schneuzen"" "	202.11
+"13. ""geschneuzt"" "	202.12
+ 	
+204	
+1. Taschentuch /Schneuz-/Taschen-/Sacktuch/	204.01
+2. Was macht man ins Taschentuch, um an eine Sache erinnert zu werden? /Knopf/Knoten/	204.02
+3. niesen (vormachen) /niesen/reißen/reizen/ 	204.03
+4. geniest 	204.03a
+5. Backen/Wange (Genus!) (Die Wange im Gesicht) 	204.04
+"6. ""Bart"" "	204.05
+"7. ""Bärtlein"" "	204.06
+"8. ""Zahn"" "	204.07
+"9. ""Zähne"" "	204.08
+"10. ""Loch"" 11. ""Löcher"" (Wenn Kinder zuviel Schokolade essen, dann kriegen sie in die Zähne ...) "	204.09
+	204.10
+"12. ""den faulen Zahn muß man ziehen"" (Art. Akk. unbet."	204.11
+	
+206	
+"1. ""Maul"""	206.01
+"2. ""Mäuler"" "	206.02
+	
+3. Die Lippe (ev. große Lippe) /Lefzge/Fotz/ 	206.03
+"4. Zahn-""Lücke"" "	206.04
+"5. ""Gebiß""/Biß"" (die Zahnprothese) "	206.05
+"6. ""schlechte Zähne"" "	206.06
+"7. ""Kropf"""	
+"8. ""Kröpfe"" "	206.07
+	206.08
+9. Kinn /Küenzen/Kinnbein/Kinn- backen/	206.09
+"10. ""der Arm"" "	206.10
+"11. ""die Arme"""	206.11
+"12. ""er hat sich den/(der) Arm gebrochen"" (Akk. Mask.) /sich/ihm/"	206.12
+ 	
+208	
+"1. ""Achsel"" (oben) "	208.01
+"2. ""Üchsel"" (innen) "	208.01a
+3. Nacken /Genick/Genack/ 	208.02
+"4. ""Hals"" "	208.03
+"5. ""Man kann nicht immer still sein"" "	208.04
+"6. ""Er ist nie still gewesen"" "	208.05
+"7. ""ich bin gesund"" "	208.06
+"8. ""Du bist in der Stube"" "	208.07
+"9. ""Sie ist in der Küche"" "	208.08
+"10. ""Wir sind in der Kammer"" "	208.09
+"11. ""Ihr seid im Garten"" "	208.10
+	
+210	
+"1. ""Sie sind im Bett"" "	210.01
+"2. ""Ich habe gehört, er sei im Bett"" (Wenn jemand krank ist) "	210.02
+"3. ""Wenn ich gesund wäre, würde ich tanzen gehen"" "	210.03
+"4. ""es wird schon werden"" "	210.04
+"5. ""das Wetter ist schön geworden"" "	210.05
+"6. ""ich werde es euch schon noch zeigen"" "	210.06
+"7. ""du wirst es uns ..."" "	210.07
+"8. ""er wird es euch ..."" "	210.08
+"9. ""wir werden es euch ..."" "	210.09
+"10. ""ihr werdet es uns ..."" "	210.10
+ 	
+212	
+"1. ""sie werden es euch ..."" "	212.01
+"2. ""da würde ich krank"" (wenn ich mir das den ganzen Tag anhören müßte, ...) /wurad/werad/tät ich ... werden/"	212.01a
+"3. ""Ader"""	212.02
+"4. ""Adern"" "	212.03
+	
+"5. ""Äderchen"" "	212.04
+"6. ""Äderchen"" (Pl.) "	212.05
+"7. ""Hand"""	212.06
+"8. ""Hände"" "	212.07
+	
+"9. ""an den Händen"" (Dat. Pl.) (er hat Warzen...) "	212.09
+10. Linkshänder /Linker/Tengger/ /Tenggveidel/	212.10
+"11. Er schreibt alles ""mit der linken Hand"". "	212.11
+12. Er hat das Hemd verkehrt an (die innere Seite außen) /tengg/in aiben/ärschlings/	
+"13. ""Daumen"" "	212.12
+"14. ""ich bin krank"" "	212.13
+ 	
+214	
+"1. ""Knie"" "	214.01
+"2. ""knien"" (in der Kirche muß man sich hin...) "	214.02
+"3. ""Faust"""	214.03
+"4. ""Fäuste"" "	214.04
+	
+5. in den Finger gedrungener Holzsplitter (wenn man mit der Hand über ein Brett fährt, dann kriegt man einen ...) /Schifer/Zweck/ 	214.05
+"6. ""Wade"" (Genus) "	214.06
+"7. ""Schienbein"" "	214.07
+"8. ""Schienbeine"" "	214.08
+9. der Fußknöchel /Knöchel/A-/Engel/ 	214.09
+"10. ""Fuß"" (was im Schuh ist; hört er am Knöchel oder an der Leiste auf?) "	214.10
+"11. ""gute Füße"" (zum Laufen braucht man ...) "	214.11
+ 	
+216	
+"1. ""Zehe"""	216.01
+"2. ""Zehen"" (Genus) "	216.02
+	
+"2. (""Das ist dir recht ge- schehen"" siehe (SNIB 194.8)) "	
+"3. ""in/an den Füßen"" (Dat.Pl) "	216.04
+"4. ""gehen"""	216.05
+"5. ""gegangen"" "	216.06
+	
+"6. ""ich gehe"" "	216.07
+"7. ""Da geh' ich wieder"" (Wenn das so ist, dann ...) "	216.07e
+"8. ""du gehst"" "	216.08
+"9. ""er geht"" "	216.09
+"10. ""wir gehen"" "	216.10
+"11. ""ihr geht"" "	216.11
+"12. ""sie gehen"" "	216.12
+ 	
+218	
+"1. ""Er hat gesagt, er gehe weg"" "	218.01
+"2. ""Wenn er nur endlich ginge"" "	218.02
+"3. ""Geh weg!"" (Imp.) "	218.03
+"4. ""Krücke"" (Wenn jemand einen Fuß verloren hat, braucht er zum Gehen eine ...) "	218.04
+"5. ""Er hat's im Kreuz"" "	218.05
+6. Gesäß /Arsch/Hintern/ 	218.06
+7. Flatus ventris /Furz/Schieß/Wind/ 	218.11
+ 	
+220	
+"1. ""Rippe"" (Genus) "	220.01
+"2. ""Er hat sich eine Rippe gebrochen"" /sich/ihm/"	220.02
+"3. ""Dem ist nicht zu helfen"" (Pers.Pron. bet.) "	220.03
+"4. ""Herz"" "	220.04
+"5. ""Magen"""	
+"6. ""Mägen"" "	220.05
+	220.06
+"7. ""Leber"" "	220.07
+"8. ""Bauch"""	220.08
+"9. ""Bäuche"" "	220.09
+	
+"10. ""Darm"" "	220.10
+"11. ""Därme"""	220.11
+"12. ""Er hat's in den Därmen"" "	220.12
+"13. ""Das kann ich mir schon denken"" (Anlaut!"	220.13
+ 	
+222	
+"1. ""Das habe ich mir gleich gedacht"" "	222.01
+"2. ""Er kommt heute nicht"" "	222.02
+	
+Verletzungen der Haut	
+3. Kleine Wunde auf der Haut)	222.03
+4. Kruste auf einer Wunde /Rufe/Rauen/Grind/ 	222.04
+5. Furunkel /Eisse/ 	222.05
+6. Sommersprossen (ev. Adj.) /Sommerschecken/-merl/ /Guckerschecken/ 	222.06
+7. Pickel im Gesicht /Suierl/Wimmerl/ 	222.07
+8. Blase (Wasser-, Blutblase) /Blatter/ 	222.08
+"9. ""Blut"" "	
+"10. ""bluten"" "	
+ 	
+224	
+"1. Schrunden (Sg.) (Trockene Risse in der Haut; tun sehr weh) /Kluft/Schrunsen/"	224.03
+2. Pl. 	
+"3. ""Warze"""	224.04
+"4. ""Warzen"" "	224.05
+	
+"5. ""Rheumatismus"" (Akzent) "	224.06
+	
+Die menschliche Gemeinschaft	
+1. Das Zusammensitzen von Nachbarn /ins Dorf gehen/Roigarten/ /Federschleißen/Sitzweil/ /Rockarois/Heimgarten/	226.01
+2. spuken /regieren/weizen/geistern/ 	
+"3. ""Nachbar"" "	226.02
+4. War das Fensterln hier früher Brauch? /ins/zum Fenster gehen/ /(Kammer)fensterln/	226.03
+"5. ""Hochzeit"" "	226.04
+"6. ""heiraten"" "	226.05
+"7. ""geheiratet"" "	226.05
+"8. ""Schäm dich doch!"" /dengerst/ "	226.07
+9. Sie ist von hier/da. 	226.09
+ 	
+228	
+1. Trauzeuge der Braut /Vorgeher/Beiständer/ 	228.02
+2. Trauzeuge des Bräutigams 	228.03
+3. Braut /Hochzeiterin/ 	228.04
+4. Bräutigam /Hochzeiter/ 	228.05
+"5. ""Mann"""	228.06
+"6. ""Männer"" (Nach der Hochzeit sagt sie: Das ist mein ...) "	228.07
+	
+"7. ""Weib"""	228.08
+"8. ""die Weiber"" (Nach der Hochzeit sagt er: Das ist mein(e) ...) "	228.09
+	
+"9. ""Frau"" (wenn nicht oben) "	228.10
+"10. ""all meine Lebtage"" "	228.10c
+ 	
+230	
+"1. ""Als (ein) Junge(r) hat er fort müssen"" "	230.01
+"2. ""sterben"" (Am Schluß des Lebens muß jeder ...)"	230.02
+"3. ""gestorben"" "	230.03
+	
+"4. ""Witwe"" /Witfrau/Witweib/Witin/ /Witibin/"	230.05
+"5. ""Witwer"" /Witmann/Witiber/ "	230.06
+6. Das Läuten/Was läutet, wenn jemand gestorben ist? /Toten-/Zinn-/Sterb- glöcklein/ 	230.07
+7. Sarg (Genus) (Wo legt man den Toten hinein?) /Truhe/Traub/ 	230.08
+"8. ""Grab"""	230.09
+"9. ""Gräber"" "	230.10
+	
+10. Wohin bringt man die Toten? /Friedhof/Gottesacker/ /Freithof/	230.11
+ 	
+232	
+1. Feststellen, ob Friedhof bei der Kirche ist/war ja / nein	232.01
+"2. ""Leiche"" (Präp.!) (Beerdigung) /auf die .../in die .../ /mit der ... gehen/"	232.02
+3. Wie nennt sich das Zu- sammensitzen im Gasthaus nach der Beerdigung? /Leichentrunk/Gremeß/ /Totensuppe/-zehrung/ 	
+"4. ""erben"""	232.03
+"5. ""geerbt"" "	232.04
+	
+"6. ""Bauer"""	232.05
+"7. ""Bauern"" "	232.06
+	
+"8. ""Bäuerin"" "	232.07
+"9.""Bäuerinnen"""	232.08
+"10. ""Knecht"" (Wer hilft dem Bauern bei der Arbeit?) (Rangordnung fixieren!) "	232.09
+"11. ""Knechte"""	232.09a
+	1.
+	2.
+	3.
+	4.
+	5.
+ 	
+234	
+"1. ""Magd"""	234.01
+"2. ""Mägde"" (Wer hilft der Bäuerin bei der Arbeit?) (Rangordnung fixieren!) "	234.02
+	1.
+	2.
+	3.
+	4.
+	5.
+3. Knechte und Mägde zusammen (Kollektivbegriff) /Ehalten/Dienstboten/ /Gesinde/	234.03
+4. Der, der nur tageweise angestellt wird /Taglöhner/Tagler/ /Tagwerker/ 	234.04
+"5. ""Lohn"""	234.05
+"6. ""Löhne"" (Genus) (An Lichtmeß kriegen die Ehalten ihre ...) "	234.06
+	
+"7. ""verdienen""(Den muß man sich schwer ver...)"	234.07
+"8. ""verdient"" "	234.08
+	
+ 	
+236	
+"1. ""Schmied"" (Der Handwerker, der die Hufeisen macht) "	236.01
+"2. ""Schmitte"" "	236.02
+"3. ""Lehrer"" (Wer unterrichtet die Kinder in der Schule?) "	236.03
+4. Lehrerin /Fräulein/ (Genus!) 	
+"5. ""Schulbub"" (Wie heißt derjenige, der zur Schule geht?) "	236.04
+"6. ""Tafel"" (Wohin schreibt der Lehrer in der Schule?) "	236.05
+"7. ""Kreide"" (Womit schreibt der Lehrer an die Tafel?) "	236.06
+"8. ""ich rechne"" "	236.07
+"9. ""wir rechnen"" "	236.08
+"10. ""rechnen"" "	
+"11. ""gerechnet"" "	
+12. Hast du schon wieder gepetzt? 	
+13. Du darfst nicht petzen. 	
+ 	
+238	
+"1. ""Schwamm"" (Womit wischt man die Tafel ab?) "	238.01
+2. Schulrucksack der Kinder /Ranzen/Butte/Pack/ 	238.01a
+"3. ""Das hat mir meine Mutter gelernt."" (gelehrt?) "	238.02
+"4. ""Das muß er bei einem Bauern lernen."" "	238.03
+"5. ""Wirt"" "	238.04
+"6. ""Wirte"" "	238.04
+"7. ""Wirtin"" "	238.04
+"8. ""leihen"""	
+"9. ""geliehen"" "	238.07
+	238.07c
+10. behalten (Du brauchst es nicht mehr zurückgeben, du kannst es ...) /pf-/gh-	238.08
+ 	
+240	
+"1. ""Zins"" "	240.01
+"2. ""zahlen"""	240.02
+"3. ""gezahlt"" "	240.03
+	
+"4. ""Sei ruhig!"" (Bi ...) "	240.04
+"5. ""Ich habe es dem alten Mann gegeben"" "	240.05
+"6. ""alte Männer"" "	240.06
+"7. ""ein gesundes Kind"" "	240.07
+"8. ""sie hat lauter böse Kinder"" "	240.08
+"9. ""Er ist nirgends zu finden"" /ninderts/ "	240.09
+"10. ""Die Brille muß doch irgendwo sein"" /anort/"	240.10
+ 	
+242	
+"1. ""du suchst ihn jetzt"" "	242.01
+"2. ""er sucht sie jetzt"" "	242.02
+"3. ""wir suchen sie jetzt"" "	242.03
+"4. ""ihr sucht sie jetzt"" "	242.04
+"5. ""finden"""	242.05
+"6. ""gefunden"" (funden?"	242.06
+	
+"7. ""Du lügst ja!"" "	242.07
+"8. ""Ihr lügt ja!"" "	242.08
+"9. ""Man darf nicht lügen"" "	242.09
+"10. ""Man muß immer die Wahrheit sagen."" "	242.10
+"11. ""Du darfst nicht mit den Buben spielen"" "	242.11
+ 	
+244	
+"1. ""Dürft ihr schon rauchen?"" "	244.01
+"2. ""Er durfte nicht fort"" "	244.01a
+"3. ""Wenn ich doch fortgehen dürfte!"" "	244.02
+"4. ""Man darf nicht stehlen"" "	244.03
+"5. ""Man hat unserem Vater das Auto gestohlen"" "	244.04
+"6. ""Da hat er sich sehr geärgert."" /recht/stark/gescheit/arg/ /sauber/"	
+	
+246	
+Kirche	
+"1. ""Kirche"" (am Sonntag geht man in die ...) "	246.01
+"2. ""Kapelle"" (Betonung) "	246.02
+"3. ""Orgel"" "	246.03
+"4. ""Empore"" (Wo steht die Orgel?) "	246.03a
+"5. ""Zeit"" (Ich würde auch gehen, wenn ich ... hätte) "	246.04
+6. Derweil (Fahr nicht so schnell, laß dir ...) 	246.05
+"7. (Kirch-)""Turm"" (ein hoher ...) "	246.06
+"8. (Kirch-)""Türme"" "	246.07
+"9. ""Auf einem hohen Turm"" (sieht man viel) "	246.08
+"10. ""Katholisch"" "	246.09
+11. evangelisch/lutherisch/ protestantisch 	246.10
+ 	
+248	
+"1. ""höher"" "	248.01
+"2. ""tief"" "	248.02
+"3. ""tiefer"" "	248.03
+"4. ""eine neue Glocke"" (wir brauchen ...) "	248.04
+"5. ""neue Glocken"" (wir brauchen ...) "	248.05
+"6. ""ich opfere"" "	248.06
+"7. ""wir opfern"" "	248.07
+"8. ""Man tut mit allen Glocken läuten"" "	248.09
+"9. ""geläutet"" "	248.10
+"10. ""leiden"" "	248.11
+"11. ""gelitten"" "	248.12
+ 	
+250	
+"1. ""beten"" "	250.01
+"2. ""gebetet"" "	250.02
+"3. ""beichten"" "	250.03
+4. unser Pfarrer/unser Herr 	250.04
+"5. ""der alte Pfarrer ist gestorben"" "	250.05
+"6. ""Pater"" (Mönch) "	250.06
+7. Womit betet man den Rosenkranz? /Bette(r)/Rosenkranz/ (Genus)	250.09
+8. Die Kügelchen am Rosenkranz /Betterlein/Perle/ /K(o)rällein/	250.10
+"9. ""Messe"" (Der Pfarrer liest jeden Sonntag eine ..."	250.11
+ 	
+252	
+"1. ""Altar"" (Genus) (Bei der Messe steht der Pfarrer vorne am ...) "	252.01
+"2. ""predigen"" (Der Pfarrer tut von der Kanzel ...) "	252.02
+"3. ""Heute war die Predigt langweilig."" "	252.03
+4. Weihwasser /Weihbrunn/ 	252.04
+"5. ""weihen"" "	252.05
+"6. ""geweiht"" (An Ostern werden die Speisen...) "	252.06
+"7. ""Segen"" (Am Schluß der Messe gibt der Pfarrer den ...) "	252.07
+"8. ""Fahne"" (Genus) (In der Fronleichnams- prozession hat jeder Verein eine(n) ...) "	252.08
+"9. ""Fahnen"" "	252.09
+"10. ""glauben""/""Glauben"" (Verb oder Subst."	252.10
+"11. ""Das habe ich nie geglaubt"" "	252.11
+"12. ""Seele"" "	252.12
+ 	
+254	
+"1. ""Hölle"" "	254.01
+"2. ""Teufel"" "	254.02
+"3. ""König"" (ev. über Spielkarte) "	254.03
+"4. ""Krone"" (Was hat der König auf dem Kopf?) "	254.04
+"5. ""Wollt ihr bei uns bleiben?"" "	254.05
+"6. ""geblieben"" "	254.06
+"7. ""Nein, wir wollen lieber heim."" "	254.07
+"8. ""Er wollte ihn nicht gehen lassen"" (Wortstellung) "	254.08
+"9. ""daheim"" (Jetzt sind wir wieder ...) /daheim/daheimt/dahuit/"	254.09
+ 	
+256	
+"1. ""Er hat ihn nicht gelassen"" "	256.01
+"2. ""Ich lasse ihn nicht gehen"" "	256.02
+"3. ""du läßt ..."" "	256.03
+"4. ""er läßt ..."" "	256.04
+"5. ""wir lassen ..."" "	256.05
+"6. ""ihr laßt ..."" "	256.06
+"7. ""sie lassen ..."" "	256.07
+"8. ""Wenn er ihn doch ließe"" "	256.08
+"9. ""Er hat gesagt, er lasse ihn nicht fort"" "	256.09
+"10. ""man muß ihn lassen"" "	256.10
+258	
+Freilebende Tiere	
+"1. ""eine Wespe"" (Genus!) "	258.01
+"2. ""Wespen"" "	258.02
+"3. ""Hornisse"" (Genus) "	258.02
+"4. ""Bremse"" (Viehbremse) "	258.03
+"5. ""Bremsen"" "	258.04
+"6. ""Fliege"" (= Mücke?) "	258.05
+"7. ""Fliegen"" "	258.06
+"8. ""Mücke"" "	258.07
+"9. ""Mücken"" "	258.08
+10. Stechmücke /Schnake/Staunze/Gelse/ 	258.09
+"11. ""Floh"" "	258.10
+"12. ""Flöhe"" "	258.11
+13. Schmetterling /Schmetterling/Wei-/ /Feifalter/	258.12
+14. Schwaben 	258.13
+15. Die Kellerassel /Nassel/	258.14
+260	
+"1. ""Maikäfer"" "	260.01
+2. Kleidermotte /Schabe/Motte/ (Genus)	260.01a
+"3. ""Raupe"" "	260.02
+"4. ""Spinne"" "	260.03
+5. Spinnennetz /Spinnweb(en)/-wett(er)/ /-hecken/-fetter/	260.04
+"6. ""Ameise"" (Genus)"	260.04b
+"7. ""Ameisen"" "	260.04c
+"8. ""Wurm"" "	260.05
+"9. ""Würmer"" "	260.06
+10. Ohrwurm /Ohrenhöllerer/-hüller/ /-kriecher/-wutzler/	260.6d
+11. Die Menschen können gehen, aber ein Wurm muß ... /kriechen/krabbeln/sich winden/	260.07
+"12. ""Frosch"" "	260.08
+"13. ""Frösche"""	260.09
+14. Kröte /Kröte/Protz/Murme/Höppin/ /Breitling/eine Breite/	260.10
+15. Kröten 	260.11
+"16. ""Maus"" "	260.12
+"17. ""Heuer hat es/gibt es viele Mäuse"" (SNOB 260.12f)"	260.13
+ 	
+18. Heuschrecke /Heuschrecke/-hupfer/ /-schnecke/-schneider/ /Haberheinß (Genus!	260.12g
+	
+262	
+"1. ""Fuchs"" "	262.01
+"2. ""Füchse"" "	262.02
+"3. ""Wiesel"" "	262.03
+"4. ""Eidechse"" "	262.04
+5. Maulwurf /Wühler/Mahdwerfer/	262.04a
+6. Eichhörnchen /Eichkätzlein/	262.04b
+"7. ""Reh"" "	262.05
+"8. ""Marder"" "	262.06
+"9. ""Ratte"" (Genus)"	262.07
+"10. ""Ratten"" "	262.08
+"11. ""Hase"" "	262.10
+"12. ""Hasen"" "	262.11
+13. Der Hase, den man im Stall hält /Stallhase/Haus-/ /Kinihase/ 	262.12
+"14. ""Fell"" (Katzen haben ein ..."	262.13
+ 	
+264	
+"1. ""Pelz"" "	264.01
+"2. ""Haut"" (Kühe haben eine ...) "	264.02
+"3. ""Häute"" "	264.03
+"4. ""Balg"" (Der Hase hat einen ...) "	264.04
+"5. ""Rabe"" (= Krähe?) /Krapp/ "	264.05
+"6. ""Dohle"" /Dahel/ (Genus) "	
+"7. ""Vogel"" "	264.06
+"8. ""Vögel"" "	264.07
+"9. ""Vögelein"" "	264.08
+"10. ""fliegen"" (Inf. oder eine Pl. form) "	264.09
+"11. ""ich fliege"" (oder andere Sg. form) "	264.10
+"12. ""Star"" (Genus)"	264.11
+"13. ""Stare"" "	264.12
+ 	
+266	
+1. Hühnerhabicht (Achtung! Was ist gemeint?) /Hühner-/Geier/Habel/Stößel/ /Hennenvogel/	266.01
+"2. ""Spatz"""	266.02
+"3. ""Spatzen"""	266.03
+	
+"4. ""Meise"" "	
+"5. ""Schwalbe"" "	
+"6. ""Elster"" (Genus) /Elster/Alster/"	266.03a
+7. Eichelhäher /Nußhäher/Häher/	266.03b
+	
+Das Wetter	
+"8. ""Ihn hat der Blitz erschlagen"" "	266.04
+9. blitzen /hime(l)zen/blitzen/	266.04c
+10. donnern /dorn/rumpeln/	266.05
+11. wetterleuchten /(Hitz-)himelzen/ /Himmelauskühlen/ /Hitzausschlagen/ 	266.06
+"12. ""Der Himmel ist schon schwarz, es ... bald regnen"" (mdal. Futur) /regnet bald/wird regnend/wird regnerisch/ kommt das/zum Regnen/"	266.07
+"13. ""Regen"" "	266.08
+	
+268	
+"1. ""Ihr müßt (euch) einen Schirm mitnehmen"" "	268.01
+"2. ""Schirm"" (wenn nicht oben) "	268.02
+3. Ostwind /böhmischer Wind/Heraufwind/ /der Wind von unten herauf/	268.03
+4. Westwind /bayerischer Wind/Herabwind/ /Regen-/Landwind/der Wind von oben herab/ 	268.04
+5. Südwind /Föhn/warmer Wind/Sonnen- wind/ 	268.05
+6. Nordwind /Waldwind/böhmischer Wind/ 	268.06
+"7. ""Luft"" (Genus) (für Wind?) "	268.09
+"8. ""Wind"" (wenn nicht schon oben) "	268.10
+270	
+1. hageln /rieseln/kieseln/scheuern /stoin(d)eln/schranen/ 	270.01
+2. graupeln (wenn es weder hagelt noch schneit) /aprilen/rieseln/kieseln/ /(schnee-)baisseln/ 	270.02
+3. Wie sagt man, wenn es in den Schuhen vor Nässe gurgelt? /saffezen/sagezen/watscheln/ /pflatschen/ 	270.03
+"4. ""See"" "	270.04
+"5. ""Seen"" "	270.05
+6. Stehendes Gewässer, kleiner als See /Weiher/Tümp(f)el/Teich/ /Lacke/Schwemme/ 	270.06
+7. Wasserpfütze auf der Straße /Lacke/ 	270.07
+"8. ""eine Wolke"" "	270.08
+"9. ""Es sind Wolken am Himmel"" "	270.09
+"10. ""Gewölk"" "	270.10
+ 	
+272	
+"1. ""Heute ist ... schönes Wetter"" "	272.01
+"2. ""blau"" (Der Himmel ist ..."" "	272.02
+"3. ""Heute ist so ein schöner Tag"" /ein so ein/"	272.03
+4. Wie sagt man, wenn es ganz fein regnet? (Es tut ...) /nieseln/neseln/ /nebelreißen/näßeln/ 	272.04
+5. Wie sagt man, wenn es stark regnet? (Es tut ...) /schütten/gießen/tuschen/ 	272.05
+"6. ""neblig""/""neblisch""/ ""Nebel"" (Subst. oder Adj.) "	272.06
+"7. ""Reif"" (am Boden, wenn der Tau gefriert) /Reim/Reif/ "	272.07
+8. Der Rauhreif an den Bäumen, wenn es nachts neblig war und es dann sehr kalt ist (evtl. verbal) /Anreim/(G)Reim/Anhang/	272.08
+	
+274	
+"1. ""Tau"" (Genus) (Was ist an Sommermorgen auf den Wiesen, wenn es schön bleibt?) "	274.01
+"2. ""Eis"" (Wenn das Wasser gefriert, gibt es...) "	274.02
+"3. ""Es friert mich"" "	274.03
+"4. ""gefroren"" (PP zu 3.) "	
+"5. ""(ge)frieren"" (Heute nacht wird es ...) "	274.04
+"6. ""gefroren"" (PP zu 5.) "	274.05
+7. Gänsehaut (ich habe eine ...) 	274.06
+8. Schmerzen der erfrorenen Fingerspitzen (verbal?) /annägeln/urnägeln/nägeln/ /gronigeln/ 	274.07
+9. Frostbeule 	274.08
+"10. ""heiser"" "	274.09
+"11. ""Ich habe Husten"" (Genus)"	274.10
+ 	
+276	
+"1. ""Ich habe Schnupfen"" /Strauche/Katarrh/Sucht/ "	276.01
+"2. ""Krankheit"" (-heit) "	276.02
+"3. ""Es fängt an zu schneien"" "	276.03
+4. Schneien mit Sturm /wehen/wächeln/stöbern 	276.04
+"5. ""Schneeverwehung"" /Schneewehe/-gewäden/ "	276.05
+"6. ""Schau, wie es schneit"" "	276.06
+"7. ""Es hat den ganzen Tag geschneit"" "	276.07
+"8. ""Es hat die ganze Nacht geschneit"" "	276.08
+"9. ""Schnee"" "	276.09
+ 	
+278	
+1. Wie sagt man, wenn gefrorener Schnee unter den Füßen knirscht? /knirschen/knarren/schreien/ /krachen/grameln/knar-/ /knagetzen/	278.01
+"2. ""Schaufel"" (Womit bahnt man im Schnee den Weg?"	278.02
+"3. ""Schaufeln"" "	278.03
+4. Auf der Straße fährt der ... /Schneepflug/ 	278.04
+5. Zum Vergnügen auf dem Eis gleiten mit den Schuhen /schleifen/rutschen/ /schlifezen/ 	278.05
+6. Es ist glatt. /hähl/ 	278.06
+"7. ""rutschen"" (Auf dem Eis kann man leicht aus...) "	278.07
+8. Der primitive kistchen- artige Kinderschlitten /Bockerl(schlitten)/ /Schlittengeiß/Rutscher/ /Bennlein(schlitten)/ (Abb.	278.08
+"9. ""fahren"" (Schlitten-, Schlitt- schuh..."	278.09
+ 	
+280	
+"1. ""er fährt"" (Umlaut?) "	280.01
+"2. ""wir fahren auch"" "	280.02
+"3. ""geheien""/""keien"" (fallen, schmeißen) "	280.03
+4. Hingefallen /Zusammen-/ 	280.04
+5. auftauen (schneefrei werden) /apern/es wird /aper/(auf)leinen/gleinen/ 	280.05
+"6. ""der Mond"" "	280.06
+"7. ""Stern"" "	280.07
+"8. ""Sterne"" "	280.08
+"9. ""Sonne"" "	280.09
+"10. ""scheinen"" "	280.10
+"11. ""geschienen"" "	280.11
+ 	
+282	
+"1. ""Man kann nicht alles wissen"" "	282.01
+"2. ""Der Lehrer weiß auch nicht alles"" "	282.02
+"3. ""Wißt ihr schon das Neueste?"" "	282.03
+"4. ""Ja, ja, das wissen wir schon lange"" (Adv.) "	282.04
+"5. ""Du weißt ja nichts"" "	282.05
+"6. ""Sie wissen es auch nicht"" (3. Pl.) "	282.06
+"7. ""Wäre ich froh, wenn ich das wüßte"" /wissen täte/täte wissen/ /wissad/ "	282.07
+"8. ""Er hat gar nichts gewußt"" "	282.08
+"9. ""fragen"" (Wenn man etwas nicht weiß, muß man halt ...) "	282.09
+"10. ""Wen hast du gefragt?"" "	282.10
+ 	
+284	
+"1. ""Ich habe einen Bauern gefragt"" "	284.01
+"2. ""es kommt mir nicht in den Sinn"" (Bedeutung?"	284.02
+	
+Zeiteinteilung	
+"3. ""Woche"" "	284.03
+"4. ""Wochen"" (ein Monat hat vier ...) "	284.04
+"5. ""Monat"" (Genus) (Ich habe soviel zu tun, daß ich diesen Monat nicht mehr dazu komme) "	284.05
+"6. ""ein Jahr"" "	284.06
+"7. ""Er ist vor zehn Jahren gekommen."" "	284.07
+8. voriges Jahr (wortsoziologische Schichtung) /fert(en)/voriges/letztes/ /vergangenes Jahr/	284.08
+ 	
+286	
+1. Dieses Jahr /heuer/das Jahr/das heurige Jahr/ 	286.01
+2. Frühling /Auswärts/Frühjahr/ 	286.02
+"3. ""Sommer"" "	286.03
+"4. ""Herbst"" "	286.04
+"5. ""Winter"" "	286.05
+"6. ""ein früher Winter"" (Wenn es schon im Oktober schneit, haben wir einen ...) "	286.06
+"7. ""ein später Winter"" (Das Gegenteil von einem frühen Winter ist ein ... Winter) "	286.07
+"8. ""früher"" (... war das ganz anders) "	286.08
+"9. ""Komm aber früher als gestern!"" /früher/ender/eher/eger/ "	
+"10. ""spät"" "	286.09
+"11. ""später"" "	286.10
+ 	
+288	
+Die zwölf Monate aufzählen lassen!	
+Auf Betonung achten!	
+"1. ""Januar"" /Jänner/ "	288.01
+"2. ""Februar"" "	288.02
+"3. ""März"" "	288.03
+"4. ""im März"" /im Märzen/ "	288.04
+"5. ""April"" "	288.05
+"6. ""in den April(en) schicken"" (Am ersten April tut man die Kinder in den ...) "	288.06
+"7. ""Mai"" "	288.07
+"8. ""im Mai"" /im Maien/ "	288.08
+"9. ""Juni"" "	288.09
+	
+290	
+"1. ""Juli"" "	290.01
+"2. ""August"" "	290.02
+"3. ""September"" "	290.03
+"4. ""Oktober"" "	290.04
+"5. ""November"" "	290.05
+"6. ""Dezember"" "	290.06
+"7. ""Eine Woche hat sieben Tage"" "	290.07
+"8. ""Das sind lauter heiße Tage gewesen"" (Umlaut) "	290.08
+	
+Die Wochentage	
+Beginnt die Gewährsperson mit Sonntag oder Montag? So / Mo	
+	
+"9. ""Montag"" "	290.09
+ 	
+292	
+1. Dienstag /Er(ge)tag/ 	292.01
+"2. ""Mittwoch"" /Mik(t)a/Midicher/ "	292.02
+3. Donnerstag /Pfinstag/ 	292.03
+"4. ""Freitag"" "	292.04
+"5. ""Samstag"" "	292.05
+"6. ""Sonntag"" "	292.06
+"7. ""heute"" "	292.07
+"8. ""morgen"" "	292.08
+"9. ""gestern"" /gester/gest/ "	292.09
+10. gestern abend /... auf (d')Nacht/ /... auf die Spät/ /... a' d'Nacht/	292.10
+ 	
+294	
+1. heute abend /heut auf (d')Nacht/ /... auf die Spät/	294.01
+2. heute früh /heute in der Früh/ /heute morgen/ 	294.02
+3. Wie heißt die Zeit um 7-8 Uhr herum? /Früh/ 	294.03
+"4. ""Vormittag"" (Was kommt dann?) "	294.04
+"5. ""Mittag"" (Prüfen, wie lange man noch 'Mittag' sagen kann; bis 1 Uhr, 2 Uhr?) "	294.05
+"6. ""Nachmittag"" "	294.06
+"7. ""der Abend"" "	294.07
+"8. ""Nacht"" "	294.08
+"9. ""Nächte"" "	294.09
+10. finster (Wie wird es, wenn es Nacht wird oder vor einem Gewitter?) (Nach 'finster' fragen, wenn nicht spontan) /nacht/dunkel/grau/schwarz/	294.10
+ 	
+296	
+1. Dasselbe verbal (es fängt an zu ...) /nächteln/dunkeln/grauen/ /es wird nächtlad/	296.01
+2. hell (In der Frühe wird es draußen ...) /tag/grau/licht/ 	296.02
+3. Dass. verbal (Es tut schon ...) /grauen/Tag werden/ 	296.03
+4. Wie fragt man nach der Uhrzeit? /Wie spät ist es?/ /Wieviel ist es?/ 	296.04
+5. 5 Uhr 55 /fünf vor sechs/ /...auf.../ 	296.05
+6. 6 Uhr 15 /Viertel sieben/Viertel nach sechs/...über.../ 	296.06
+7. 6 Uhr 45 /drei Viertel sieben/ /Viertel auf sieben/ /Viertel vor sieben/ 	296.07
+"8. ""halb zehn"" "	296.08
+ 	
+298	
+1. Der ortsübliche Gruß unter Einheimischen /Grüß Gott/Grüß dich (Gott)/ /Servus/Habe die Ehre/ 	298.01
+2. Wie grüßt man um 7-8 Uhr herum? 	298.02
+3. Wie grüßt man dann? 3 bis 5 (Zeitangaben notieren) 	298.03
+4. 	298.04
+5. 	298.05
+6. Gruß zum Ins-Bett-Gehen in der Familie (Sg.) /gute Nacht/schlaf gut/ 	298.06
+7. Gruß zum ins-Bett-Gehen (Pl.) /gut enk Nacht/ 	
+8. Abschiedsgruß zw. Bekannten /Servus/Habe die Ehre/ /Behüte (dich) Gott/ 	298.07
+"9. ""behüte dich Gott"" "	298.08
+"10. ""behüte euch Gott"" "	298.08a
+"11. ""Das hat unser Vater oft gesagt"" "	298.09
+"12. ""Du hast immer etwas zu jammern"" /jammern/gammern/ "	298.10
+ 	
+300	
+"1. ""Fest"" "	300.01
+"2. ""Feste"" "	300.02
+"3. ""feiern"" (Feste muß man ...) "	300.03
+"4. ""Freude"" (Das war eine große ...) "	300.04
+5. Am Neujahrstag geht man zu den Verwandten und tut ... /anwünschen/an-/abge- winnen/ 	300.05
+6. Fasnacht /Fasching/ 	300.06
+"7. ""Larve"" (Was trägt man als Verkleidung vor dem Gesicht?) "	300.07
+8. Maskierte Gestalt /Maskerer/Narr/Fasching- gretel/Fastnachter/ 	300.08
+9. verbal (die gehen ...) /maskerad/	
+"10. ""färben"" (An Ostern tut man die Eier ...) "	300.10
+"11. ""Ostern"" "	300.11
+ 	
+302	
+"1. ""Weihnachten"" "	302.01
+"2. ""Christkind"" (Wer bringt an Weih- nachten die Geschenke?) "	302.02
+3. Nikolaus (6. Dez.) /Nikolaus/Ruprecht/Klaus/ 	302.03
+4. Begleitpersonen des Nikolaus /Krampus/Ruprecht/Klaubauf/	302.03a
+"5. ""Pfingsten"" (50 Tage nach Ostern) "	302.04
+6. Fronleichnamstag (10 Tage nach Pfingsten) /Prangentag/Kranzltag/ 	302.05
+"7. ""Feiertag"" "	302.06
+"8. ""Feiertage"" "	302.06d
+"9. ""Werktag"" "	302.07
+"10. ""Werktage"" "	302.07e
+"11. ""...da ist niemand zu Hause"" (Am Sonntag brauchst du nicht zu kommen, denn da ist bei uns ...) /keiner/niemand/kein Mensch/kein Mensch niemand/ "	
+ 	
+304	
+Richtungs- und Ortsadverbien 	
+"1. ""Komm herein"" "	304.01
+"2. ""Nein, komm du lieber heraus"" "	304.02
+"3. ""Kommt schnell herunter, "	304.03
+"4. ""denn es ist jemand da"" "	304.04
+"5. ""Sag ihm, er soll herauf kommen"" "	304.05
+"6. ""Geh hinunter und hol mir ein Bier"" (in den Keller) "	304.06
+"7. ""Geh schnell hinauf"" "	304.08a
+"8. ""Geh aber ganz leise hinein"" "	304.07
+"9. ""Geht hinaus"" "	304.08
+"10. ""Ich darf nicht kommen"" "	304.09
+"11. ""Ich durfte nicht kommen"" "	304.10
+ 	
+306	
+"1. ""dort drüben überm Bach"" /ent/enterhalb/drenterhalb/"	306.01
+"2. ""da herüben bei mir"" /rent/herent(erhalb)/"	306.02
+"3. ""heroben"" "	306.03
+"4. ""herunten"" "	306.04
+"5. ""droben"" "	306.05
+"6. ""drunten"" "	306.06
+"7. ""komm nach hinten (zu mir)"" /hintere/hinte/hintera/ "	306.07
+"8. ""komm nach vorne (zu mir)"" /virre/virra/ "	306.08
+"9. ""geh rückwärts"" /zruckaus/ärschling/ (BSA)"	306.09
+"10. ""geh nach vorne (zu ihm)"" "	306.10
+"11. ""geh nach hinten (zu ihm)"" (SNOB)"	306.09
+ 	
+308	
+"1. ""Geh zum Nachbarn hinüber"" "	308.01
+"2. ""Geh doch zu mir herüber"" "	308.02
+"3. ""draußen"" /daußt/draußt/ "	308.03
+"4. ""herinnen"" (er sitzt bei uns...) "	308.04
+"5. ""drinnen"" (er ist nicht draußen, sondern (in der Stube) ...) "	308.05
+"6. ""heraußen"" "	308.06
+"7. ""er steht nicht hier, sondern dort"" /dort/dol/ "	308.07
+"8. ""er steht daneben"" (keine Präp.!) "	308.08
+"9. ""er ist mit dem Kopf voraus aus dem Fenster gefallen"" "	308.09
+ 	
+310	
+"1. ""Er muß immer zuvorderst dransein"" /zuvörderst/vorn dran/ "	310.01
+"2. ""Das Auto ist mit dem Dach nach unten gelegen"" "	310.02
+"3. ""mittendurch ist er gefahren"" "	310.03
+"4. ""Zwischendrin ist er gestanden"" "	310.04
+"5. ""aus-/ein-/auf-/abwärts/"" "	310.05
+"6. ""er steht unter der Eiche"" "	310.06
+ 	
+312	
+Blumen	
+1. Löwenzahn /Milchstock/-schock/-blume/ /Zichorie/Wehwurz/Kuh-/ /Saublume/ 	312.01
+"2. ""Rose"" "	312.02
+"3. ""Farn"" "	312.03
+"4. ""Strauß"" "	312.04
+"5. ""Blume"" "	312.07
+"6. ""Blümlein"" "	312.08
+	
+314	
+"1. ""kommen"" "	314.01
+"2. ""gekommen"" "	314.02
+"3. ""ich komme"" "	314.03
+"4. ""du kommst"" "	314.04
+"5. ""er kommt"" "	314.05
+"6. ""wir kommen"" "	314.06
+"7. ""ihr kommt"" "	314.07
+"8. ""sie kommen"" "	314.08
+"9. ""Er hat gesagt, er komme nicht"" "	314.09
+"10. ""Wenn er nur endlich käme!"" "	314.10
+	
+316	
+Frauenarbeit	
+1. Körbchen oder Schachtel, worin die Frauen ihr Nähzeug aufbewahren (sachl. fixieren) /Nähkörblein/-schatulle/ /Flickkorb/-körblein/ 	316.01
+"2. ""Nadel"" (Womit näht man?) "	316.02
+"3. ""Nadeln"" "	316.03
+"4. ""Schere"" "	316.04
+"5. ""Scheren"" "	316.05
+"6. ""Faden"" "	316.06
+"7. ""Fäden"" "	316.07
+"8. ""einfädeln"" "	316.08
+9. Stecknadel (zum Heften, mit farbigem Kopf) /Glufe/Sperl/Versicherungs- nadel/ 	316.09
+10. Sicherheitsnadel (Wenn der Reißverschluß kaputt ist, braucht man eine(n) ...) /Glufe/Sperl/Versicherungs- nadel/ 	
+ 	
+318	
+"1. ""Garn"" (für Häkelarbeiten) "	318.01
+"2. ""ein seidenes Kleid/ seidiges Kleid"" "	318.02
+"3. ""Wolle"" (Was liefert das Schaf?) "	318.03
+"4. ""Baumwolle""/""baumwollen"" (Subst. oder Adj.) "	318.04
+5. Wollknäuel (Genus) /Kleuwlein/Kloim/ 	318.05
+6. Deine Hose ist zerrissen, man muß sie ... /flicken/ 	318.06
+"7. ""nähen"" "	318.07
+"8. ""genäht"" "	318.08
+"9. ""stopfen"" (Wenn die Strümpfe ein Loch haben, muß man sie ...) /stoppen/ "	318.09
+ 	
+320	
+"1. ""Naht"" "	320.01
+"2. ""Nähte"" "	320.02
+"3. ""Stich"" "	320.03
+"4. ""Stiche"" "	320.04
+"5. ""häkeln"" "	320.05
+"6. ""gehäkelt"" "	320.06
+"7. ""saumen"" (Damit ein Tuch nicht ausfranst, muß man es ...) "	320.07
+"8. ""Saum"" (unten am Rock ist ein ...) "	320.08
+"9. ""Näherin"" (Die berufsmäßige Schneiderin) "	320.10
+"10. ""Näherinnen"" "	320.11
+11. Tuch schneiden (mit der Schere) /schneiden/scheren/ 	320.12
+ 	
+322	
+"1. ""schneiden"" (wenn nicht schon oben) "	322.01
+"2. ""geschnitten"" "	322.02
+3. Nach dem Essen muß man das Geschirr... /abwaschen/abspülen/ 	322.03
+4. Das Tuch, das man zum Spülen verwendet /Spültuch/-lappen/-lumpen/ /-hadern/Aufwasch-/ 	322.04
+	
+Wäsche waschen	
+"5. ""waschen"" (anderes Wort dafür? ist zwahen bekannt?) "	322.05
+"6. ""gewaschen"" "	322.06
+"7. ""Wäsche"" "	322.07
+"8. ""einweichen"" (Stark verschmutzte Wäsche muß man vorher ...) "	322.08
+"9. ""Lauge"" "	322.09
+"10. ""Seife"" "	322.10
+"11. ""Seifen"" "	322.11
+	
+324	
+"1. ""Kessel"" "	324.01
+"2. ""aufhängen"" (trans.) "	324.02
+"3. ""aufgehängt"" "	324.03
+4. Die Wäsche nach dem Waschen in klarem Wasser von Seifenresten befreien. /schweiben/schwenken/ 	324.04
+5. Die Wäscheklammern /Kluppen/Klippen/Zwicker/ 	324.05
+"6. ""Die Wäsche hängt am Seil"" (intrans."	324.06
+"7. ""... ist gehangen"" "	324.06
+"8. ""Wäscheseil"" /Strick/Seil/Schnur/ (wenn nicht, dann ""Heuseil"")"	324.07
+"9. ""Wäscheseile"" (wenn nicht, dann ""Heuseil"")"	324.08
+"10. ""trocknen"" "	324.09
+"11. ""trocken"" "	324.10
+"12. ""naß"" (Das Gegenteil von trocken ist...) "	324.11
+13. feucht /zäh/ 	324.12
+ 	
+326	
+1. Die Wäscheseilstützen /Stempen/Stecken/Spreize/ /Stützen/Pflöcke/Stange/ 	326.01
+"2. ""nehmen"" (Wenn man zu dick ist, muß man ein bißchen ab...) "	326.02
+"3. ""genommen"" "	326.03
+"4. ""ich nehme"" "	326.04
+"5. ""du nimmst"" "	326.05
+"6. ""er nimmt"" "	326.06
+"7. ""wir nehmen"" "	326.07
+"8. ""ihr nehmt"" "	326.08
+"9. ""sie nehmen"" "	326.09
+10. Der große Wäschekorb /Waschkorb/-wanne/Sumber/	326.10
+"11. ""nähme"" (Wenn ich ihm einen geben würde, dann ...) "	326.09a
+"12. ""nimm ihn"" (den Apfel) "	326.09b
+13. nimm!/nehmt!/nehmen Sie!/ /se/sets/sens/ 	
+ 	
+328	
+"1. ""bügeln"" "	328.01
+"2. ""gebügelt"" "	328.02
+"3. ""Arbeit"" (Das Waschen ist eine große ...) "	328.03
+"4. ""anfangen"" "	328.04
+"5. ""Wann fängst du an?"" "	328.05
+"6. ""Fangt ihr bald an?"" "	328.06
+"7. ""Wenn er nur bald aufhören würde"" "	328.07
+"8. ""Das würde ich anders(t) machen"" "	328.08
+"9. ""Besen"" "	328.09
+10. Mit dem Besen tut man ... /kehren/fegen/ 	328.10
+ 	
+330	
+1. Den Boden tut man mit Wasser, Lappen und Bürste ... /(zamm-)/(aus-)/(auf)wi- schen/putzen/schruppen/ 	330.01
+"2. ""Man muß fest reiben, sonst wird es nicht sauber"" "	330.02
+3. Der zusammengekehrte Kehricht (Genus) 	330.05
+"4. ""Könntest du mir helfen?"" "	330.06
+"5. ""Ja, ich kann dir schon helfen"" "	330.07
+"6. ""Könnt ihr es auch?"" "	330.08
+"7. ""Nein, wir können euch nicht helfen"" "	330.09
+ 	
+332	
+"1. ""Welchem hast du geholfen?"" /wem/was für einem/dem wel- chen/a wem/ "	332.01
+"2. ""Kannst du das?"" "	332.02
+"3. ""Das müßte man schon können"" "	332.03
+"4. ""Den sollte man schon kennen"" "	332.04
+"5. ""Das ist mir gleich"" "	332.05
+"6. ""Es hat so sein müssen"" (Wortstellung!) "	332.06
+"7. ""Ich muß jetzt gehen"" "	332.07
+"8. ""du mußt"" "	332.08
+"9. ""er muß"" "	332.09
+"10. ""wir müssen"" "	332.10
+ 	
+334	
+"1. ""ihr müßt"" "	334.01
+"2. ""sie müssen"" "	334.02
+"3. ""er hat gesagt, er müsse alles bezahlen"" "	334.03
+"4. ""Da müßte ich lügen"" (Das weiß ich nicht, da ...) "	334.04
+"5. ""ich mußte fort"" (ich konnte nicht mehr länger dableiben, ich ...) /gemußt/müssen/"	334.04a
+ 	
+336	
+Gefäße	
+1. Der bei der Wäsche be- nutzte große Holzbottich (Form, Name) /Zuber/Trog/Kübel/Schaff/ /Bottich/ 	336.01
+ Vorkommen und Bedeutung von: differenzieren nach: 	
+ 1. Verhältnis von ? zu Höhe 	
+ 2. Material 	
+ 3. Funktion 	
+ 4. Handhaben a) Bogen b) Ohren (1 oder mehr) 	
+2. Zuber 	336.02
+3. Brente (Abb.	336.03
+4. Schaff (Abb.	336.05
+5. Schaffe 	336.06
+6. Schäfflein 	336.07
+	
+338	
+Vorkommen und Bedeutung von: 	
+ differenzieren nach: 	
+ 1. Verhältnis von ? zu Höhe 	
+ 2. Material 	
+ 3. Funktion 	
+ 4. Handhaben a) Bogen b) Ohren (1 oder mehr) 	
+1. Kübel 	338.01
+2. Eimer (Abb.	338.02
+3. Gelte 	338.03
+4. Kufe (für Salz) /Kuffe/ 	338.04
+ 	
+340	
+Gemüse	
+"1. ""Garten"" "	340.01
+"2. ""Gärten"" "	340.02
+"3. ""Gärtlein"" "	340.03
+"4. ""Gemüse"" "	340.05
+5. Die Kartoffel /Erdäpfel/Potacken/ 	340.06
+6. Was tut man mit den Saatkartoffeln? (Man tut sie ...) /stecken/(ein)legen/ /stoßen/setzen/einhauen/ 	340.07
+7. Lockern der Erde, damit das Unkraut nicht so sehr wächst /häckeln/häueln/hauen/ 	340.08
+8. Womit tut man das? /Hacke/Haue/Häuel/Krücklein/ (Abb.) 	340.09
+9. jäten /grasen/ 	340.10
+ 	
+342	
+1. Unkraut (Koll.bez.) /Unkraut/Gras/ 	342.01
+"2. ""häufeln"" (Wenn die Pflänzchen größer werden, zieht man die Erde heran; man muß ...) "	342.02
+3. Reihe im Kartoffelfeld /Biefing/Zeile/Beet/ 	342.03
+4. Was macht man mit den Kartoffeln, wenn sie reif sind? (Man tut sie ...) /graben/raustun/klauben/ /ausackern/	342.04
+"5. ""Sack"" (Worin verkauft/transpor- tiert man die Kartoffeln?) "	342.05
+"6. ""Säcke"" "	342.06
+7. Was tun die im Keller gelagerten Kartoffeln im Frühjahr? /auswachsen/wurzeln/(aus-) treiben/Schossen/ (verbal oder als Nomen) 	342.07
+8. Die dunkelrote Bodenfrucht gekocht und geschnitten als Salat /Rannen/ 	342.08
+9. Weißkraut	342.09
+10. Der feste Teil vom Kraut- kopf /Starz/Stingel/Strunk/ /Sterkel/	342.10
+ 	
+344	
+"1. ""einschweren"" (Sauerkraut muß man im Faß ...) (ge-?) "	344.01
+"2. ""Wirsing(kohl)"" (mit krausen Blättern) "	344.02
+3. Blumenkohl /Karfiol/ 	344.03
+"4. ""Rettich"" "	344.04
+5. Die Vogelscheuche /Krautscheuer/Tattermann/ /Kraut-/Hasenscheuche/ /Kraut-/Gabeßmännlein/	344.05
+"6. ""Erbse"" /Arwess/"	344.06
+7. Gurke /Gugkumer/Umurke/Kümmerling/	344.04a
+ 	
+346	
+"1. ""Bohne"" (Wenn nötig, von der Kaffeebohne her fragen) "	346.03
+"2. ""Bohnen"" "	346.04
+"3. ""Spinat"" "	346.05
+"4. ""Salat"" (Was wird mit Essig und Öl angemacht?) (Akzent!) "	346.06
+5. Der Salatkopf (Für eine Familie braucht man 2 - 3 ...) /Kopf/Staude/Häuptlein/ 	346.07
+"6. ""grün"" (ein grüner Salat) "	346.08
+"7. ""gelb"" (ein gelber Salat) "	346.09
+8. Der Krautkopf /Häuptlein/Gabeß/ 	346.10
+ 	
+348	
+"1. ""Zwiebel"" (Genus) (Wie heißt das Küchengewürz, das, wenn man es schneidet, zu Tränen reizt?) "	348.01
+2. Einzelne Hüllblätter der Zwiebel, die man vor dem Schneiden abziehen muß /Haut/Schalen/ 	348.02
+"3. ""Knoblauch"" (von aufdringlichem Geruch) "	348.04
+"4. ""Schnittlauch"" /Schnittling/"	348.04a
+5. Wie nennt man das Gießen der Blumen? /gießen/spritzen/ 	348.05
+6. Die Gießkanne (Diff.) /Spritze/Spritzkrug/-eimer/ /-kanne/ (Abb.	348.06
+7. Wenn eine Gießkanne o.ä. auf den Boden fällt, kriegt sie eine(n) ... /Dalle/Delle/Dulle/Dullake/	348.07
+	
+350	
+Brotbacken	
+"1. ""Beck"" (Wie heißt der, der von Beruf Brot herstellt?) "	350.01
+"2. ""Soll ich morgen auch wieder Brot bringen?"" "	350.02
+"3. ""Er hat es der Wirtin gebracht."" "	350.03
+"4. ""Laib"" (Abb."	350.04
+5. Pl. 	350.05
+6. Langbrot /Kipf/Wecken/ (Abb.	350.06
+7. Der runde harte Brotanschnitt /Ränftlein/(An)Scherz(lein)/ /Anschnitt(lein)/ 	350.07
+8. Brötchen (allg.) (Abb.	350.09
+9. Welche Sorten von Brötchen gibt es? /Wecklein/Laiblein/Schuberl/ 	350.09
+10. Wenn das Brot zu lange liegen bleibt, dann tut es ... /graweln/schimmeln/ (auch als Adjektiv)	350.10
+ 	
+352	
+1. Brosamen /Bröselein/Krümel/ 	352.01
+2. Sehr großes Stück Brot /Ranken/Keil/Scherz/Trumm/ 	352.02
+"3. ""hart"" "	352.03
+"4. ""härter"" "	352.04
+"5. ""Morgen wollen wir backen"" (nicht auf wollen beharren) "	352.05
+"6. ""Nein, das wollen wir nicht"" (wenn nicht oben) "	352.06
+"7. ""Mehl"" "	352.07
+ 	
+354	
+"1. Was tut man zuerst; meist am Vorabend. (Den Vorteig bereiten) /Ura-/Säuer-/-setzen/ /-richten/anrühren/an- dämpfeln/"	354.01
+2. Das gekaufte Gärpräparat /Hefe/Germ/Säuer/ 	354.02
+3. Was verwendet man zu 1.? (Sauerteig, meist vom letzten Mal aufgehoben) /Ura/ 	354.03
+4. Wie nennt man die mit 2./3. durchwirkte Gärmasse (Vorteig), die man über Nacht gehen läßt? /Dämpflein/Teiglein/ 	354.04
+5. Über Nacht muß man den Teig ... /gehen lassen/ (Wortstellung!) 	354.05
+"6. ""Teig"" "	354.06
+7. Der Backtrog (Name, sachl. fixieren, Material, Form) (Genus) (Abb.	354.07
+"8. ""kneten"" (Wort nicht vorsagen!) /wirken/ "	354.08
+"9. ""geknetet"" "	354.09
+ 	
+356	
+1. Was tut man, nachdem der Teig geknetet und aufgegangen ist? (zu Laiben formen) /Laib machen/(aus)wirken/ /formen/ausbacken/-drehen/ /-machen/-brechen/	356.01
+2. Wo läßt man das Brot nach dem Ausformen nochmals gehen? (längliches Brett, ge- flochtene Formschüssel?) /Back-/Nudel-/Brot-/-brett/ /-körblein/	356.02
+3. Instrument, womit die Teigreste im Backtrog zusammengescharrt werden (Sachl. fixieren. Wird es nur dafür oder auch anderweitig verwendet?) /Teig-/Schaber/Schärrer/ (Abb.	356.03
+4. Das auf diese Weise Zusammengebrachte /Zusammenkratzet/-gscharret/ /-gschabet/Ura/ 	356.04
+5. Worin wird gebacken? (Backofen, im Haus oder außerhalb) 	356.05
+6. Instrument, womit die Glut im Ofen verteilt wird (auch im Stufenofen) und womit zuletzt die Glut (Asche) aus dem Ofen gescharrt wird /Krücke/Kl-/ (Abb.	356.06
+7. Das Instrument, das zur Reinigung des Ofens gebraucht wird (Stecken mit Lumpen, Reisig, nasses Stroh) /Back-/Kehr-/Wisch/Ofen-/ /Wisch-/Backbesen/	356.07
+ 	
+358	
+1. Instrument, mit dem man das Brot in den Ofen schießt /Ofen-/Back-/Brotschießel/ /-schaufel/ (Abb.	358.01
+"2. ""einschießen"" (das Brot in den Ofen ...) "	358.01a
+"3. Wie wird das Brot zu Hause aufbewahrt? (Brett von der Kellerdecke? Typ feststellen; Warum?) /Schragen/Brotrahmen/ /-ständer/-steige/ (Abb."	358.03
+4. Die Menge Brot, die auf einmal gebacken wird /Bäcke/Bächt/Schuß/ /Bachendes/	358.04
+ 	
+360	
+Bekleidung	
+1. Wie hat man früher für die Bekleidung gesagt? (ev. über Kleiderschrank) /Ware/Gewand/Montur/ /Gewambs/ 	360.01
+"2. ""Hemd"" "	360.02
+"3. ""Hemden"" "	360.03
+"4. ""Pfeit""/""Pfeiten"" "	360.03c
+"5. ""Handschuh"" "	360.08
+ 	
+362	
+1. Kleidung anziehen /sich anlegen/sich anziehen/ 	362.01
+"2. ""ich lege mich an"" "	362.02
+"3. ""du legst dich an"" "	362.03
+"4. ""er legt sich an"" "	362.04
+"5. ""wir legen uns an"" /uns/sich/ "	362.05
+"6. ""ihr legt euch an"" "	362.06
+"7. ""sie legen sich an"" "	362.07
+"8. ""legen"" "	362.08
+"9. ""gelegt"" "	362.09
+"10. ""Strumpf"" /Stumpf/ "	362.10
+"11. ""Strümpfe"" "	362.11
+"12. ""Ferse"" (Genus) "	362.12
+ 	
+364	
+"1. ""Die Schuhe sind aus Leder"" "	364.01
+2. Der Schuhmacher /Schuster/ 	364.02
+"3."" Holzschuhe"" "	364.04
+"4. ""binden"" "	364.05
+"5. ""gebunden"" "	364.06
+6. Schlaufe beim Binden der Schuhe /Masche/ 	364.07
+"7. ""einschmieren"" (die Werktagsschuhe mit Fett ...) (schmirben?) "	364.08
+"8. ""Sohle"" (zuunterst am Schuh ist die ...) "	364.09
+"9. ""Sohlen"" "	364.10
+"10. ""Beide Sohlen sind hin"" "	364.11
+ 	
+366	
+"1. ""beide Häuser"" (oder anderes Neutr.) "	366.01
+2. Das Knarren neuer Schuhe (Sie tun ...) /knarzen/knarren/knagetzen/ /garetzen/zwigatzen/ 	366.02
+3. Schürze (Genus) /Fürfleck/-tuch/Schurz/ /Fetzen/Schäber/ (sachl. fixieren) 	366.03
+"4. ""dreckig""/""drecket"" "	366.04
+"5. ""Deine Hose ist voller Dreck"" "	366.05
+6. Wenn man Kaffee auf dem Tischtuch verschüttet, gibt es einen... /Fleck/ 	366.06
+7. Tintenfleck im Schulheft der Kinder /Klecks/Batzen/ 	366.07
+8. Flickflecken aus Stoff (Pl.!) /Fleck/ 	366.08
+"9. ""Mase"" (Narbe) "	366.09
+	
+368	
+"1. ""Ärmel"" (zeigen) "	368.01
+"2. ""ein enger Ärmel"" (Das Gegenteil von einem weiten Ärmel ist ...) "	368.02
+3. Kleidungsstück zw. Hemd und Rock der männlichen Alltags- kleidung (nicht Tracht) /Leibel/Weste/Schmieß/Bluse/	368.03
+"4. ""Tasche"" "	368.04
+"5. ""Taschen"" "	368.05
+"6. ""Das kann ich nicht tragen"" (Ich unbetont!) "	368.06
+"7. ""Er hat alles allein getragen"" "	368.07
+"8. ""ich trage"" "	368.08
+"9. ""ich trage ihn"" "	368.08a
+"10. ""du trägst"" "	368.09
+"11. ""er trägt"" "	368.10
+"12. ""wir tragen"" "	368.11
+"13. ""ihr tragt"" "	368.12
+"14. ""sie tragen"" "	368.13
+	
+370	
+Komparation	
+(Immer vom Gegenteil her fragen!)	
+	
+"1. ""leicht"""	370.01
+"2. ""leichter"" (das Gegenteil von 'schwer') (ext.) "	370.02
+	
+"3. ""weit"""	370.03
+"4. ""weiter"" (Gegenteil von 'eng') "	370.04
+	
+"5. ""breit"""	370.05
+"6. ""breiter"" (Gegenteil von 'schmal') "	370.06
+	
+"7. ""schmal"""	370.07
+"8. ""schmäler"" (anderes Wort für 'eng') "	370.08
+	
+"9. ""warm"" (Gegenteil von 'kalt') "	370.09
+"10. ""wärmer"""	370.10
+"11. ""heiß"" (Gegenteil von 'kalt') "	370.11
+"12. ""heißer"""	370.12
+"13. ""kalt"" "	370.13
+	370.14
+"15. ""groß"" 16. ""größer"" (Gegenteil von 'klein') "	370.15
+"14. ""kälter"""	370.16
+"17. ""der Größte"" "	370.16d
+18. Vergleichspartikel /als/wie/denn/ (größer ... ich. Vorsagen, wählen lassen)	370.17
+ 	
+372	
+"1. ""stark"""	372.01
+"2. ""stärker"" (Gegenteil von 'schwach') "	372.02
+	
+"3. ""klein"""	372.03
+"4. ""kleiner"" (Gegenteil von 'groß') "	372.04
+	
+"5. ""der Kleinste"" "	372.04a
+"6. ""zäh"""	372.05
+"7. ""zäher"" (Gegenteil von 'weich' - beim Fleisch) "	372.06
+	
+"8. ""ein Bett"" "	372.07
+"9. ""Betten"" "	372.08
+10. Das Leintuch /Bettuch/ 	372.09
+11. Das Federbett /Zudecke/Höhbett/Tuchat/ (Genus)	372.10
+12. Der Bettüberzug /Bettziech/ 	372.11
+13. Das Kopfkissen /Polster/Kopfhaupten/ 	372.12
+"14. ""schlafen"" (Heute habe ich gut ...) (Inf. oder PP."	372.14
+ 	
+374	
+"1. ""Er ist stehend eingeschla- fen"" /im Stehen/ "	374.01
+2. leicht, oberflächlich schlafen (im Sessel) /nonen/naffezen/launen/ /launeln/nazen/ 	374.02
+"3. ""liegen"""	374.03
+"4. ""gelegen"" (ich habe .../Ich bin ...) "	374.04
+	
+"5. ""ich liege"" "	374.05
+"6. ""du liegst"" "	374.06
+"7. ""er liegt"" "	374.07
+"8. ""wir liegen"" "	374.08
+"9. ""ihr liegt"" "	374.09
+"10. ""sie liegen"" "	374.10
+"11. ""ich läge"" "	374.10a
+ 	
+376	
+"1. ""stehen"" "	376.01
+"2. ""gestanden"" (ich habe/bin...) "	376.02
+"3. ""ich stehe"" "	376.03
+"4. ""du stehst"" "	376.04
+"5. ""er steht"" "	376.05
+"6. ""wir stehen"" "	376.06
+"7. ""ihr steht"" "	376.07
+"8. ""Steht ihr endlich auf?"""	376.07c
+"9. ""sie stehen"" "	376.08
+"10. ""Wenn er doch endlich aufstände"" "	376.09
+"11. ""Er hat gesagt, er stehe nicht auf."" "	376.10
+ 	
+378	
+Küche	
+1. Holzspäne zum Anfeuern, vom Scheit geschnitten /Spreißel/Späne/Kien(späne)/ 	378.01
+2. Wie sagt man, wenn aus Ritzen des Ofens Rauch dringt? (bei feuchtem Holz, bei Föhn) (Es tut fürchterlich ...) /rauchen/qualmen/ 	378.02
+3. Kamin (Genus) /Kamin/Schlout/Rauchfang/ /Russe/ 	378.03
+4. Kaminkehrer /Rauchfangkehrer/ 	
+5. Der Wasserhahn (in der Küche, wo das Wasser rauskommt, wenn man aufdreht) /Hahn/Wechsel/ 	378.04
+6. Der Ausguß 	378.05
+7. Kochlöffel 	378.06
+8. Schöpflöffel zum Herausnehmen der Suppe /Schöpfer/ 	378.07
+"9. ""Kelle"" (wenn nicht oben) (Der Maurer braucht eine ..."	378.08
+380	
+"1. ""Reibeisen"" (Abb."	380.01
+2. Schäufelchen zum Umdrehen der Bratkartoffeln /Muser/Schäufelchen/ /Schärrer/ (Abb.	380.02
+"3. ""Hafen"""	
+"4. ""Häfen"" (Fleischtopf zum Kochen) (Abb."	380.03
+	380.04
+5. Fleischtopf zum Braten (flach, rund) /T(i)egel/ (Abb.	380.05
+6. Fleischtopf zum Braten (flach, eckig) /Raine/ (Abb.	380.06
+7. Griff am Hafen /Henkel/Griff/Handhabe/ /Handung/ 	380.07
+"8. ""Griff"""	380.09
+"9. ""Griffe"" "	380.10
+	
+"10. ""einen neuen Deckel"" (Wenn der alte kaputt ist, brauchen wir ...) "	380.11
+	
+382	
+1. Nudelwalker /-holz/ (Abb.	382.01
+"2. Brat-""Pfanne"" (Abb."	382.02
+"3. ""Dampf"" (Was kommt heraus, wenn man beim Hafen den Deckel hebt?) "	382.03
+"4. Kollektivbezeichnung für das Küchen-""Geschirr"" "	382.04
+5. Kaffeetasse /Schale/Schälchen/ /Häflein/ 	382.05
+"6. ""Die Milch steht auf dem Tisch"" (Dat. Sg.) "	382.06
+"7. ""Tisch"""	382.07
+"8. ""Tische"" "	382.08
+	
+"9.""Krug"" /Krug/Krugel/Kriagl/"	382.08e
+"10. ""Glas"" (Woraus trinkt man?) "	382.09
+"11. ""Gläser"""	382.10
+"12. ""Gläslein"" "	382.11
+ 	
+384	
+"1. ""Teller"" (Genus) (Woraus ißt man bei Tisch?) "	384.01
+"2. ""Löffel"" "	384.02
+"3. ""die Gabel"" (Genus)"	384.03
+"4. ""Messer"" "	384.04
+"5. ""Suppe"" "	384.05
+"6. ""Suppen"" "	384.06
+ 	
+386	
+Wohnung	
+"1. ""die Tür"" "	386.01
+"2. ""Türen"" (Das Zimmer hat zwei ...) "	386.02
+3. Wenn die Türe nicht geölt ist, tut sie .... /knarzen/quietschen/garet- zen/knagetzen/k-/zwigatzen/	386.03
+4. Wenn man kommt, muß man zuerst an der Tür ... /(an)klopfen/ 	386.04
+5. Unerlaubtes Horchen an der Tür /lusen/ 	386.05
+6. lauern, lugen (Wenn man nicht gesehen werden will, muß man vorsichtig um die Ecke herum....) /luren/ 	
+"7. ""bücken"" (Wenn die Tür zu niedrig ist, muß man sich ...) "	386.06
+"8. ""Schwelle"" (Wo die Tür ansteht, ist die Tür ....) (Genus) (ev. alter Ausdruck dafür) /Ge-/Drischübel/ "	386.07
+9. Die Türklinke /Griff/Klinker/Schnalle/ /Felste/	386.08
+"10. ""herunterdrücken"" (Die Türklinke muß man ...) /abher-/ine-/drücken/"	386.09
+"11. ""Riegel"" (das, was man am Abend vorschiebt)"	386.10
+	
+388	
+"1. ""Schlüssel"" "	388.01
+2. Mit dem Schlüssel tut man die Tür ... /(zu-)schließen/-sperren/ 	388.02
+"3. ""sperren"" (wenn nicht oben) (ev. in anderer Bedeutung) "	388.03
+"4. Vorhänge""schloß"" /Ge-/ (Abb."	388.04
+"5. ""Schlösser"" "	388.05
+"6. ""das Fenster"" "	388.06
+"7. ""die Fenster"" "	388.07
+"8. ""Die Scheiben sind aus/ von Glas"" "	388.08
+9. Fenstersims (innen/außen) (Genus) /Brett(lein)/Bank/ /(Ge)sims/ 	388.09
+10. Fensterladen (Sg.) /Schalú/ 	388.10
+"11. ""Boden"" (in der Stube) "	388.11
+"12. ""Böden"" "	388.12
+ 	
+390	
+"1.""Decke"" (in der Stube) "	390.01
+"2. ""Wand"" "	390.02
+"3. ""Wände"" "	390.03
+"4. ""Stuhl"" (Abb."	390.04
+"5. ""Stühle"" "	390.05
+"6. ""Setz dich hin!"" (Richtungsadverb) /hin/nieder/ine/ "	390.06
+"7. ""Lehne"" (Stuhllehne) "	390.07
+"8. ""lehnen"" (sich daran an...) "	390.08
+"9. ""Bank"" (wenn nicht schon oben) (Abb."	390.10
+"10. ""Bänklein"" "	390.11
+"11. ""Sie haben noch die alten Bänke in der Stube."" "	390.12
+12. Sofa /Sofa/Kanapee/Diwan/ /Ottomane/ 	
+	
+392	
+"1. ""Kasten"" (Wo werden die Kleider aufbewahrt?) "	392.01
+2. Wie nennt man die Holztruhe, worin Wäsche und andere Sachen auf- bewahrt werden? (oben mit Klappdeckel, flach/ gewölbt) /Truhe/-g-	392.02
+3. Wo wird das Geschirr aufbewahrt? (Gestell mit Querstangen) /Schüsselkorb/-rahmen/	392.03
+	
+Wärme-, Lichtquelle	
+"4. ""Ofen"" "	392.04
+"5. ""Öfen"" "	392.05
+"6. ""Feuer"" (im Ofen brennt ein ...) "	392.06
+"7. ""Asche"" (Genus) (Was man rausräumen muß, bevor man ein Feuer anzündet)"	392.07
+"8. ""Kerze"" "	392.09
+"9. ""Kerzen"" "	392.10
+"10. ""Docht"" "	392.11
+"11. ""Dochte"" "	392.12
+ 	
+394	
+1. Brenzelig riechen bei Feuersbrunst /branteln/räucheln/ 	394.02
+"2. ""brennen"" (Die Kerze/das Feuer tut...) (Inf.!) /brinnen/"	394.03
+"3. Da hat es ganz schön ""ge- brannt"" (PP zu 2.) /gebrunnen/"	
+"4. Paß auf, du wirst dich noch ""(ver)brennen"" (Inf.!) /(ver)brinnen/"	
+"5. Der hat sich ganz schön ""ver-/gebrannt"" (PP zu 4.) /ver-/gebrunnen/"	394.04
+ 	
+396	
+1. Eine Kerze anzünden /ankenten/-zenten/ 	396.01
+"2. ""Wachs"" "	
+3. Wenn es kalt ist, muß man den Ofen ... /einheizen/-schüren/unter- kenten/ (SNOB 396.02)	396.03
+4. Das Feuer im Ofen brennend erhalten (von Zeit zu Zeit muß man immer wieder einmal ...) /nachschüren/-heizen/nach-/ /drauflegen/ (SNOB 396.03)	396.04
+	
+398	
+Essen und Trinken	
+1. Das Frühstück (wann?) /Kaffee/Morgen-/Früh-/Suppe/	398.01
+2. Die Zwischenmahlzeit am Vormittag (wann?) /Brotzeit/Neunerbrot/	398.02
+3. Das Mittagessen (Akzent) /Mittagsuppe/Mittag ma- chen/Mittagsmahl/Essen/ 	398.03
+4. Die Zwischenmahlzeit am Nachmittag (wann?) /Brotzeit/Dreibrot/ 	398.04
+5. Das Nachtessen (wann?) /Nachtessen/-suppe/-mahl/ 	398.05
+"6. ""essen"" "	398.06
+"7. ""gegessen"" "	398.07
+"8. ""nüchtern"" (In der Frühe, wenn man noch nichts gegessen hat, ist man ..."	398.08
+ 	
+400	
+"1. ""Ißt er schon?"" "	400.01
+"2. ""Habt ihr nichts zu essen für uns?"" "	400.02
+"3. ""Nein, wir haben selbst nichts"" "	400.03
+4. Fettschicht auf der gekochten Milch /Haut/ 	400.04
+"5. ""mahlen"" (Kaffeebohnen muß man ...) "	400.05
+"6. ""gemahlen"" "	400.06
+"7. ""Der Kaffee ist lauwarm"" /lawelet/ "	400.07
+"8. ""Zucker"" "	400.08
+"9. ""Das mag ich gern"" "	400.09
+"10. ""holen"" (Du mußt mir etwas zum Essen ..."	400.10
+ 	
+402	
+"1. ""Sie haben unseren Vater geholt"" "	402.01
+"2. ""Er holt Milch"" "	402.03
+"3. ""Man kann nicht alles haben"" "	402.05
+"4. ""Ich habe Hunger"" "	402.06
+"5. ""Ich habe Glück gehabt"" "	
+"6. ""du hast"" "	402.07
+"7. ""er hat"" "	402.08
+"8. ""wir haben"" "	402.09
+"9. ""ihr habt"" "	402.10
+"10. ""sie haben"" "	402.11
+"11. ""Vielleicht hätte er Zeit"" "	402.11b
+ 	
+404	
+"1. ""Er hat gesagt, er habe keine Zeit"" "	404.01
+2. Marmelade 	404.02
+"3. ""Gugelhupf"" (runder Kuchen mit Loch in der Mitte) "	404.03
+4. Weihnachtsbrot mit Früchten /Gletzen-/Hutzelbrot/ 	404.04
+5. Kleines Weihnachtsgebäck /Plätzchen/Springerl/ /Zelten/Leckerlein/Guatl/ 	404.06
+6. Omelette /Pfannkuchen/ 	404.07
+"7. ""Schmarren"" (zerkleinerter Pfannkuchen)"	404.08
+8. Knödel /Knoden/	404.07e
+ 	
+406	
+"1. ""Gib mir ein bißchen Salz"" /ein bißchen ein/ "	406.01
+"2. ""zu wenig"" (Das ist mir ...) "	406.02
+3. Wie sagt man von der Suppe, wenn sie zu wenig gesalzen ist? /fad/leer/süß/letschert/ 	406.03
+4. Das Gegenteil davon /versalzen/räß/zu scharf/sauer/ 	406.04
+5. bitter /hantig/laidig/härb/ 	
+"6. ""Schmalz"" "	406.05
+"7. ""Unschlitt"" (Vorkommen und Bedeutung) (ausgelassenes Rinderfett?) /Inslett/ "	406.06
+8. Rückstand beim Buttereinsieden /Saueres/saures Schmalz/ 	406.07
+"9. ""Grieben"" (Rückstand beim Einsieden von Schweineschmalz) "	406.08
+"10. ""Fleisch"" "	406.09
+11. fett (Das Fleisch ist ...) /feist/feiß/ 	
+ 	
+408	
+1. Kartoffeln tut man ... /sieden/kochen/dämpfen/ 	408.01
+"2. ""gesotten"" "	408.02
+"3. ""kochen"" "	408.03
+"4. ""gekocht"" "	408.04
+"5. ""ich koche"" "	408.05
+"6. ""du kochst"" "	408.06
+"7. ""er kocht"" "	408.07
+"8. ""wir kochen"" "	408.08
+"9. ""ihr kocht"" "	408.09
+"10. ""sie kochen"" "	408.08b
+"11. ""braten"" "	408.10
+"12. ""gebraten"" "	408.11
+13. Schweinebraten 	408.12
+"14. ""Braten"" (wenn nicht unter 13.) "	408.13
+ 	
+410	
+1. Bratkartoffeln 	410.03
+"2. ""rösten"" "	410.04
+3. Kartoffelbrei /Stampf/Sterz/Erdäpfelbrei/ /-pürree/ 	410.05
+4. Schaum (vom Bier) /Foum/ 	410.06
+"5. ""sparen"" (Geld soll man nicht vergeuden, man soll es ..."	410.07
+ 	
+412	
+1. Kartoffelnudeln 	412.02
+"2. Dampfnudel (Hefeteig, im Tiegel gebacken; der Deckel darf nicht gehoben werden) "	412.03
+ 	
+414	
+"1. ""Grieskoch"" (Griesbrei) "	414.01
+"2. ""anbrennen"" "	414.04
+"3. ""abbrennen"" (Unterschied des Präfixes als Minimalpaar prüfen!) "	414.05
+"4. ""Wir mögen es schon"" "	414.06
+"5. ""Mögt ihr es?"" "	414.07
+"6. ""Magst du das?"" "	414.08
+"7. ""gemocht"" "	
+"8. ""Speck"" "	414.09
+	
+416	
+"1. ""Schinken"" "	416.01
+"2. ""Wurst"" "	416.02
+"3. ""Würste"" "	416.03
+4. Schnur zum Abbinden der Wurst /Spagat/	416.04
+5. Fleisch in den Kamin hängen und ... /räuchern/selchen/ 	416.05
+"6. ""einsuren"" (Vor dem Räuchern muß man das Fleisch ca. 14 Tage in Salz einlegen) "	416.06
+7. Dreieckige Papiertüte /Roge(l)/Stranitze/ /Stan(r)itze/ (SNOB 416.09)	416.07
+8. Zuckerbonbons (zum Lutschen, bes. für Kinder) /Zuckerlein/Guetlein/ /Zeltlein/Gutes/	416.10
+ 	
+418	
+"1. ""Ich habe kein Geld mehr"" "	418.01
+"2. ""Wenn ich Geld hätte"" /...ein Geld.../ "	418.02
+"3. ""kauen"" (Bevor man das Essen hinunterschluckt, muß man es gut ...) "	418.03
+"4. ""gekaut"" "	418.04
+"5. ""beißen"" "	418.05
+"6. ""gebissen"" "	418.06
+7. (abhin)schlucken /schlucken/schlinden/ /drucken/schlicken/abhin- drosseln/	418.07
+"8. ""trinken"" "	418.08
+"9. ""getrunken"" "	418.09
+"10. ""saufen"" (vom Vieh sagt man nicht trinken, sondern ...) "	418.10
+"11. ""gesoffen"" "	418.11
+12. Was tut man in die Radlermaß hinein? (Bier und ...) /Schampas/Kracherl/	418.12
+"13. ""leer"" (Das Glas ist ...) "	418.13
+	
+420	
+Spiele	
+"1. ""Spielzeug"" (Genus) "	420.0a
+2. Womit spielen die kleinen Mädchen am liebsten? /Puppe/Tocke/ 	420.01
+"3. ""Die kleinen Mädchen spielen gern mit andern Mädchen, aber sie spielen nicht gerne mit den Buben."" "	420.02
+4. Sich spielend kurzweilen (von kleinen Kindern: Die brauchen nicht zu arbeiten, die können den ganzen Tag ...) /spielen/tockeln/hausen/ (refl.?	420.03
+"5. ""Die Kinder spielen im Garten"" "	420.03b
+6. Wie ein Faß seitlich einen Hang herunterrollen (von Kindern) /kugeln/hinabwalzen/ /-wutzeln/	420.04
+7. Ein Kind Huckepack tragen /Buckelkrax(en) tragen/ 	420.05
+8. Fangen spielen /Fangerles/Fangenmandl/ /Nachrennen/-laufen/ /Habeltaubenfangen/	420.06
+ 	
+422	
+"1. ""Welchen (von den Buben) hast du gefangen?"" "	422.01
+"2. ""Welcher ist es gewesen?"" (substantivisch) "	422.02
+"3. Wenn Kinder zu sehr umtreiben, sagt die Mutter: ""Jetzt langts dann!"" /nacha/aft/aber/ "	422.03
+4. Verstecken spielen /Versteckerles/Gukubergen/ /Einschauen/	422.04
+5. Blinde Kuh spielen /Blinde Mäuse/- Katzen/ /- Kuh/fangen/ 	
+6. Purzelbaum /Purzelbaum/Gukumater/ /(Kugel)Mückenschieß/ 	422.05
+7. Kinderkreisel /Dradewawal/Bär/Bummelhund/ /Burrer/Hex/ 	422.06
+8. Kleine tönerne/gläserne Kugeln, mit denen die Kinder spielen /Schusser/Kugeln/Äber (kugeln)/Steinerer/	422.07
+"9. Auf einer Hängeschaukel schaukeln; wie nennt man die Schaukel? (ev. Diff.: Brett und Seil, Brett und Balken) /Hetsche/Schaukel/ /Hutsche/Schutze/ "	422.08
+"10. ""gewinnen"" "	422.09
+"11. ""gewonnen"" "	
+	
+423	
+"1. ""Ich weiß nicht, wo ich bin"" "	423.01
+"2. ""..., wo du bist"" "	423.02
+"3. ""..., wo er ist"" "	423.03
+"4. ""..., wo wir sind"" "	423.04
+"5. ""..., wo ihr seid"" "	423.05
+"6. ""..., wo sie sind"" "	423.06
+	
+424	
+"1. ""verlieren"" (Gegenteil von gewinnen) "	424.01
+"2. ""Wegen dir haben wir ver- loren."" /wega dir/zwengs deiner/"	424.02
+"3. ""Verlier es nicht!"" "	424.03
+"4. ""Er verliert manchmal etwas"" "	424.04
+5. Buben tun nach der Schule gern... /raufen/ 	424.05
+"6. ""Das tun wir nicht"" (sagen die Mädchen) "	424.06
+7. Das Blasinstrument aus Weidenästchen (im Frühjahr, wenn im Saft) /Pfeiferl/Pfurzer/ 	424.07
+"8. ""pfeifen"" "	424.08
+"9. ""schießen"" (Mit dem Gewehr kann man ...) "	424.09
+"10. ""geschossen"" "	424.10
+ 	
+426	
+"1. ""ich treffe"" "	426.01
+"2. ""du triffst"" "	426.02
+"3. ""er trifft"" "	426.03
+"4. ""Blei"" (Zum Schießen braucht man Pulver und ...) "	426.04
+5. Mit dem Feuer (unerlaubterweise) spielen (von Buben bes. im Frühjahr mit dürren Grasresten) /zündeln/lichteln/ /feuerln/fuchteln/ 	426.05
+"6. ""Denen werde ich es zeigen"" (Dem. Pron. Dat. Pl., betont) "	426.06
+"7. ""er hat nichts zu tun"" "	426.07
+"8. ""ich tue das"" "	426.08
+"9. ""du tust"" "	426.09
+"10. ""er tut"" "	426.10
+ 	
+428	
+"1. ""wir tun"" "	428.01
+"2. ""ihr tut"" "	428.02
+"3. ""sie tun"" "	428.03
+"4. ""Ich habe gehört, er tue überhaupt nichts"" "	428.04
+"5. ""Wenn der faule Kerl doch auch einmal etwas täte!"" "	428.05
+"6. ""Er will nie etwas tun"" "	428.06
+"7. ""Der hat noch nie etwas getan"" "	428.07
+"8. ""Den erwische ich schon noch!"" (Dem.Pron. betont) "	428.08
+"9. ""kegeln"" (Männer tun im Wirtshaus gerne ...;Geste) /kegelscheiben/"	428.09
+10. PP. 	
+ 	
+430	
+"1. ""Kugel"" "	430.01
+2. werfen (Buben tun Steine ...) /keien/ 	430.02
+	
+Pers. Pron./Dem.Pron. in betonter Stellung:	
+"3. ""Jetzt komme ich dran"" "	430.03
+"4. ""Jetzt kommst du dran"" "	430.04
+"5. ""Jetzt kommt er dran"" "	430.05
+"6. ""Jetzt kommt der dran"" "	430.06
+"7. ""Jetzt kommt sie dran"" /is/ "	430.07
+ 	
+432	
+"1. ""Jetzt kommt die dran"" "	432.01
+"2. ""Jetzt kommen wir dran"" "	432.02
+"3. ""Jetzt kommt ihr dran"" "	432.03
+"4. ""Jetzt kommen die dran"" (Pl.! Lautl. Diff. von 1.?)"	432.04
+"5. ""Jetzt kommen sie dran"" "	432.05
+"6. ""brich fei nichts ab!"" (Breze: ""Brich dir ein Stück ab!"") "	432.05g
+"7. ""Brich es nicht!"" "	432.05h
+	
+434	
+Familie und Verwandtschaft	
+1. Wie nennt man die Gesamt- heit der Verwandtschaft? /Freundschaft/Blase/Rasse/ 	434.01a
+2. Wie sagt(e) die Gewährs- person zu ihrem Vater? (altes Kinderwort) /Vat(t)er/Tada/ 	434.01
+3. Wie sagen die Kinder heute? (neues Kinderwort) /Papa/Vati/ 	434.02
+"4. ""Sie hat ihren Vater ange- logen"" "	434.03
+"5. ""Ich habe dem Vater ge- schrieben"" "	434.04
+"6. ""ich muß ihm schreiben"" (Pers. Pron. unbetont) "	434.05
+7. Wie sagt(e) die Gewährs- person zu ihrer Mutter? (altes Kinderwort)	434.07
+8. Wie sagen die Kinder heute? (neues Kinderwort) (auf sp. Belege achten!	434.08
+"9. ""die Mutter"" "	434.09
+"10. ""Mütter"" "	434.10
+	
+436	
+"1. ""unsere Mutter"" "	436.01
+"2. ""eure Mutter"" "	436.02
+3. Wie sagte die Gewährsper- son zu ihrem Großvater? /Ahnherr/E(h)dl/(Groß)va- ter/Opa/	436.03
+4. Wie sagen die Kinder heute zu ihrem Großvater? (auf sp. Belege achten!) 	436.04
+5. Wie sagte die Gewährsper- son zu ihrer Großmutter? /Wawa/A(h)dl/Oma/Großmut- ter/	436.05
+6. Wie sagen die Kinder heute zu ihrer Großmutter? (auf sp. Belege achten!) 	436.06
+"7. ""mein Bruder"" /meiniger/ "	436.07
+"8. ""ihr Bruder"" "	436.08
+"9. ""meine Brüder"" "	436.09
+"10. ""ihre Brüder"" "	436.10
+"11. ""meine Schwester"" "	436.11
+"12. ""ihre Schwester"" "	436.12
+"13. ""meine Schwestern"" "	436.13
+"14. ""ihre Schwestern"" "	436.14
+438	
+"1. ""Base"" (Verwandtschaftsgrad!) "	438.01
+"2. ""Geschwisterkinder"" "	438.01a
+3. Mädchen (Ortsübl. Bezeichnung) /Madl/Deandl/Mensch/ 	438.02
+"4. ""Tochter"" "	438.03
+"5. ""Töchter"" "	438.04
+6. Bube (Ortsübl. Bezeichnung) /Bou/Bua/ 	438.05
+7. Schwägerin (Die Frau meines Bruders ist meine ...) 	438.06
+"8. ""Schwager"" "	438.07
+"9. ""Vetter"" (In Verbindung mit Perso- nennamen, vor- oder nachgestellt?) (Verwandtschaftsgrad!) "	438.08
+10. Schwiegersohn /Tochtermann/Eidam/ 	438.09
+"11. ""Sohn"" "	438.10
+"12. ""Söhne"" "	438.11
+	
+440	
+1. Taufpatin /Tot(e)/Got(e)/ 	440.01
+2. Taufpate /Töte/Göte/ 	440.02
+"3. ""taufen"" "	440.03
+"4. ""Taufe"" (Das war eine schöne ...) "	440.04
+"5. ""Name"" (Bei der Taufe kriegt das Kind einen ...) "	440.05
+"6. ""Namen"" (... oder mehrere...) "	440.05c
+"7. ""Hebamme"" /Hebammin/ "	
+8. Wie nennt man den Gummi- sauger, den man dem Säug- ling zur Beruhigung gibt? /Schnuller/Sauger/Dutzel/ /-i-/Lutscher/Sutzler/	440.06
+9. Wie nannten die Alten den Saugbeutel für die Klein- kinder? (Stück Leinwand, in das gekautes Brot und Zucker eingelegt war) /Painzen/Hadernsutzler/ /Schnuller/	440.07
+"10. ""saugen"" "	440.08
+	
+442	
+1. Wie nennt man das Herum- kriechen der kleinen Kinder auf dem Boden? /rutschen/krabbeln/krie- chen/rücken/grägeln/ 	442.01
+2. Wenn die ganze Fam. das Haus verließ, mußte jemand da sein, um ... /das Haus hüten/- wächten/ /- halten/gaumen/	442.02
+"3. ""Als ich noch ein kleiner Bub war"" /wie/wo/ (vorsagen und auswählen lassen) "	442.03
+4. Was hängt man den Kindern um, damit sie sich nicht schmutzig machen? /Lätzlein/Hangerl/Bärtlein/ 	442.04
+"5. ""unsere Kinder"" "	442.06
+6. Das ist ein Fremder/eine Fremde 	442.06b
+"7. ""alle zusammen"" "	442.07
+"8. ""Er will halt nicht fol- gen!"" "	442.08
+ 	
+444	
+"1. ""Ich tue das, ob du willst oder nicht"" "	444.02
+"2. ""Warst das du oder der an- dere?"" /aber/ "	
+"3. ""Strafe"" (Wenn man falsch geparkt hat, muß man eine ... zahlen) "	444.03
+"4. ""Horch, ich will dir etwas sagen"" /Lus/Paß auf/Merk auf/ "	444.04
+"5. ""Ich sags dem Vater"" "	444.05
+"6. ""Du sagst nichts"" "	444.06
+"7. ""Er sagt auch nichts"" "	444.07
+"8. ""Wir sagen es auch nicht"" "	444.08
+"9. ""Du solltest dich schämen"" "	444.09
+"10. ""Er hat es der Mutter ge- sagt"" "	444.10
+ 	
+446	
+"1. ""Wer hat das gesagt?"" (Interr. Pron. betont) "	446.01
+"2. ""Wem hast du das gesagt?"" (Interr. Pron. betont) "	446.02
+"3. ""Dem Sepp hab ich es ge- sagt"" (oder auch andere Taufnamen, flektiert?) (mit oder ohne Artikel?) "	446.03
+"4. ""Das hätte ich nicht tun sollen."" /das sollt ich nicht getan haben/"	
+"5. ""Sag mir halt, wie du heißt!"" (Flexion des Fragepron.?) "	
+"6. ""Ich sag's deinem Vater!"" /a .../ "	446.04
+"7. ""Wie hat er geheißen?"" "	446.05
+"8. ""Ich sag's deiner Mutter!"" /a .../ "	446.06
+"9. ""Der würde ich es nicht sagen!"" (Dem. Pron. betont) "	446.07
+"10. ""Ihr würde ich es nicht sagen"" (Pers. Pron. betont) (Dem Mann/Ihm kann man es sagen, aber ihr würde ich es nicht sagen) "	446.08
+"11. ""Ich hab's einem alten Mann gesagt"" "	446.09
+447	
+1. Es gehört ihm /gehört ihm/ist das seine/ /gehört sein/ 	447.02
+"2. ""brauchen"" (Das ist überhaupt nicht zum ...) "	447.03
+"3. ""Du brauchst das nicht zu tun"" "	447.04
+"4. ""Er braucht etwas von mir"" /-t/-/ "	
+"5. ""bieten""/""geboten""/""er bietet"" (verbieten) "	447.05
+ 	
+448	
+Zahlen	
+"(Durch Aufzählen die Zahlen von 1 bis 20 nennen lassen) aufzählen ""es ist ..."" (Uhrzeit)"""	
+1. -1- 	448.01
+2. -2- 	448.02
+3. 	448.03
+4. -3- 	448.04
+5. 	448.05
+	
+6. -4- 	448.06
+7. 	448.07
+	
+8. -5- 	448.08
+9. -6- 	448.09
+10. -7- 	448.10
+11. 	448.11
+	
+12. -8- 	448.12
+ 	
+450	
+" aufzählen ""Es ist ..."" (Uhrzeit)"""	
+1. -9- 	450.01
+2. 	450.02
+	
+3. -10- 	450.03
+4. -11- 	450.04
+5. 	450.05
+	
+6. -12- 	450.06
+7. -13- 	450.07
+8. -14- 	450.08
+9. -15- 	450.09
+10. -16- 	450.10
+11. -17- 	450.11
+	
+452	
+1. -18- 	452.01
+2. -19- 	452.02
+3. -20- 	452.03
+4. -30- 	452.04
+5. -50- 	452.05
+6. -60- 	452.06
+7. -1.000- 	452.07
+8. -85- 	452.08
+	
+454	
+"1. ""der Erste"" "	454.01
+"2. ""zwei Männer"" (oder and. Mask.) "	454.02
+"3. ""zwei Kühe"" (oder and. Fem.) "	454.03
+"4. ""zwei Häuser"" (oder and. Neut.) "	454.04
+"5. ""drei Männer"" "	454.05
+"6. ""drei Kühe"" "	454.06
+"7. ""drei Häuser"" "	454.07
+"8. ""kaufen"" "	454.08
+"9. ""gekauft"" "	454.09
+	
+455	
+"1. ""Wir waren zu fünft"" /uns sind fünf gewesen/wir sind uns(erer) fünf gewe- sen/wir sind zu fünft ge- wesen/"	455.03
+"2. ""ungefähr drei, vier"" /Stücker/a drei, a vier/ "	455.04
+3. eilig (Wenn einer in Eile ist, hat er es ...) /nötig/träbig/pressieren/ 	
+456	
+Verschiedenes	
+1. Stottern /stodern/gikezen/ 	456.01
+"2. ""Er stottert ein wenig"" /ein wenig/ein bißchen/ "	456.02
+3. Speichel rinnen lassen /geifern/seifern/lefern/ /sennern/ 	456.03
+"4. ""schnarchen"" "	456.04
+5. Speichel auswerfen /speien/spirzen/kutzen/ 	456.05
+6. PP (SNOB 456.05)	456.06
+7. Der Schluckauf /Schnakler/Högetscher/ 	456.07
+8. Rülpsen /(auf-)koppen/aufstoßen/ /umdrehen/ 	456.08
+9. sich klemmen (den Finger in der Tür) /(ein-)zwicken/ 	456.09
+10. jemanden kneifen (mit zwei Finger in den Arm ...) /zwicken/	456.10
+	
+458	
+1. johlen/jauchzen (Ausruf der Freude junger Leute, z. B. beim Tanz) /juchezen/-ds-/-gs-/ 	458.01
+2. verhalten lachen (besonders von jungen Mäd- chen) /kichern/kuttern/zannen/ 	458.02
+"3. ""einen schönen Traum"" (Heute Nacht habe ich ... gehabt) "	458.04
+"4. ""träumen"" "	458.05
+"5. ""geträumt"" "	458.06
+6. ganz nackt /faser-/pudel-/mutter-/ /-nacket/-lackelt/ 	458.07
+460	
+"1. ""schlagen"" (Kontext: Nagel, Uhr, Sahne) "	460.01
+"2. ""Er hat mich geschlagen"" (Pers. Pron. unbetont) "	460.02
+"3. ""Er hat dich geschlagen"" (Pers. Pron. unbetont) "	460.03
+"4. ""ich schlage"" "	460.04
+"5. ""du schlägst"" "	460.05
+"6. ""Er schlägt bloß mich"" (Pers. Pron. betont) /grad/sched/netta/ "	460.06
+"7. ""wir schlagen"" "	460.07
+"8. ""ihr schlagt"" "	460.08
+"9. ""sie schlagen"" "	460.09
+462	
+1. Mit dem Finger leise an- stupfen /tupfen/ 	462.01
+2. Mit dem Ellenbogen stoßen /rennen/stoßen/rempeln/ 	462.02
+3. Mit beiden Händen schieben/ schubsen /dauen/ 	462.03
+4. Schieb'/schubs' mich nicht weg! /dau mich/daug mich/ 	
+5. Ohrfeige /Watschen/Schelle/Fotze/ /Detsche/ 	462.04
+6. Einen Tritt mit dem Fuß geben /Arsch-/Fußtritt/ 	462.05
+"7. ""stoßen"" "	462.06
+8. weinen /heinen/bläken/plärren/ /röhren/trenzen/zannen/ /flennen/	462.07
+"9. ""Welchen Kindern hast du es gegeben?"" (Dat. Pl., Genus egal) "	462.08
+"10. ""Er hat gesagt, er gebe nichts her"" "	462.09
+464	
+"1. ""Wenn der Geizkragen doch auch einmal etwas hergäbe"" "	464.01
+"2. ""gönnen"" "	464.02
+"3. ""gegönnt"" "	464.03
+"4. ""Ich habe es nicht diesem, sondern jenem gegeben"" (Dem.Pron. des weiter ent- fernten Objektes) /seln/andern/ "	464.04
+"5. ""Das kann ich dir schon geben"" (Pers. Pron. unbetont) "	464.05
+"6. ""Er hat ihm viel gegeben"" (Pers. Pron. unbetont) "	464.06
+"7. ""Ich gebe es ihm"" (Pers. Pron. unbetont) "	464.07
+"8. ""Du gibst es ihr"" (Pers. Pron. unbetont) "	464.08
+"9. ""Dann gebe ich dir es halt."" (Pers. Pron. unbetont) "	
+"10. ""Er gibt es mir"" (Pers. Pron. unbetont) "	464.09
+"11. ""Wir geben es euch"" (Pers. Pron. unbetont) "	464.10
+	
+466	
+"1. ""Ihr gebt es uns"" (Pers. Pron. unbetont) "	466.01
+"2. ""Dann geben wir ihn euch"" (Pers. Pron. unbetont) "	466.01a
+"3. ""Sie geben es ihnen"" (Pers. Pron. unbetont) "	466.02
+"4. ""bauen"" "	466.03
+"5. ""gebaut"" "	466.04
+"6. ""Beton"" (Das Fundament ist aus ...) "	466.05
+"7. ""Mauer"" "	466.06
+"8. ""Mauern"" "	
+"9. ""nahe bei den alten Häu- sern"" "	466.07
+"10. ""näher"" "	466.08
+"11. ""der Stall steht in der Nähe"" "	466.09
+468	
+"1. ""Bild"" "	468.01
+"2. ""malen"" (Vom Maler ein Bild ... lassen) "	468.02
+"3. ""Er hat meinen Bruder ge- malt"" "	468.03
+"4. ""Rahmen"" (eines Bildes) (Genus) "	468.04
+"5. ""Haken"" "	468.05
+"6. ""Haken"" (Pl.) "	468.06
+"7. ""Häklein"" "	468.07
+"8. ""Pinsel"" "	468.08
+"9. ""Das kostet fünfundzwanzig Pfennig"" "	468.09
+"10. ""Rechnung"" (Im Wirtshaus bekommt man zum Schluß eine ...) "	468.10
+470	
+"1. ""Zettel"" (Die Rechnung steht auf einem ...)"	470.01
+"2. ""Man bekommt nichts um- sonst"" "	470.02
+"3. ""reuen"" "	470.03
+"4. ""gereut"" "	470.04
+"5. ""Es reut ihn sehr"" "	470.05
+	
+Reden	
+6. Als normale menschl. Fähig- keit (Tiere können nicht ...) /reden/schmatzen/sprechen/ 	470.06
+7. Wenn eine Frau die ganze Zeit nur im Dorf herumgeht und Neuigkeiten weiter- erzählt, dann tut sie ... /(t)ratschen/klatschen/ /bleschen/ 	470.07
+8. Wie nennt man eine solche Frau? /(Dorf)Ratsche/Ratschkattel/ /-weib/Klatsche/	470.08
+472	
+1. Aufschneiden/prahlen /angeben/protzen/sprechen/ /Sprüche machen/	472.01
+"2. ""erzählen"" (ein Märchen) /der-/ver-/ "	472.02
+3. Kinder dürfen in der Schule/in der Kirche nicht ... /schnattern/schmatzen/ /schwätzen/ratschen/ 	472.03
+"4. ""schimpfen"" "	472.04
+"5. ""Sie hat ihren Vater ge- schimpft"" "	472.05
+6. fluchen /schelten/	
+7. PP. 	
+"8. ""meinen"" (Das möchte ich schon ...) "	472.06
+474	
+Menschliche Fortbewegung	
+1. Gegenteil von 'fahren' (Ich kann nicht fahren, ich muß ...) /laufen/gehen/ 	474.01
+2. Die Uhr ... 	474.02
+3. rasche Fortbewegung (Rennläufer tun ...) /rennen/laufen/reifeln/ /reisen/ 	474.03
+4. Vom Stuhl auf den Boden ... /hüpfen/springen/ 	474.04
+5. Wenn jemand einen zu kur- zen Fuß hat, tut er ... /hinken/humpeln/hüpfen/den Fuß/Hax nachziehen/ 	474.05
+6. Den Fuß beim Gehen nach- ziehen, bei lahmen Fuß /den Fuß/Hax nachziehen/ nachschleipfen/hatschen/ 	474.06
+"7. ""waten"" (durch einen Bach oder tiefen Schnee muß man ...) /waten/sappen/"	474.07
+8. PP. 	474.07a
+"9. ""warten"" (beim Zahnarzt muß man vorher lange ...) /beiten/"	474.08
+476	
+1. Mit kleinen Schritten vorwärts gehen /tippeln/täppeln/zeppern/ /treppeln/	476.01
+2. Sich im Dunkeln vorsichtig vorwärtsbewegen /tappen/kroppen/ 	476.02
+3. Betrunkene tun ... /torkeln/wackeln/schwanken/ 	476.03
+4. Unfreiwillig stolpern /stolpern/zwurkeln/ /haspeln/ 	476.04
+5. Füße nicht aufheben beim Gehen /scherfeln/serfeln/ 	476.05
+"6. ""laufen"" "	476.06
+"7. ""gelaufen"" "	476.07
+478	
+1. In welchem Ort/welchen Or- ten spricht man genauso wie hier? 	478.01
+2. In welchem Ort/welchen Or- ten wird bereits ein leicht anderer Dialekt gesprochen? 	478.02
+3. In welchem Ort/welchen Or- ten sind die Unterschiede bereits größer? 	478.03
+4. In welcher Landschaft liegt der Ort? (z.B. Rottal) 	478.04
+5. Welches sind die Nachbar- landschaften? 	478.05
+480	
+"1. ""Sprache"" (Wir haben eine schöne ...) "	480.06
+"2. ""Jetzt wird die Fragerei langsam blöd, gelt?"" "	
+"3. ""Ich mag nicht mehr"" "	480.07
+"4. ""Jetzt sind wir fertig"" "	480.08
+	
