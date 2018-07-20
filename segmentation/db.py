@@ -60,8 +60,19 @@ def get_wordcounts_bavarian(words=None, ignore_case=True):
     return freq
 
 
+def augment_freqs(d):
+    # add all words that are missing from wikipedia but we encounter here
+    with open("word_augment.txt", "r") as f:
+        cc = f.read().split("\n")
+    for c in cc:
+        d[c] = 100
+    return d
+
+
 def bavarian_frequencies(ignore_case=True):
-    return [x for x, _ in sorted(get_wordcounts_bavarian().items(), key=lambda k: k[1], reverse=True)]
+    d = get_wordcounts_bavarian()
+    d = augment_freqs(d)
+    return [x for x, _ in sorted(d.items(), key=lambda k: k[1], reverse=True)]
 
 
 if __name__ == "__main__":
