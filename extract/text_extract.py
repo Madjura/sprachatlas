@@ -1,5 +1,4 @@
 """Functions that help with the extraction of paragraphs and Noun Phrases from texts."""
-import pycld2
 
 __copyright__ = """
 Copyright (C) 2017 Thomas Huber <huber150@stud.uni-passau.de, madjura@gmail.com>

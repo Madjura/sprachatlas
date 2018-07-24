@@ -3,26 +3,24 @@
 Allows the execution of extract_step.
 In this step the texts are pre-processed, they are tokenized and POS-tags are assigned.
 """
-import spacy
-from django.db import transaction, IntegrityError
-
+import os
 import pickle
 
 import progressbar
-import os
+import spacy
+from django.db import transaction, IntegrityError
+from nltk.tag.stanford import StanfordPOSTagger
+from pycallgraph.output.graphviz import GraphvizOutput
+from pycallgraph.pycallgraph import PyCallGraph
 
 from extract.text_extract import split_paragraphs, pos_tag, extract_from_sentences, \
     calculate_weighted_distance, pos_tag_spacy, extract_from_sentences_spacy
+from sprachatlas import setup
 from text.paragraph import Paragraph
 from util import paths
-from pycallgraph.output.graphviz import GraphvizOutput
-from pycallgraph.pycallgraph import PyCallGraph
-from nltk.tag.stanford import StanfordPOSTagger
-from sprachatlas import setup
+
 setup()
 from dragnapp import models as dragnmodels
-from dragnapp.models import Alias
-
 
 __copyright__ = """
 Copyright (C) 2017 Thomas Huber <huber150@stud.uni-passau.de, madjura@gmail.com>
@@ -44,8 +42,8 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-german = spacy.load("de")
-english = spacy.load("en")
+german = spacy.load("de_core_news_sm")
+english = spacy.load("en_core_web_sm")
 
 
 def make_folders(alias=None):
@@ -66,7 +64,8 @@ def make_folders(alias=None):
                 os.makedirs(folder, 0o755)
 
 
-def extract_step_db(text_path=paths.TEXT_PATH, *, language="english", texts=None, distance_threshold=2, weight_threshold=0.76):
+def extract_step_db(text_path=paths.TEXT_PATH, *, language="english", texts=None, distance_threshold=2,
+                    weight_threshold=0.76):
     # if specified, use stanford pos for that language
     texts = os.listdir(text_path) if not texts else texts
     used_texts = []
