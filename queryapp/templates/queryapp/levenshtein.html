@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+<script src="{% static 'dragn/js/jquery-3.1.1.min.js' %}"></script>
+<script src="{% static 'queryapp/js/layout.js' %}"></script>
+<div id="suggestions">
+    {% if suggestions %}
+    <ul>
+        {% for suggestion, score in suggestions %}
+            <li>{{ suggestion }}, {{ score }}</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+        No result.
+    {% endif %}
+</div>
+{% endblock %}

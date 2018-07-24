@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+{% if graph_elements %}
+<script>
+    var graphElements = {{ graph_elements|safe }};
+</script>
+{% endif %}
+<script src="{% static 'dragn/js/jquery-3.1.1.min.js' %}"></script>
+<script src="{% static 'queryapp/js/cytoscape.js' %}"></script>
+<script src="{% static 'queryapp/js/cytoscape-menu.js' %}"></script>
+<script src="{% static 'queryapp/js/weaver.js' %}"></script>
+<script src="{% static 'queryapp/js/layout.js' %}"></script>
+<script src="{% static 'queryapp/js/result.js' %}"></script>
+<script src="{% static 'queryapp/js/distant-modal.js' %}"></script>
+<script src="{% static 'queryapp/js/jquery.tablesorter.js' %}"></script>
+<script src="{% static 'queryapp/js/jquery.get-word-by-event.js' %}"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'queryapp/css/result.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'queryapp/css/tablesorter.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'queryapp/css/reader-modal.css' %}"/>
+<div id="reading-modal" class="modal">
+  <!-- Modal content -->
+    <span id="alias-name" style="display:none;">{{ alias }}</span>
+    <span id="modal-matches" style="display:none;"></span>
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="distant-text"></div>
+  </div>
+</div>
+<div id="cy"></div>
+<div id="text-samples">
+    {% for provenance, prov_relations, content, matches in samples %}
+        <div class="text-match-wrapper">
+            <h3 id="heading-{{ provenance }}">{{ provenance }}, {{ prov_relations.0 }}</h3>
+            <div class="text">
+                 <span class="distant-modal" id="{{ provenance }}_previous">Previous</span> <span class="distant-modal" id="{{ provenance }}_next">Next</span><br/>
+                 <div class="text-content">
+                    {{ content|safe|escape }}
+                 </div>
+            </div>
+            <div class="match">
+            <h4>Text contains:</h4>
+                <div class="match-samples">
+                    <ul id="match-list-{{ provenance }}" class="match-list">
+                        {% for match in matches %}
+                            <li>{{ match }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            <h4>Relations and values</h4>
+                <div class="relations">
+                    {% for l in prov_relations.1 %}
+                        <table class="tablesorter-blackice tablesorter">
+                            <thead>
+                                <tr>
+                                    <th>Subject</th>
+                                    <th>Predicate</th>
+                                    <th>Object</th>
+                                    <th>Weight</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for triple in l %}
+                                  <tr>
+                                        <td>{{ triple.1 }}</td>
+                                        <td {% if triple.2 == "close to" %}style="color:deepskyblue"{% elif triple.2 == "related to" %}style="color:red"{% endif %}>{{ triple.2 }}</td>
+                                        <td>{{ triple.3 }}</td>
+                                        <td>{{ triple.0 }}</td>
+                                  </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <hr>
+    {% endfor %}
+</div>
+{% endblock %}

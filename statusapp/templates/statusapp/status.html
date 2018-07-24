@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'queryapp/css/process.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'queryapp/css/result.css' %}"/>
+    {% if status %}
+        {% for s, state in status %}
+            <span>{{ s.task_id }}, {{ s.alias }}, {{ state }}</span><br/>
+        {% endfor %}
+    {% else %}
+        Currently nothing is being processed.
+    {% endif %}
+{% endblock %}}

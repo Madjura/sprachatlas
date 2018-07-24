@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <title>{% block title %}dragn{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'dragn/css/navigation.css' %}"/>
+</head>
+
+<body>
+<div id="nav">
+    <div id="nav-links">
+        <a class="menulink" href="{% url 'index' %}">Main</a>
+        {% if request.user.is_superuser %}
+            <a class="menulink" href="{% url 'upload' %}">Upload texts</a>
+            <a class="menulink" href="{% url 'process' %}">Process texts</a>
+        {% else %}
+            <a class="menulink" href="{% url 'admin:index' %}">Login</a>
+        {% endif %}
+        <a class="menulink" href="{% url 'status_detail' %}">Status</a>
+        <a class="menulink" href="{% url 'top_frequencies' %}">Top frequencies</a>
+        {% if queryform %}
+            <div id="form-div">
+                <form action="{% url 'query' %}" method="post" id="query-form">
+                    {% csrf_token %}
+                    {% for field in queryform %}
+                        <label for="{{ field.auto_id }}">{{ field.label }}</label> {{ field }}
+                    {% endfor %}
+                    <input type="submit" class="ajax" value="Search" name="search">
+                </form>
+            </div>
+            {% if suggestform %}
+                <div id="suggest">
+                    <form action="{% url 'suggest' %}" method="post" id="suggest-form">
+                        {% csrf_token %}
+                        {% for field in suggestform %}
+                            <label for="{{ field.auto_id }}">{{ field.label }}</label> {{ field }}
+                        {% endfor %}
+                        <input type="submit" class="ajax" value="Search" name="search-suggest">
+                    </form>
+                </div>
+            {% endif %}
+        {% endif %}
+        <span id="provenance-helper" style="display:None;">{% url 'get_provenance' %}</span>
+    </div>
+    <div id="nav-scroll">
+        <span id="sample-scroll">Scrolling for: Currently nothing</span> <button id="sample-next">Next text</button> <button id="sample-previous">Previous text</button><br>
+        <button id="to-top">Scroll back to top</button>
+    </div>
+</div>
+
+<div id="content">
+    {% block includehelp %}{% endblock %}
+    {% block content %}{% endblock %}
+</div>
+</body>
+</html>
