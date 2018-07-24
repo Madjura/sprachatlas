@@ -23,7 +23,7 @@ from uploadapp.views import UploadView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls, name="admin"),
-    url(r'^query/$', query_db, name="query"),
+    url(r'^query/$', query, name="query"),
     url(r'^upload/$', UploadView.as_view(), name="upload"),
     url(r'^process/$', process, name="process"),
     url(r'^provenance/$', get_provenance, name="get_provenance"),
@@ -33,5 +33,5 @@ urlpatterns = [
     url(r'^status-detail/$', status, name="status_detail"),
     url(r'^top-frequencies/$', frequency_view, name="top_frequencies"),
     url(r'^top-frequencies/(?P<pk>[0-9]+)$', frequency_view, name="top_frequencies"),
-    url(r'^$', query_db),
+    url(r'^$', query),
 ]

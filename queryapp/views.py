@@ -135,6 +135,7 @@ def load_and_prepare_provenance_db(tops, alias):
     :return: A list of tuples of name, score and content of the provenances.
     """
     texts = []
+    alias = alias.identifier
     for name, score in tops:
         with open(os.path.join(paths.PARAGRAPH_CONTENT_PATH, alias, name), "r", encoding="utf8") as text:
             texts.append((name, score, text.read()))

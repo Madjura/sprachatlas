@@ -85,11 +85,11 @@ def extract_step_db(text_path=paths.TEXT_PATH, *, language="english", texts=None
             text_instance.paragraphs = len(paragraphs)
             text_instance.save()
             print(f"Current text: {text}")
-            bar = progressbar.ProgressBar(max_value=len(paragraphs) - 1)
+            # bar = progressbar.ProgressBar(max_value=len(paragraphs) - 1)
             closeness_instances = []
             with transaction.atomic():
                 for count, paragraph in enumerate(paragraphs):
-                    bar.update(count)
+                    # bar.update(count)
                     # make new paragraph, with pos-tagged sentence list
                     if language == "english":
                         doc = english(text_content)
@@ -199,9 +199,9 @@ def extract_step(text_path: str = paths.TEXT_PATH, language="english", texts: [s
             with open(paths.TEXT_META_PATH + "/{}_meta".format(text), "w", encoding="utf8") as metafile:
                 metafile.write("PARAGRAPHS: {}".format(len(paragraphs)))
             print("Current text: {}".format(text))
-            bar = progressbar.ProgressBar(max_value=len(paragraphs) - 1)
+            # bar = progressbar.ProgressBar(max_value=len(paragraphs) - 1)
             for count, paragraph in enumerate(paragraphs):
-                bar.update(count)
+                # bar.update(count)
                 # make new paragraph, with pos-tagged sentence list
                 pos = pos_tag(paragraph, tagger)
                 new_paragraph = Paragraph(count, pos, text)

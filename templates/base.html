@@ -4,54 +4,84 @@
     {% load static %}
     <meta charset="utf-8">
     <title>{% block title %}dragn{% endblock %}</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'dragn/css/navigation.css' %}"/>
+    <link rel="icon" type="image/png" href="{% static 'dragn/css/images/favicon32.png' %}">
+    <!-- <link rel="stylesheet" type="text/css" href="{% static 'dragn/css/navigation.css' %}"/> -->
+    <link rel="stylesheet" type="text/css" href="{% static 'dragn/css/style.css' %}"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
 <body>
-<div id="nav">
+<div id="nav" class="navigation">
     <div id="nav-links">
-        <a class="menulink" href="{% url 'index' %}">Main</a>
-        {% if request.user.is_superuser %}
-            <a class="menulink" href="{% url 'upload' %}">Upload texts</a>
-            <a class="menulink" href="{% url 'process' %}">Process texts</a>
-        {% else %}
-            <a class="menulink" href="{% url 'admin:index' %}">Login</a>
-        {% endif %}
-        <a class="menulink" href="{% url 'status_detail' %}">Status</a>
 
-        {% if queryform %}
-            <div id="form-div">
-                <form action="{% url 'query' %}" method="post" id="query-form">
-                    {% csrf_token %}
-                    {% for field in queryform %}
-                        <label for="{{ field.auto_id }}">{{ field.label }}</label> {{ field }}
-                    {% endfor %}
-                    <input type="submit" class="ajax" value="Search" name="search">
-                </form>
-            </div>
+        <div class="branding">
+            <a href="{% url 'index' %}"><img src="{% static 'dragn/css/images/templogo_inverted.png' %}" class="logo"></a> <br>
+
+                <a class="btn btn-default" href="{% url 'index' %}"><span class="glyphicon glyphicon-home"></span></a>
+
+                {% if request.user.is_superuser %}
+                    <a class="btn btn-default" href="{% url 'upload' %}">Upload texts</a>
+                    <a class="btn btn-default" href="{% url 'process' %}">Process texts</a>
+                {% else %}
+                    <a class="btn btn-default" href="{% url 'admin:index' %}">Login</a>
+                {% endif %}
+                <a class="btn btn-default" href="{% url 'status_detail' %}">Status</a>
+                <a class="btn btn-default" href="{% url 'top_frequencies' %}">Top frequencies</a>
+        </div>
+
+            {% if queryform %}
+                <div class="functionality">
+                    <h1 class="menu"><span class="glyphicon glyphicon-search"></span> Analyse</h1>
+                     <div id="form-div">
+                        <form action="{% url 'query' %}" method="post" id="query-form">
+                            {% csrf_token %}
+                            {% for field in queryform %}
+                                <label class="lable" for="{{ field.auto_id }}">{{ field.label }}</label> {{ field }} <br>
+                            {% endfor %}
+                            <input type="submit" class="ajax btn btn-success" value="Search" name="search">
+                        </form>
+                    </div>
+                </div>
+
             {% if suggestform %}
-                <div id="suggest">
-                    <form action="{% url 'suggest' %}" method="post" id="suggest-form">
-                        {% csrf_token %}
-                        {% for field in suggestform %}
-                            <label for="{{ field.auto_id }}">{{ field.label }}</label> {{ field }}
-                        {% endfor %}
-                        <input type="submit" class="ajax" value="Search" name="search-suggest">
-                    </form>
+                <div class="functionality">
+                    <h1 class="menu"><span class="glyphicon glyphicon-resize-small"></span> Levenshtein-Distance</h1>
+                    <div id="suggest">
+                        <form action="{% url 'suggest' %}" method="post" id="suggest-form">
+                            {% csrf_token %}
+                            {% for field in suggestform %}
+                                <label class="lable" for="{{ field.auto_id }}">{{ field.label }}</label> {{ field }} <br/>
+                            {% endfor %}
+                            <input type="submit" class="ajax btn btn-success" value="Search" name="search-suggest">
+                        </form>
+                    </div>
                 </div>
             {% endif %}
         {% endif %}
-        <span id="provenance-helper" style="display:None;">{% url 'get_provenance' %}</span>
+
+        <div class="container">
+            <span id="provenance-helper" style="display:None;">{% url 'get_provenance' %}</span>
+        </div>
+
     </div>
-    <div id="nav-scroll">
-        <span id="sample-scroll">Scrolling for: Currently nothing</span> <button id="sample-next">Next text</button> <button id="sample-previous">Previous text</button><br>
-        <button id="to-top">Scroll back to top</button>
+
+</div>
+
+    <div id="nav-scroll" class="scroll">
+            <button class="btn btn-default btn-xs" id="sample-next"><span class="glyphicon glyphicon-arrow-left"></span></button>
+            <button class="btn btn-default btn-xs" id="sample-previous"><span class="glyphicon glyphicon-arrow-right"></span></button>
+            <button class="btn btn-default btn-xs" id="to-top"><span class="glyphicon glyphicon-arrow-up"></span></button>
+            <span class="text-success">SCROLL </span><span id="sample-scroll">Currently nothing</span>
+    </div>
+
+</div>
+
+<div class="row">
+    <div id="content" class="col-sm-12">
+        {% block includehelp %}{% endblock %}
+        {% block content %}{% endblock %}
     </div>
 </div>
 
-<div id="content">
-    {% block includehelp %}{% endblock %}
-    {% block content %}{% endblock %}
-</div>
 </body>
 </html>
