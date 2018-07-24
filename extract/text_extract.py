@@ -339,6 +339,11 @@ def extract_from_sentences(sentences, add_verbs=True, language="english"):
     return term2sentence_id
 
 
+def extract_from_sentence_theutonista(sentences):
+    pass
+
+
+
 def get_cooccurence(chunk_trees, ignore_stopwords=True, language="english"):
     """
     Parses a chunk tree and gets co-occurance of terms.
@@ -424,3 +429,7 @@ def calculate_weighted_distance(token2sentences, *, paragraph_id=str, distance_t
         for closeness in w2statements[key]:
             closenesses.append(closeness)
     return closenesses
+
+
+def calculate_weighted_distance_theutonista(sentence_id, character2pos, distance_lim=5, weight_lim=1/3):
+    pass

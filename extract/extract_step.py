@@ -6,7 +6,6 @@ In this step the texts are pre-processed, they are tokenized and POS-tags are as
 import os
 import pickle
 
-import progressbar
 import spacy
 from django.db import transaction, IntegrityError
 from nltk.tag.stanford import StanfordPOSTagger
@@ -14,7 +13,8 @@ from pycallgraph.output.graphviz import GraphvizOutput
 from pycallgraph.pycallgraph import PyCallGraph
 
 from extract.text_extract import split_paragraphs, pos_tag, extract_from_sentences, \
-    calculate_weighted_distance, pos_tag_spacy, extract_from_sentences_spacy
+    calculate_weighted_distance, pos_tag_spacy, extract_from_sentences_spacy, extract_from_sentence_theutonista, \
+    calculate_weighted_distance_theutonista
 from sprachatlas import setup
 from text.paragraph import Paragraph
 from util import paths
@@ -225,6 +225,36 @@ def extract_step(text_path: str = paths.TEXT_PATH, language="english", texts: [s
                 open(paths.CLOSENESS_PATH + "/" + alias + "/" + "closeness.p", "wb"))
 
 
+def segment_into_sentences(text):
+    # TODO
+    return []
+
+
+def extract_theutonista(texts, alias):
+    closeness = []
+    for text in texts:
+        if not text.endswith(".txt"):
+            # support different file types here
+            continue
+        with open(os.path.join(paths.TEXT_PATH, text), "r", encoding="utf8") as current_text:
+            content = current_text.read()
+            # split the text into paragraphs first
+            sentences = segment_into_sentences(content)
+            with open(os.path.join(paths.TEXT_META_PATH, f"{text}_meta"), "w", encoding="utf8") as metafile:
+                metafile.write(f"PARAGRAPHS: {len(sentences)}")
+            print(f"Current text: {text}")
+            for count, sentence in enumerate(sentences):
+                character2pos = extract_from_sentence_theutonista(sentence)
+                closeness_list = calculate_weighted_distance_theutonista(count, character2pos)
+                closeness.append(closeness_list)
+                with open(os.path.join(paths.PARAGRAPH_CONTENT_PATH, alias, f"{text}_{count}"), "w", encoding="utf8") \
+                        as f:
+                    f.write(sentence)
+    with open(os.path.join(paths.TEXT_META_PATH, "all_meta", "w"), encoding="utf8") as f:
+        f.write(",".join([x for x in texts if x.endswith(".txt")]))
+    pickle.dump(closeness, open(os.path.join(paths.CLOSENESS_PATH, alias, "closeness.p", "wb")))
+
+
 def with_graphviz_output():
     """Runs extract_step with GraphvizOutput, producing a call graph of all functions."""
     graphviz = GraphvizOutput()
@@ -233,6 +263,7 @@ def with_graphviz_output():
     with PyCallGraph(output=graphviz):
         make_folders()
         extract_step(language="english")
+
 
 if __name__ == "__main__":
     # Alias.objects.get(identifier="cthulhu.txt").delete()
