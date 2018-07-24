@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "queryapp",
+    "uploadapp",
+    "dataapp",
+    "statusapp",
+    "dragnapp",
 ]
 
 MIDDLEWARE = [
@@ -54,7 +59,8 @@ ROOT_URLCONF = 'sprachatlas.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
+        'DIRS': [os.path.join(BASE_DIR, 'templates'),
+                 "templates"]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -118,7 +124,19 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/static/dragn2/'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+)
+
+MEDIA_ROOT = "../data/texts"
+STATIC_ROOT = "/var/www/dragn-experimental/dragn-static"
+
+
+USE_CELERY = True
+CELERY_BROKER_URL = 'amqp://localhost'
+
 
 WIKIPEDIA_DB_USER = "root"
 WIKIPEDIA_DB_PASSWORD = "password"

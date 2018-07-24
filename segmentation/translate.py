@@ -46,9 +46,9 @@ def teuthonista_to_string(raw):
 
 
 if __name__ == "__main__":
-    t = "de2-2ho5-da2rex68d2a2gro5$o2s81ma-2o2lvo2-na,du5-2ndhi5nt1"
+    # t = "de2-2ho5-da2rex68d2a2gro5$o2s81ma-2o2lvo2-na,du5-2ndhi5nt1"
     # t = "de2-2ha5mde2+-2mt1ho2-sn4ao2f1a,gs7li5t1s2d2bi-sdo5ao2f1a,u5-ndu5nta,de2-2bru5-xs7do2+-2a2dri5n2a,d"
-    # t = "u5ntdo5-2ha2+-2nsda5nmi-2det1s2wo2-he2nta2+-2e2+(:)ts9a2k2"
+    t = "u5ntdo5-2ha2+-2nsda5nmi-2det1s2wo2-he2nta2+-2e2+(:)ts9a2k2"
     to_segment = teuthonista_to_string(t)
     words = bavarian_frequencies()
     with open("words_alphabetical.txt", "w") as f:
