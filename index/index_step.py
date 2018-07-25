@@ -48,7 +48,7 @@ def generate_relation_values(relations, corpus, alias):
     index_to_db(index)
     f = add_related_to(corpus, relation2prov)
     merge = {**relation2prov, **f}
-    p = os.path.join(paths.RELATION_PROVENANCES_PATH + alias, "r2p.json")
+    p = os.path.join(paths.RELATION_PROVENANCES_PATH + "/" + alias, "r2p.json")
     # format is (spo): (prov, score)
     with open(p, "w") as f:
         f.write(ujson.dumps(merge))
@@ -66,7 +66,7 @@ def make_relation_weights(relation_dictionary, alias):
     for token1, related_set in list(relation_dictionary.items()):
         for token2, score in related_set:
             term_lines.append("\t".join([str(x) for x in [token1, token2, score]]))
-    with gzip.open(os.path.join(paths.RELATION_WEIGHT_PATH + alias, "relationsets.tsv.gz"), "wb") as f:
+    with gzip.open(os.path.join(paths.RELATION_WEIGHT_PATH + "/" + alias, "relationsets.tsv.gz"), "wb") as f:
         f.write(("\n".join(term_lines)).encode())
 
 
@@ -84,8 +84,7 @@ def make_relation_list(relations, alias):
         relation_lines.append("\t".join([str(x) for x in [(subject, predicate, objecT), weight]]))
         relation_dictionary[subject].add((objecT, weight))
         relation_dictionary[objecT].add((subject, weight))
-    with gzip.open(
-            os.path.join(paths.RELATIONS_PATH + alias, "relations.tsv.gz"), "wb") as f:
+    with gzip.open(os.path.join(paths.RELATIONS_PATH + "/" + alias, "relations.tsv.gz"), "wb") as f:
         f.write("\n".join(relation_lines).encode())
     return relation_dictionary
 
@@ -116,7 +115,7 @@ def index_step(alias):
     :param alias: The Alias of the texts that were processed.
     """
     memstore = NeoMemStore()
-    memstore.import_memstore(paths.MEMSTORE_PATH + alias)
+    memstore.import_memstore(paths.MEMSTORE_PATH + "/" + alias)
     relation_dictionary = make_relation_list(memstore.corpus.items(), alias)
     # make_pagerank(memstore.corpus.items())
     make_relation_weights(relation_dictionary, alias)
@@ -124,8 +123,9 @@ def index_step(alias):
 
 
 if __name__ == "__main__":
-    alias = Alias.objects.get(identifier="cthulhu.txt")
-    IndexRelation.objects.filter(alias=alias).delete()
-    index_step_db(alias=alias)
+    # alias = Alias.objects.get(identifier="cthulhu.txt")
+    # IndexRelation.objects.filter(alias=alias).delete()
+    # index_step_db(alias=alias)
     # index_step(alias="/cthulhu.txt")
     # with_graphvizoutput()
+    index_step(alias="test_text.txt")

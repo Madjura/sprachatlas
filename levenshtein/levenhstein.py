@@ -17,7 +17,7 @@ def find_candidates(word, candidates, limit=10):
 
 
 def find_candidates_from_db(word, limit=10, texts=None):
-    from dragn import setup
+    from sprachatlas import setup
     setup()
     from dataapp.models import InverseIndex
     qs = InverseIndex.objects.values_list("term").distinct()

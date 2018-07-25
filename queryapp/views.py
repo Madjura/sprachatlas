@@ -137,7 +137,7 @@ def load_and_prepare_provenance_db(tops, alias):
     texts = []
     alias = alias.identifier
     for name, score in tops:
-        with open(os.path.join(paths.PARAGRAPH_CONTENT_PATH, alias, name), "r", encoding="utf8") as text:
+        with open(os.path.join(paths.PARAGRAPH_CONTENT_PATH, alias, f"{alias}_{name}"), "r", encoding="utf8") as text:
             texts.append((name, score, text.read()))
     return texts
 

@@ -339,9 +339,21 @@ def extract_from_sentences(sentences, add_verbs=True, language="english"):
     return term2sentence_id
 
 
-def extract_from_sentence_theutonista(sentences):
-    pass
-
+def character_to_position(lines):
+    character2pos = defaultdict(lambda: list())
+    pos = 0
+    lines = lines.replace("\n", "")
+    tmp = []
+    for c in lines:
+        if c.isalpha() and tmp:  # next character
+                character2pos["".join(tmp)].append(pos)
+                tmp = [c]
+                pos += 1
+        else:
+            tmp.append(c)
+    character2pos["".join(tmp)].append(pos)
+    character2pos = dict(character2pos)
+    return character2pos
 
 
 def get_cooccurence(chunk_trees, ignore_stopwords=True, language="english"):
@@ -431,5 +443,23 @@ def calculate_weighted_distance(token2sentences, *, paragraph_id=str, distance_t
     return closenesses
 
 
-def calculate_weighted_distance_theutonista(sentence_id, character2pos, distance_lim=5, weight_lim=1/3):
-    pass
+def calculate_weighted_distance_theutonista(chunk_id, character2pos, distance_lim=5, weight_lim=1 / 3):
+    closeness_list = []
+    # get all term combinations to see if they are close to each other
+    for char1, char2 in combinations(list(character2pos.keys()), 2):
+        w = 0.0
+        # get positions of first term
+        # positions are always per paragraph
+        for position1 in character2pos[char1]:
+            # get positions of second term
+            for position2 in character2pos[char2]:
+                # get the distance between the terms, measured in "terms between"
+                distance = math.fabs(position1 - position2)
+                # check if terms are close enough to each other
+                if distance < distance_lim:
+                    # calculate new weight
+                    w += 1 / (1 + distance)
+        # check if terms are relevant enough
+        if w > weight_lim:
+            closeness_list.append(Closeness(char1, char2, w, chunk_id))
+    return closeness_list

@@ -3,6 +3,7 @@ knowledge_base_compute_step of the dragn pipeline. Calculates the Cosine Similar
 the previous step.
 """
 import operator
+import os
 
 import re
 
@@ -63,36 +64,6 @@ def sort_lexicon(alias, ignored=None, limit=0):
         avg = sum(x[1] for x in sorted_by_value_with_limit) / float(len(sorted_by_value_with_limit))
         sorted_by_value = [x[0] for x in sorted_by_value_with_limit if x[1] >= avg]
     return sorted_by_value
-
-
-def knowledge_base_compute_db(top=100, alias=None):
-    relations = KbRelation.objects.for_alias(alias=alias, related_to=False)
-    print("RELATIONS TOTAL NEW SYSTEM, START: ", relations.count())
-    tensor = Tensor(rank=3)
-    for relation in relations:
-        tensor.base_dict[relation.subject, relation.predicate, relation.object] = relation.value
-    matrix = tensor.matricise(0)
-    analyser = Analyser(matrix=matrix, trace=True)
-    tokens = [x for x in sort_lexicon(alias=alias, ignored="(Model).*|.*Paragraph [0-9]+$|.*_[0-9]+$|related to|close to")]
-    print("NEW SYSTEM, LEN TOKENS: ", len(tokens))
-    similarity_dictionary = {}
-    for i, subject in enumerate(tokens):
-        print(i, " out of ", len(tokens))
-        similar = analyser.similar_to(subject, top=top)
-        for objecT, weight in similar:
-            triple1 = (subject, "related to", objecT)
-            triple2 = (objecT, "related to", subject)
-            if not any(triple in similarity_dictionary for triple in [triple1, triple2]):
-                similarity_dictionary[(subject, "related to", objecT)] = weight
-    relations = []
-    for (s, p, o), value in similarity_dictionary.items():
-        relations.append(KbRelation(subject=s, predicate=p, object=o, value=value, alias=alias, paragraph=None))
-    print("SAVING NOW")
-    print(f"TOTAL NUMBER OF KBRELATIONS: {len(relations)}")
-    try:
-        KbRelation.objects.bulk_create(relations)
-    except IntegrityError as e:
-        print("INTEGRITYERROR: ", e)
 
 
 def knowledge_base_compute(top=100, alias=None):
@@ -168,7 +139,7 @@ def knowledge_base_compute(top=100, alias=None):
     :return:
     """
     memstore = NeoMemStore()
-    memstore.import_memstore(paths.MEMSTORE_PATH + alias)
+    memstore.import_memstore(os.path.join(paths.MEMSTORE_PATH, alias))
     print("RELATIONS TOTAL, OLD SYSTEM, START: ", len(memstore.corpus))
     matrix = memstore.corpus.matricise(0)
     analyser = Analyser(matrix=matrix, trace=True)
@@ -186,11 +157,12 @@ def knowledge_base_compute(top=100, alias=None):
     for key, value in similarity_dictionary.items():
         memstore.corpus[key] = value
     print(f"OLD SYSTEM, DICT SIZE: {len(memstore.corpus)}")
-    memstore.export(paths.MEMSTORE_PATH + alias + "/")
+    memstore.export(paths.MEMSTORE_PATH + "/" + alias + "/")
 
 
 if __name__ == "__main__":
-    alias = Alias.objects.get(identifier="cthulhu.txt")
-    knowledge_base_compute_db(alias=alias)
-    print("------------------------------------")
+    # alias = Alias.objects.get(identifier="cthulhu.txt")
+    # knowledge_base_compute_db(alias=alias)
+    # print("------------------------------------")
     # knowledge_base_compute(alias="/cthulhu.txt")
+    knowledge_base_compute(alias="test_text.txt")

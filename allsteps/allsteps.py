@@ -32,7 +32,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
-from extract.extract_step import extract_step, make_folders
+from extract.extract_step import make_folders, extract_theutonista
 from index.index_step import index_step
 from knowledge_base.knowledge_base_compute_step import knowledge_base_compute
 from knowledge_base.knowledge_base_create_step import knowledge_base_create
@@ -54,15 +54,15 @@ def all_steps(texts, query=None, language="english", alias=None, task=None, task
     """
     alias_object = alias
     if task:
-        alias = "/" + alias
+        alias = alias
     else:
-        alias = "/" + alias.identifier
+        alias = alias.identifier
     print("MAKING FOLDERS. This is very fast!")
     make_folders(alias=alias)
     if task:
         task.update_state(state="extract_step. Step 1/4")
     print("FOLDERS DONE, EXTRACT STEP")
-    extract_step(texts=texts, language=language, alias=alias)
+    extract_theutonista(texts, alias)
     if task:
         task.update_state(state="knowledge_base_create_step. Step 2/4.")
     print("EXTRACT STEP DONE, KB CREATE")

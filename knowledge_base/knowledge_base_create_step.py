@@ -2,6 +2,8 @@
 knowledge_base_create_step of the dragn pipeline. Calculates the FMI between the extracted tokens from the previous
 step.
 """
+import os
+
 from sprachatlas import setup
 
 setup()
@@ -30,22 +32,6 @@ import pickle
 
 from knowledge_base.neomemstore import NeoMemStore
 from util import paths
-from pycallgraph.output.graphviz import GraphvizOutput
-from pycallgraph.pycallgraph import PyCallGraph
-
-
-def knowledge_base_create_db(alias):
-    memstore = NeoMemStore()
-    closenesses = Closeness.objects.for_alias(alias)
-    print(f"FOUND {closenesses.count()} CLOSENESSES")
-    # closenesses are calculcated in extract_step
-    # closenesses = pickle.load(open(paths.CLOSENESS_PATH + alias + "/closeness.p", "rb"))
-    memstore.incorporate_db(closenesses)
-    print("CALCULATE")
-    memstore.compute_corpus()
-    print("NORMALISE")
-    memstore.normalise_corpus()
-    memstore.to_db(alias)
 
 
 def knowledge_base_create(alias=None):
@@ -122,28 +108,21 @@ def knowledge_base_create(alias=None):
     """
     memstore = NeoMemStore()
     # closenesses are calculcated in extract_step
-    closenesses = pickle.load(open(paths.CLOSENESS_PATH + alias + "/closeness.p", "rb"))
+    with open(os.path.join(paths.CLOSENESS_PATH, alias, "closeness.p"), "rb") as f:
+        closenesses = pickle.load(f)
     memstore.incorporate(closenesses)
     memstore.compute_corpus()
     memstore.normalise_corpus()
-    memstore.export(paths.MEMSTORE_PATH + alias + "/")
-
-
-def with_graphvizoutput():
-    """Runs index_step with GraphvizOutput, producing a call graph of all functions."""
-    graphviz = GraphvizOutput()
-    graphviz.output_file = 'knowledge_base_create.png'
-
-    with PyCallGraph(output=graphviz):
-        knowledge_base_create()
+    memstore.export(paths.MEMSTORE_PATH + "/" + alias + "/")
 
 
 if __name__ == "__main__":
-    alias = Alias.objects.get(identifier="cthulhu.txt")
-    LexiconEntry.objects.filter(alias=alias).delete()
-    knowledge_base_create_db(alias)
-    print("----------------------------------------------------------------")
+    # alias = Alias.objects.get(identifier="cthulhu.txt")
+    # LexiconEntry.objects.filter(alias=alias).delete()
+    # knowledge_base_create_db(alias)
+    # print("----------------------------------------------------------------")
     # 68150 closeness for cthulhu
     # checked 9 april, same for new and old system
     # knowledge_base_create(alias="/cthulhu.txt")
     # with_graphvizoutput()
+    knowledge_base_create(alias="test_text.txt")

@@ -253,7 +253,7 @@ class NeoMemStore(object):
         """
 
         for token, frequency in self.lexicon.items():
-            line = "\t".join([token, str(frequency)])
+            line = "\t".join([str(token), str(frequency)])
             out_file.write(str.encode(line))
             out_file.write(str.encode("\n"))
 
