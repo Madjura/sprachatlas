@@ -1,4 +1,5 @@
 """Functions that help with the extraction of paragraphs and Noun Phrases from texts."""
+from parse.parse import vokale, konsonanten, halbvokal
 
 __copyright__ = """
 Copyright (C) 2017 Thomas Huber <huber150@stud.uni-passau.de, madjura@gmail.com>
@@ -339,16 +340,53 @@ def extract_from_sentences(sentences, add_verbs=True, language="english"):
     return term2sentence_id
 
 
-def character_to_position(lines):
+def match_recursion(v, t, c):
+    new_chars = []
+    try:
+        for k, vv in v.asDict().items():
+            if k == t:
+                continue
+            new_char = f"{c}--{k.lower()}"
+            new_chars.append(new_char)
+            new_chars.extend(match_recursion(v[k], t, c))
+    except AttributeError:
+        pass  # recursion end
+    return new_chars
+
+
+def character_to_position(chars, split_chars=True):
     character2pos = defaultdict(lambda: list())
     pos = 0
-    lines = lines.replace("\n", "")
+    chars = chars.replace("\n", "")
     tmp = []
-    for c in lines:
+    for i, c in enumerate(chars):
+        # print(f"PROCESSING CHAR {i} OUT OF {len(lines)}")
         if c.isalpha() and tmp:  # next character
-                character2pos["".join(tmp)].append(pos)
-                tmp = [c]
-                pos += 1
+            cc = "".join(tmp)
+            # feed into parser, get split characters
+            if split_chars:
+                if cc[0] in "aeiouAEIOU":
+                    # vocal
+                    r = vokale.scanString(cc)
+                    # r = halbvokal.scanString(cc)
+                    for match in r:
+                        m, _, _ = match
+                        new_chars = match_recursion(m, "Vokale", cc[0])
+                        for n in new_chars:
+                            n = n.lower()
+                            character2pos[n].append(pos)
+                else:
+                    # consonant
+                    r = konsonanten.scanString(cc)
+                    for match in r:
+                        m, _, _ = match
+                        new_chars = match_recursion(m, "Konsonanten", cc[0])
+                        for n in new_chars:
+                            n = n.lower()
+                            character2pos[n].append(pos)
+            character2pos[cc].append(pos)
+            tmp = [c]
+            pos += 1
         else:
             tmp.append(c)
     character2pos["".join(tmp)].append(pos)

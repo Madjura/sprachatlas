@@ -6,21 +6,12 @@ In this step the texts are pre-processed, they are tokenized and POS-tags are as
 import os
 import pickle
 
-import spacy
-from django.db import transaction, IntegrityError
-from nltk.tag.stanford import StanfordPOSTagger
-from pycallgraph.output.graphviz import GraphvizOutput
-from pycallgraph.pycallgraph import PyCallGraph
-
-from extract.text_extract import split_paragraphs, pos_tag, extract_from_sentences, \
-    calculate_weighted_distance, pos_tag_spacy, extract_from_sentences_spacy, character_to_position, \
+from extract.text_extract import character_to_position, \
     calculate_weighted_distance_theutonista
 from sprachatlas import setup
-from text.paragraph import Paragraph
 from util import paths
 
 setup()
-from dragnapp import models as dragnmodels
 
 __copyright__ = """
 Copyright (C) 2017 Thomas Huber <huber150@stud.uni-passau.de, madjura@gmail.com>
@@ -94,6 +85,7 @@ def extract_theutonista(texts, alias):
         for chunk_id, chunks in enumerate(sentences):
             # start = chunks[0][0]
             # end = chunks[-1][1]
+            print(f"PROCESSING CHUNK {chunk_id} OUT OF {len(sentences)}")
             content = "".join([x[2] for x in chunks])
             character2pos = character_to_position(content)
             closeness_list = calculate_weighted_distance_theutonista(chunk_id, character2pos)
