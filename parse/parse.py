@@ -5,9 +5,11 @@ from pyparsing import *
 grundwert_vokal = (CaselessLiteral("A") | CaselessLiteral("E") | CaselessLiteral("I") | CaselessLiteral("O") |
                    CaselessLiteral("U") | CaselessLiteral("O=") | CaselessLiteral("U="))("Grundwert")
 halbvokal = (CaselessLiteral("U;") | CaselessLiteral("I;") | CaselessLiteral("E;"))("Halbvokal")
-grundwerte_vokal_basis = grundwert_vokal | halbvokal  # combinable but not the reduktionsvokale!
+grundwerte_vokal_basis = halbvokal | grundwert_vokal
+# grundwerte_vokal_basis = grundwert_vokal | halbvokal  # combinable but not the reduktionsvokale!
 reduktionsvokal = (CaselessLiteral("E,") | CaselessLiteral("A,"))("Reduktionsvokal")
-grundzeichen_vokal = (grundwert_vokal | halbvokal | reduktionsvokal)("Grundzeichen")
+grundzeichen_vokal = (reduktionsvokal | halbvokal | grundwert_vokal)
+# grundzeichen_vokal = (grundwert_vokal | halbvokal | reduktionsvokal)("Grundzeichen")
 
 # variationen
 offnungsgrad = Combine(grundwerte_vokal_basis + Optional(Literal("1") | Literal("2") | Literal("5") | Literal("6")))\
@@ -40,7 +42,7 @@ silbentrager = Combine((akzent | grenzwert | reduktion | quantitat | nasalierung
                         | offnungsgrad_halbwert | offnungsgrad | grundwerte_vokal_basis) + (Literal("4")
                                                                                             | Literal("4.")))\
     ("Silbenträger")
-vokale = (silbentrager | akzent | grenzwert | reduktion | nasalierung | palatovelare | rundung
+vokale = (silbentrager | akzent | grenzwert | reduktion | quantitat | nasalierung | palatovelare | rundung
           | offnungsgrad_halbwert | offnungsgrad | reduktionsvokal | halbvokal | grundwert_vokal)("Vokale")
 
 ##########
@@ -83,14 +85,14 @@ r_reduktion = Combine(CaselessLiteral("r") + (Literal("&") | Literal(",&") | Lit
     ("R-Reduktion")
 l_laute = Combine(CaselessLiteral("L") + Optional(Literal("$") | Literal("7") | Literal("7.") | Literal("77")
                                                   | Literal("9") | Literal("9.") | Literal(";")))("L-Laute")
-konsonanten = l_laute | r_reduktion | r_laute | nasale | ach_laute | ich_laute | s_laute | bilabiale_reibelaute \
+konsonanten = (l_laute | r_reduktion | r_laute | nasale | ach_laute | ich_laute | s_laute | bilabiale_reibelaute \
               | spirantisierung | silbische_funktion | kehlkopfverschluss | reduktion_konsonant | quantitat_konsonant \
-              | implosion | stimmhaftigkeit | lenisierung | fortisierung | grenzwert_konsonant | konsonanten_basis
+              | implosion | stimmhaftigkeit | lenisierung | fortisierung | grenzwert_konsonant | konsonanten_basis)("Konsonanten")
 
 konsonant_or_vokal = konsonanten | vokale
 
 parse_all = OneOrMore(konsonant_or_vokal)
-
+"""
 start = time.time()
 #u5-2nd2a2vi5-s7we2ne,u5-2ndn4gs7da5-2ndni-s
 for match in parse_all.scanString("u5-2nd2a2vi5-s7we2ne,u5-2ndn4gs7da5-2ndni-s"):
@@ -124,3 +126,4 @@ print("Nasalierung")
 for match in nasalierung.scanString("A+..E+.O+I+1"):
     r = match[0]
     print(r)
+"""
