@@ -305,9 +305,7 @@ class QueryResult(object):
         for token in token_weight:
             token_weight[token] /= norm
         for token in tokens:
-            node_width = log(self.visualization_parameters["node width"] * token_weight[token], 10)
-            if node_width < 0.4:
-                node_width = 0.4
+            node_width = 0.4
             font_size = int(24 * node_width)
             node_color = self.visualization_parameters["node color"]
             # if token in self.queried_combined:
@@ -442,58 +440,57 @@ class QueryResult(object):
         length_dict = defaultdict(lambda: list())
         # get lengths of relations in graph
         for relation_triple, weight in token_list:
-            subject, predicate, objecT = relation_triple
-            if (subject, predicate, objecT) in length_dict:
-                length_dict[(subject, predicate, objecT)].append(weight)
-            elif (objecT, predicate, subject) in length_dict:
-                length_dict[(objecT, predicate, subject)].append(weight)
+            s, p, o = relation_triple
+            if (s, p, o) in length_dict:
+                length_dict[(s, p, o)].append(weight)
+            elif (o, p, s) in length_dict:
+                length_dict[(o, p, s)].append(weight)
             else:
-                length_dict[(subject, predicate, objecT)].append(weight)
+                length_dict[(s, p, o)].append(weight)
         for key, value in length_dict.items():
             length_dict[key] = reduce(lambda x, y: x+y, value) / len(value)
         # TODO: check if this double pass through the same loop is needed
         for relation_triple, weight in token_list:
             if edge_count >= max_edges:
                 break
-            subject, predicate, objecT = relation_triple
-            if (subject, predicate, objecT) in length_dict:
-                length = length_dict[(subject, predicate, objecT)]
+            s, p, o = relation_triple
+            if (s, p, o) in length_dict:
+                length = length_dict[(s, p, o)]
             else:
-                length = length_dict[(objecT, predicate, subject)]
-            if subject in nodes and objecT in nodes:
-                if predicate in self.visualization_parameters["edge color"]:
-                    edge_color = self.visualization_parameters["edge color"][predicate]
+                length = length_dict[(o, p, s)]
+            if s in nodes and o in nodes:
+                if p in self.visualization_parameters["edge color"]:
+                    edge_color = self.visualization_parameters["edge color"][p]
                 else:
                     edge_color = "black"
                 # new edge from subject to object
-                graph_edge = Edge(start=nodes[subject], end=nodes[objecT], color=edge_color, val=length)
+                graph_edge = Edge(start=nodes[s], end=nodes[o], color=edge_color, val=length)
                 # back edge from object to subject, needed for cytoscape.js to work properly
-                back_edge = Edge(start=nodes[objecT], end=nodes[subject], color=edge_color, val=length)
-
+                back_edge = Edge(start=nodes[o], end=nodes[s], color=edge_color, val=length)
                 # check case for subject to object
-                possible_duplicate = nodes[subject].get_edge(end=nodes[objecT])
+                possible_duplicate = nodes[s].get_edge(end=nodes[o])
                 if not possible_duplicate:
                     # check if reverse edge exists
-                    if nodes[objecT].get_edge(end=nodes[subject]):
+                    if nodes[o].get_edge(end=nodes[s]):
                         continue
                 if (possible_duplicate and possible_duplicate.color != graph_edge.color) or not possible_duplicate:
-                    edge = nodes[objecT].get_edge(end=nodes[subject])
+                    edge = nodes[o].get_edge(end=nodes[s])
                     if not edge or edge.color != graph_edge.color:
                         # TODO: check if this is always a nested list and if it is, fix it
                         relations = [x for x, _ in self.relation2prov[relation_triple][0]]
                         graph_edge.provs |= set(relations)
-                        nodes[subject].add_edge_object(graph_edge)
+                        nodes[s].add_edge_object(graph_edge)
                 # check case for object to subject
                 if possible_duplicate:
                     continue
-                possible_duplicate = nodes[objecT].get_edge(end=nodes[subject])
+                possible_duplicate = nodes[o].get_edge(end=nodes[s])
                 if (possible_duplicate and possible_duplicate.color != back_edge.color) or not possible_duplicate:
-                    edge = nodes[subject].get_edge(end=nodes[objecT])
+                    edge = nodes[s].get_edge(end=nodes[o])
                     if not edge or edge.color != back_edge.color:
                         # TODO: check if this is always a nested list and if it is, fix it
                         relations = [x for x, _ in self.relation2prov[relation_triple][0]]
                         back_edge.provs |= set(relations)
-                        nodes[objecT].add_edge_object(back_edge)
+                        nodes[o].add_edge_object(back_edge)
         if self.lesser_edges:
             for combo in list(combinations(nodes.keys(), 2)):
                 if edge_count >= max_edges:
@@ -529,6 +526,7 @@ class QueryResult(object):
                             self.provenance_dict[prov][0] += weight
                             self.provenance_dict[prov][1].add((weight, ss, pp, oo))
         self.provenance_set = ProvFuzzySet.from_list_dictionary(self.provenance_dict)
+        # TODO: check if clean=True works fine
         return Graph(nodes=list(nodes.values()), clean=False)
 
     @staticmethod

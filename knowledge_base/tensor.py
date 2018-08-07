@@ -412,7 +412,7 @@ class Tensor:
         """
 
         content, last_done = self.tab_separated()
-        print(f"OLD SYSTEM, {filename} SIZE: {len(content)}")
+        # print(f"OLD SYSTEM, {filename} SIZE: {len(content)}")
         filename.write(content.encode())
         filename.flush()
         while 0 < last_done < 3:

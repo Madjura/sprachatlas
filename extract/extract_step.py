@@ -73,7 +73,6 @@ def load_text(text):
     for line in lines:
         try:
             start, end, content = line.split("\t")
-            print(start, end, content)
             out.append((start, end, content))
         except ValueError:
             print(f"ERROR LINE: {line}")
@@ -94,9 +93,10 @@ def extract_theutonista(texts, alias):
         for chunk_id, chunks in enumerate(sentences):
             # start = chunks[0][0]
             # end = chunks[-1][1]
+            c_id = f"{text}_{chunk_id}"
             content = "".join([x[2] for x in chunks])
             character2pos = character_to_position(content)
-            closeness_list = calculate_weighted_distance_theutonista(chunk_id, character2pos)
+            closeness_list = calculate_weighted_distance_theutonista(c_id, character2pos)
             closeness.append(closeness_list)
             paragraph_path = os.path.join(paths.PARAGRAPH_CONTENT_PATH, alias, f"{text}_{chunk_id}")
             with open(paragraph_path, "w", encoding="utf8") as f:

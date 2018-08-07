@@ -59,7 +59,7 @@ class Node(object):
         """
         self.edges.append(Edge(start=self, end=target, val=value))
 
-    def get_edge(self, *, end: int = None):
+    def get_edge(self, *, end=None):
         """
         Returns the edge from this node to the target node.
         :param end: The end node.

@@ -137,7 +137,7 @@ def load_and_prepare_provenance_db(tops, alias):
     texts = []
     alias = alias.identifier
     for name, score in tops:
-        with open(os.path.join(paths.PARAGRAPH_CONTENT_PATH, alias, f"{alias}_{name}"), "r", encoding="utf8") as text:
+        with open(os.path.join(paths.PARAGRAPH_CONTENT_PATH, alias, f"{name}"), "r", encoding="utf8") as text:
             texts.append((name, score, text.read()))
     return texts
 
@@ -314,7 +314,7 @@ def frequency_view(request, pk=None):
         texts = alias.texts
         index_Q = Q()
         for text in texts.all():
-            index_Q |= Q(index__icontains=text)
+            index_Q |= Q(index__icontains=text.name)
         indices = InverseIndex.objects.values("term").annotate(Count("id")).order_by().filter(index_Q)
         counts = []
         for index in indices:
@@ -323,6 +323,7 @@ def frequency_view(request, pk=None):
         context["counts"] = counts
         context["alias"] = alias.identifier
     return render(request, "queryapp/frequencies.html", context)
+
 
 if __name__ == "__main__":
     markup_samples(["Harry visited Hagrid and Harry."], ["harry_and_ron", "ron"])

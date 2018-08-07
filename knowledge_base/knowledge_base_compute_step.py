@@ -140,14 +140,14 @@ def knowledge_base_compute(top=100, alias=None):
     """
     memstore = NeoMemStore()
     memstore.import_memstore(os.path.join(paths.MEMSTORE_PATH, alias))
-    print("RELATIONS TOTAL, OLD SYSTEM, START: ", len(memstore.corpus))
+    # print("RELATIONS TOTAL, OLD SYSTEM, START: ", len(memstore.corpus))
     matrix = memstore.corpus.matricise(0)
-    analyser = Analyser(matrix=matrix, trace=True)
+    analyser = Analyser(matrix=matrix, trace=False)
     tokens = [x for x in memstore.sorted(ignored=".*_[0-9]+$|related to|close to")]
-    print("OLD SYSTEM, LEN TOKENS: ", len(tokens))
+    # print("OLD SYSTEM, LEN TOKENS: ", len(tokens))
     similarity_dictionary = {}
     for i, subject in enumerate(tokens):
-        print(i, " out of ", len(tokens))
+        # print(i, " out of ", len(tokens))
         similar = analyser.similar_to(subject, top=top)
         for objecT, weight in similar:
             triple1 = (subject, "related to", objecT)
@@ -156,7 +156,7 @@ def knowledge_base_compute(top=100, alias=None):
                 similarity_dictionary[(subject, "related to", objecT)] = weight
     for key, value in similarity_dictionary.items():
         memstore.corpus[key] = value
-    print(f"OLD SYSTEM, DICT SIZE: {len(memstore.corpus)}")
+    # print(f"OLD SYSTEM, DICT SIZE: {len(memstore.corpus)}")
     memstore.export(paths.MEMSTORE_PATH + "/" + alias + "/")
 
 

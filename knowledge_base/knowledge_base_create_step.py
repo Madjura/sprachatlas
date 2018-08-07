@@ -107,6 +107,7 @@ def knowledge_base_create(alias=None):
     :param alias: The Alias of the texts that are being processed.
     """
     memstore = NeoMemStore()
+    print(f"CREATE ALIAS: {alias}")
     # closenesses are calculcated in extract_step
     with open(os.path.join(paths.CLOSENESS_PATH, alias, "closeness.p"), "rb") as f:
         closenesses = pickle.load(f)
