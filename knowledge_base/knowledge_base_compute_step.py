@@ -165,4 +165,4 @@ if __name__ == "__main__":
     # knowledge_base_compute_db(alias=alias)
     # print("------------------------------------")
     # knowledge_base_compute(alias="/cthulhu.txt")
-    knowledge_base_compute(alias="test_text.txt")
+    knowledge_base_compute(alias="t4.txt")

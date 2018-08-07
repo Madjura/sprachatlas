@@ -91,6 +91,7 @@ def extract_theutonista(texts, alias):
             metafile.write(f"PARAGRAPHS: {len(sentences)}")
         print(f"Current text: {text}")
         for chunk_id, chunks in enumerate(sentences):
+            print(f"-> PROCESSING CHUNK {chunk_id} OUT OF {len(sentences)}")
             # start = chunks[0][0]
             # end = chunks[-1][1]
             c_id = f"{text}_{chunk_id}"
@@ -113,7 +114,7 @@ if __name__ == "__main__":
     # make_folders(alias="/cthulhu.txt")
     # extract_step_db(language="english", texts=["cthulhu.txt"], weight_threshold=0.75, distance_threshold=3)
     # extract_step(texts=["cthulhu.txt"], alias="/cthulhu.txt")
-    t = ["test_text.txt"]
-    a = "test_text.txt"
-    make_folders(a)
+    t = ["t5.txt"]
+    a = "t5.txt"
+    # make_folders(a)
     extract_theutonista(t, a)

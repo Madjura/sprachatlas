@@ -126,4 +126,4 @@ if __name__ == "__main__":
     # checked 9 april, same for new and old system
     # knowledge_base_create(alias="/cthulhu.txt")
     # with_graphvizoutput()
-    knowledge_base_create(alias="test_text.txt")
+    knowledge_base_create(alias="t4.txt")
