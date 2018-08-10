@@ -11,22 +11,16 @@ def parse_theutonista_to_ngrams(words, ngram_start=3, ngram_end=6):
         char = c[0]
         ngrams_add = []
         if char in "aeiouAEIOU":
-            # vocal
             r = vokale.scanString(c)
-            # r = halbvokal.scanString(cc)
-            for match in r:
-                m, _, _ = match
-                new_chars = match_recursion(m, "Vokale", char)
-                for n in new_chars:
-                    ngrams_add.append(n.lower())
+            t = "Vokale"
         else:
-            # consonant
             r = konsonanten.scanString(c)
-            for match in r:
-                m, _, _ = match
-                new_chars = match_recursion(m, "Konsonanten", char)
-                for n in new_chars:
-                    ngrams_add.append(n.lower())
+            t = "Konsonanten"
+        for match in r:
+            m, _, _ = match
+            new_chars = match_recursion(m, t, char)
+            for n in new_chars:
+                ngrams_add.append(n.lower())
         ngrams_add = list(set(ngrams_add))
         c = 0
         for ngram_size, ngrams in ngrams_d.items():
