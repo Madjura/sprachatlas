@@ -1,5 +1,7 @@
-from parse.parse import vokale, konsonanten
-from parse.util import match_recursion
+from collections import defaultdict
+
+from parse.parse import parse_all, vokale, konsonanten
+from parse.util import match_recursion, match_recursion2
 
 
 def parse_theutonista_to_ngrams(words, ngram_start=3, ngram_end=6):
@@ -7,22 +9,44 @@ def parse_theutonista_to_ngrams(words, ngram_start=3, ngram_end=6):
     ngrams_d = {x: [] for x in range(ngram_start, ngram_end+1)}
     ngrams_done = {x: [] for x in range(ngram_start, ngram_end+1)}
     print(ngrams_d)
-    for i, (_start, _end, c) in enumerate(words):
-        char = c[0]
+    char_to_pos = defaultdict(lambda: list())
+    pos_to_chars = defaultdict(lambda: list())
+    for i, word in enumerate(words):
         ngrams_add = []
-        if char in "aeiouAEIOU":
-            r = vokale.scanString(c)
-            t = "Vokale"
-        else:
-            r = konsonanten.scanString(c)
-            t = "Konsonanten"
-        for match in r:
-            m, _, _ = match
-            new_chars = match_recursion(m, t, char)
-            for n in new_chars:
-                ngrams_add.append(n.lower())
+        prev = 0
+        chars_to_check = []
+        flag = False
+        pos = 0
+        for j, c in enumerate(word):
+            if c.isalpha():
+                if not flag:
+                    flag = True
+                if flag:
+                    to_add = word[prev:j]
+                    if to_add:
+                        chars_to_check.append(word[prev:j])
+                    prev = j
+                    flag = False
+                char_to_pos[c].append(pos)
+                pos_to_chars[pos].append(c)
+                pos += 1
+        chars_to_check.append(word[prev:])
+        for char in chars_to_check:
+            if char[0] in "aeiou":
+                r = vokale.scanString(char)
+                t = "Vokale"
+            else:
+                r = konsonanten.scanString(char)
+                t = "Konsonanten"
+            for match in r:
+                m, _, _ = match
+                new_chars = match_recursion2(m, t, char[0])
+                for n in new_chars:
+                    ngrams_add.append(n.lower())
+        char_to_pos = dict(char_to_pos)
+        pos_to_chars = dict(pos_to_chars)
         ngrams_add = list(set(ngrams_add))
-        c = 0
+        done = []
         for ngram_size, ngrams in ngrams_d.items():
             if ngrams and len(ngrams[0]) == ngram_size:
                 ngrams_done[ngram_size].append("".join(ngrams))
@@ -43,4 +67,3 @@ def parse_theutonista_to_ngrams(words, ngram_start=3, ngram_end=6):
                     for sublist in ngrams:
                         for ngram_add in ngrams_add:
                             sublist.append(f"||{ngram_add}")
-            c += 1
