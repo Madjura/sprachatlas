@@ -2,9 +2,11 @@ from collections import defaultdict
 
 from parse.parse import vokale, konsonanten
 from parse.util import match_recursion2
+from segmentation.translate import teuthonista_split, add_theutonista_to_segmented
+from subword.util import load_theutonista
 
 
-def get_ngrams_range(chars, start=3, end=6):
+def get_ngrams_range(chars, start=2, end=4):
     chars.insert(0, "<")
     chars.append(">")
     ngrams_d = defaultdict(lambda: list())
@@ -16,7 +18,7 @@ def get_ngrams_range(chars, start=3, end=6):
     return ngrams_d
 
 
-def parse_theutonista_to_ngrams(words, ngram_start=3, ngram_end=6):
+def parse_theutonista_to_ngrams(words, ngram_start=2, ngram_end=4):
     char_to_pos = defaultdict(lambda: list())
     pos_to_chars = defaultdict(lambda: list())
     ngrams_total = defaultdict(lambda: list())
@@ -69,4 +71,53 @@ def parse_theutonista_to_ngrams(words, ngram_start=3, ngram_end=6):
         chars_to_readable = dict(chars_to_readable)
         for k, v in chars_to_readable.items():
             readable_total[k] = v
-    return ngrams_total, readable_total
+    return dict(ngrams_total), dict(readable_total)
+
+
+def window_ngrams(path, debug_limit=None):
+    t = load_theutonista(path)
+    readable_all = defaultdict(lambda: list())
+    ngrams_all = defaultdict(lambda: list())
+    for i, (_start, _end, raw) in enumerate(t):
+        if i == debug_limit:
+            break
+        raw = raw.replace("\n", "")
+        segs = teuthonista_split(raw)
+        w = add_theutonista_to_segmented(raw, segs)
+        print(w)
+        w = list(w.values())
+        ngrams, readable = parse_theutonista_to_ngrams(w)
+        for k, v in readable.items():
+            l = readable_all[k]
+            l.extend(v)
+            readable_all[k] = list(set(l))
+        for k, v in ngrams.items():
+            ngrams_all[k].extend(v)
+    return ngrams_all, readable_all
+
+
+def ngram_freqs(ngrams, readable):
+    freqs = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
+    freqs_readable = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
+    for size, ngrams in ngrams.items():
+        for ngram in ngrams:
+            prev = ngram[0]
+            prev_readable = readable[prev]  # is a list
+            if not prev_readable:
+                if prev not in "<>":
+                    print(f"---> SUSPICIOUS CHARACTER, NOT FOUND IN READABLE: {char}")
+                prev_readable = [prev]
+            for char in ngram[1:]:
+                freqs[size][prev][char] += 1
+                char_readable = readable[char]
+                if not char_readable:
+                    if char not in "<>":
+                        print(f"---> SUSPICIOUS CHARACTER, NOT FOUND IN READABLE: {char}")
+                    char_readable = [char]  # beginning/end characters <>
+                for r in char_readable:
+                    for p in prev_readable:
+                        freqs_readable[size][p][r] += 1
+                prev = char
+                prev_readable = char_readable
+    print(freqs)
+    print(freqs_readable)

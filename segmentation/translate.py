@@ -13,14 +13,14 @@ def teuthonista_to_string(raw):
     processed = []
     for i, c in enumerate(raw.lower()):
         if c.isalpha():
-            if c == "o" and processed[-1] == "a":
+            if c == "o" and processed and processed[-1] == "a":
                 processed.append("u")  # ao sounds like au
                 continue
             if c == "x":  # ch-sounds
                 processed.append("ch")  # and raw[i+1].isdigit() - probably always ch?
                 continue
             if c == "s":  # sch-sounds, probably? TODO: figure out what S7 etc sound like
-                if processed[-1] == "t":
+                if processed and processed[-1] == "t":
                     del processed[-1]
                     processed.append("z")  # TODO: check if this works always!
                     continue
@@ -84,6 +84,7 @@ def teuthonista_split(raw):
 
 
 def get_theutonista_tail(raw, pos, i):
+    raw.replace("\n", "")
     tail = raw[pos+i+1:]
     for j, cc in enumerate(tail):
         if cc.isalpha():
