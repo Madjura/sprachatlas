@@ -78,8 +78,9 @@ def window_ngrams(path, debug_limit=None):
     t = load_theutonista(path)
     readable_all = defaultdict(lambda: list())
     ngrams_all = defaultdict(lambda: list())
-    for i, (_start, _end, raw) in enumerate(t):
-        if i == debug_limit:
+    index = defaultdict(lambda: list())
+    for line, (_start, _end, raw) in enumerate(t):
+        if line == debug_limit:
             break
         raw = raw.replace("\n", "")
         segs = teuthonista_split(raw)
@@ -93,7 +94,13 @@ def window_ngrams(path, debug_limit=None):
             readable_all[k] = list(set(l))
         for k, v in ngrams.items():
             ngrams_all[k].extend(v)
-    return ngrams_all, readable_all
+            # TODO: improve code quality
+            for char_l in v:
+                for char in char_l:
+                    index[char].append(line)
+    for k, v in index.items():
+        index[k] = list(set(v))
+    return ngrams_all, readable_all, dict(index)
 
 
 def ngram_freqs(ngrams, readable):
@@ -121,3 +128,4 @@ def ngram_freqs(ngrams, readable):
                 prev_readable = char_readable
     print(freqs)
     print(freqs_readable)
+    return freqs, freqs_readable

@@ -3,23 +3,19 @@
 import os
 import re
 
-from celery.bin.control import inspect
-from django.contrib import messages
-from django.contrib.auth.models import User
 from django.db import IntegrityError
 from django.db.models import Q, Count
 from django.http import JsonResponse
 from django.shortcuts import render, redirect
-from django.views.generic import FormView, ListView
 
 from allsteps.allsteps import all_steps
 from dataapp.models import InverseIndex
-from sprachatlas import settings
 from dragnapp.models import Alias, Paragraph
 from levenshtein.levenhstein import find_candidates_from_db
 from query import querystep
 from queryapp.forms import QueryForm, ProcessForm, TaskStatusForm, SuggestForm, QueryFormDb
 from queryapp.models import Text, TextsAlias
+from sprachatlas import settings
 from statusapp.models import ProcessStatus
 from util import paths
 
