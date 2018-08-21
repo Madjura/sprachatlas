@@ -6,12 +6,21 @@ In this step the texts are pre-processed, they are tokenized and POS-tags are as
 import os
 import pickle
 
-from extract.text_extract import character_to_position, \
+import spacy
+from django.db import transaction, IntegrityError
+from nltk.tag.stanford import StanfordPOSTagger
+from pycallgraph.output.graphviz import GraphvizOutput
+from pycallgraph.pycallgraph import PyCallGraph
+
+from extract.text_extract import split_paragraphs, pos_tag, extract_from_sentences, \
+    calculate_weighted_distance, pos_tag_spacy, extract_from_sentences_spacy, character_to_position, \
     calculate_weighted_distance_theutonista
 from sprachatlas import setup
+from text.paragraph import Paragraph
 from util import paths
 
 setup()
+from dragnapp import models as dragnmodels
 
 __copyright__ = """
 Copyright (C) 2017 Thomas Huber <huber150@stud.uni-passau.de, madjura@gmail.com>
@@ -64,7 +73,6 @@ def load_text(text):
     for line in lines:
         try:
             start, end, content = line.split("\t")
-            print(start, end, content)
             out.append((start, end, content))
         except ValueError:
             print(f"ERROR LINE: {line}")
@@ -83,12 +91,13 @@ def extract_theutonista(texts, alias):
             metafile.write(f"PARAGRAPHS: {len(sentences)}")
         print(f"Current text: {text}")
         for chunk_id, chunks in enumerate(sentences):
+            print(f"-> PROCESSING CHUNK {chunk_id} OUT OF {len(sentences)}")
             # start = chunks[0][0]
             # end = chunks[-1][1]
-            print(f"PROCESSING CHUNK {chunk_id} OUT OF {len(sentences)}")
+            c_id = f"{text}_{chunk_id}"
             content = "".join([x[2] for x in chunks])
             character2pos = character_to_position(content)
-            closeness_list = calculate_weighted_distance_theutonista(chunk_id, character2pos)
+            closeness_list = calculate_weighted_distance_theutonista(c_id, character2pos)
             closeness.append(closeness_list)
             paragraph_path = os.path.join(paths.PARAGRAPH_CONTENT_PATH, alias, f"{text}_{chunk_id}")
             with open(paragraph_path, "w", encoding="utf8") as f:
@@ -105,7 +114,7 @@ if __name__ == "__main__":
     # make_folders(alias="/cthulhu.txt")
     # extract_step_db(language="english", texts=["cthulhu.txt"], weight_threshold=0.75, distance_threshold=3)
     # extract_step(texts=["cthulhu.txt"], alias="/cthulhu.txt")
-    t = ["test_text.txt"]
-    a = "test_text.txt"
-    make_folders(a)
+    t = ["t5.txt"]
+    a = "t5.txt"
+    # make_folders(a)
     extract_theutonista(t, a)

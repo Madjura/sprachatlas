@@ -81,11 +81,11 @@ def all_steps(texts, query=None, language="english", alias=None, task=None, task
         alias_object.save()
     else:
         try:
-            alias_object = TextsAlias.objects.get(identifier=alias[1:])
+            alias_object = TextsAlias.objects.get(identifier=alias)
             alias_object.processed = True
             alias_object.save()
         except ObjectDoesNotExist:
-            print("NOT FOUND: ", alias[1:])
+            print(f"NOT FOUND: {alias}")
         try:
             status = ProcessStatus.objects.get(task_id=task_id)
             status.finished = True

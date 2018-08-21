@@ -16,17 +16,17 @@
 
         <div class="branding">
             <a href="{% url 'index' %}"><img src="{% static 'dragn/css/images/templogo_inverted.png' %}" class="logo"></a> <br>
+            <a class="btn btn-default" href="{% url 'index' %}"><span class="glyphicon glyphicon-home"></span></a>
 
-                <a class="btn btn-default" href="{% url 'index' %}"><span class="glyphicon glyphicon-home"></span></a>
-
-                {% if request.user.is_superuser %}
-                    <a class="btn btn-default" href="{% url 'upload' %}">Upload texts</a>
-                    <a class="btn btn-default" href="{% url 'process' %}">Process texts</a>
-                {% else %}
-                    <a class="btn btn-default" href="{% url 'admin:index' %}">Login</a>
-                {% endif %}
-                <a class="btn btn-default" href="{% url 'status_detail' %}">Status</a>
-                <a class="btn btn-default" href="{% url 'top_frequencies' %}">Top frequencies</a>
+            {% if request.user.is_superuser %}
+                <a class="btn btn-default" href="{% url 'upload' %}">Upload texts</a>
+                <a class="btn btn-default" href="{% url 'process' %}">Process texts</a>
+            {% else %}
+                <a class="btn btn-default" href="{% url 'admin:index' %}">Login</a>
+            {% endif %}
+            <a class="btn btn-default" href="{% url 'status_detail' %}">Status</a>
+            <a class="btn btn-default" href="{% url 'top_frequencies' %}">Top frequencies</a>
+            <a class="btn btn-default" href="{% url 'bigrams' %}">Bigram graph (WIP)</a>
         </div>
 
             {% if queryform %}

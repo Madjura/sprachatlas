@@ -34,11 +34,20 @@ class Graph(object):
         else:
             self.nodes = []
         if clean:
-            for index in range(len(nodes)):
-                backindex = len(nodes) - index - 1
-                node = nodes[backindex]
+            cleaned = []
+            unclean = []
+            for node in nodes:
                 if not node.edges:
-                    del nodes[backindex]
+                    unclean.append(node)
+                else:
+                    cleaned.append(node)
+            all_cleaned = []
+            for node in cleaned:
+                all_cleaned.append(node)
+                for edge in node.edges:
+                    if edge.end in unclean:
+                        all_cleaned.append(edge.end)
+            self.nodes = all_cleaned
 
     def __str__(self, *args, **kwargs):
         out = ""

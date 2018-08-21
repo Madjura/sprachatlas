@@ -19,6 +19,7 @@ from django.contrib import admin
 from queryapp.views import query, process, get_provenance, check_all_steps_task_status, suggest_view, frequency_view, \
     query_db
 from statusapp.views import status
+from subwordapp.views import bigrams
 from uploadapp.views import UploadView
 
 urlpatterns = [
@@ -34,4 +35,5 @@ urlpatterns = [
     url(r'^top-frequencies/$', frequency_view, name="top_frequencies"),
     url(r'^top-frequencies/(?P<pk>[0-9]+)$', frequency_view, name="top_frequencies"),
     url(r'^$', query),
+    url(r'^bigrams/$', bigrams, name="bigrams"),
 ]

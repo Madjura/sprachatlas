@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "dataapp",
     "statusapp",
     "dragnapp",
+    "subwordapp",
 ]
 
 MIDDLEWARE = [

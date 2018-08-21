@@ -360,11 +360,11 @@ def character_to_position(chars, split_chars=True):
     chars = chars.replace("\n", "")
     tmp = []
     for i, c in enumerate(chars):
-        # print(f"PROCESSING CHAR {i} OUT OF {len(lines)}")
         if c.isalpha() and tmp:  # next character
             cc = "".join(tmp)
             # feed into parser, get split characters
             if split_chars:
+                ccc = cc[0]
                 if cc[0] in "aeiouAEIOU":
                     # vocal
                     r = vokale.scanString(cc)
@@ -384,6 +384,8 @@ def character_to_position(chars, split_chars=True):
                         for n in new_chars:
                             n = n.lower()
                             character2pos[n].append(pos)
+                # TODO: experimental
+                character2pos[ccc].append(pos)
             character2pos[cc].append(pos)
             tmp = [c]
             pos += 1
@@ -391,7 +393,10 @@ def character_to_position(chars, split_chars=True):
             tmp.append(c)
     character2pos["".join(tmp)].append(pos)
     character2pos = dict(character2pos)
-    return character2pos
+    f = {}
+    for k, v in character2pos.items():
+        f[k] = list(set(v))
+    return f
 
 
 def get_cooccurence(chunk_trees, ignore_stopwords=True, language="english"):
@@ -486,6 +491,8 @@ def calculate_weighted_distance_theutonista(chunk_id, character2pos, distance_li
     # get all term combinations to see if they are close to each other
     for char1, char2 in combinations(list(character2pos.keys()), 2):
         w = 0.0
+        if char1 == "a2+-2" and char2 == "a":
+            print("!!!")
         # get positions of first term
         # positions are always per paragraph
         for position1 in character2pos[char1]:

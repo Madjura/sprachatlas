@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+{% if graph_elements %}
+<script>
+    var graphElements = {{ graph_elements|safe }};
+</script>
+{% endif %}
+<script src="{% static 'dragn/js/jquery-3.1.1.min.js' %}"></script>
+<script src="{% static 'queryapp/js/cytoscape.js' %}"></script>
+<script src="{% static 'queryapp/js/cytoscape-menu.js' %}"></script>
+<script src="{% static 'queryapp/js/weaver.js' %}"></script>
+<script src="{% static 'queryapp/js/layout.js' %}"></script>
+<script src="{% static 'subwordapp/js/subword_graph.js' %}"></script>
+<script src="{% static 'queryapp/js/distant-modal.js' %}"></script>
+<script src="{% static 'queryapp/js/jquery.tablesorter.js' %}"></script>
+<script src="{% static 'queryapp/js/jquery.get-word-by-event.js' %}"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'queryapp/css/result.css' %}"/>
+<div id="cy"></div>
+{% endblock %}

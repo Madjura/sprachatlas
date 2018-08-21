@@ -47,8 +47,7 @@ class Analyser:
         # (close to, <token>): [<tokens>], essentially the reverse of self.sparse
         self.col2row = None
         # get an in-memory representation of the matrix
-        if trace:
-            self.sparse, self.col2row = self.matrix.get_sparse_dict()
+        self.sparse, self.col2row = self.matrix.get_sparse_dict()
 
     def similar_to(self, subject: str, top=100, minsim=0.001):
         """Calculates tokens similar to a given one."""

@@ -128,4 +128,4 @@ if __name__ == "__main__":
     # index_step_db(alias=alias)
     # index_step(alias="/cthulhu.txt")
     # with_graphvizoutput()
-    index_step(alias="test_text.txt")
+    index_step(alias="t4.txt")

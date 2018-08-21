@@ -62,7 +62,7 @@ def get_wordcounts_bavarian(words=None, ignore_case=True):
 
 def augment_freqs(d):
     # add all words that are missing from wikipedia but we encounter here
-    with open("word_augment.txt", "r") as f:
+    with open("E:\PycharmProjects\sprachatlas\segmentation\word_augment.txt", "r") as f:
         cc = f.read().split("\n")
     for c in cc:
         d[c] = 100
