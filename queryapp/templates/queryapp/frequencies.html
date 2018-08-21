@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+<script src="{% static 'dragn/js/jquery-3.1.1.min.js' %}"></script>
+<script src="{% static 'queryapp/js/layout.js' %}"></script>
+<div id="suggestions">
+    {% if aliases %}
+    <ul>
+        {% for alias in aliases %}
+            <li><a href="{% url 'top_frequencies' pk=alias.pk %}">{{ alias.identifier }}</a></li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <span>Top frequencies for <b>{{ alias }}</b></span>
+        <ul>
+            {% for frequency, term in counts %}
+                <li>{{ term }}: {{ frequency }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</div>
+{% endblock %}
