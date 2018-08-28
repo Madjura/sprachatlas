@@ -1,8 +1,11 @@
 import pickle
+import re
+from collections import defaultdict
 
 import numpy
 from scipy.spatial.distance import cosine, cityblock
 
+from segmentation.translate import get_theutonista_tail
 from subword.freqs_to_graph import freqs_to_graph
 from subword.parse_subword import window_ngrams, ngram_freqs
 from subword.vectorspace import vectorspace_from_theutonista
@@ -58,6 +61,21 @@ def cityblock_distance(path_cityblock, vectors=None, sort=False):
             f.write(f"{t} {t2} {dist}\n")
 
 
+def word_to_chars(word):
+    return re.findall("[a-z][^a-z]*", word, re.IGNORECASE)
+
+
+def make_word_vectors(words, char_vectors):
+    wv = []
+    for w in words:
+        vector = numpy.zeros((2000, ))
+        chars = word_to_chars(w)
+        for c in chars:
+            vector += char_vectors[c]
+        wv.append(vector)
+    return wv
+
+
 if __name__ == "__main__":
     try:
         with open("initial_vectors.p", "rb") as f:
@@ -68,9 +86,13 @@ if __name__ == "__main__":
             initial_r = pickle.load(f)
         with open("updated_vectors_readable.p", "rb") as f:
             updated_r = pickle.load(f)
+        with open("words_all.p", "rb") as f:
+            words_all = pickle.load(f)
     except FileNotFoundError:
         p = "E:\PycharmProjects\sprachatlas\dragn-folders\\texts\\t5.txt"
-        ngrams, readable, index = window_ngrams(p, 2)
+        ngrams, readable, index, words_all = window_ngrams(p)
+        with open("words_all.p", "wb") as f:
+            pickle.dump(words_all, f)
         tmp = [item for sublist in list(ngrams.values()) for item in sublist]
         flat = [x for s in tmp for x in s]
         initial, updated, initial_r, updated_r = vectorspace_from_theutonista(flat, readable)
@@ -82,10 +104,17 @@ if __name__ == "__main__":
             pickle.dump(dict(initial_r), f)
         with open("updated_vectors_readable.p", "wb") as f:
             pickle.dump(dict(updated_r), f)
-    vector_similarities("vectors/euclidean_distances.txt", "vectors/cosine_similarities.txt", updated, sort=True)
+    updated = defaultdict(lambda k: numpy.zeros((2000,)), updated)
+    word_vectors = {}
+    for word, pronunciations in words_all.items():
+        vectors = make_word_vectors(pronunciations, updated)
+        word_vectors[word] = vectors
+    with open("word_vectors.p", "wb") as f:
+        pickle.dump(word_vectors, f)
+    # vector_similarities("vectors/euclidean_distances.txt", "vectors/cosine_similarities.txt", updated, sort=True)
     # TODO: cityblock needs adjustments for u1 and u2, but that bloats the code but its trivial to add
     # cityblock_distance("vectors/cityblock.txt", updated)
-    vector_similarities("vectors/euclidean_distances_r.txt", "vectors/cosine_similarities_r.txt", updated_r, sort=True)
+    # vector_similarities("vectors/euclidean_distances_r.txt", "vectors/cosine_similarities_r.txt", updated_r, sort=True)
     # cityblock_distance("vectors/cityblock_r.txt", updated_r)
 
     # freqs, freqs_readable = ngram_freqs(ngrams, readable)
