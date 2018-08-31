@@ -74,8 +74,8 @@ def parse_theutonista_to_ngrams(words, ngram_start=2, ngram_end=4):
     return dict(ngrams_total), dict(readable_total)
 
 
-def window_ngrams(path, debug_limit=None, debug_start=0):
-    t = load_theutonista(path)
+def window_ngrams(paths, debug_limit=None, debug_start=0):
+    t = load_theutonista(paths)
     readable_all = defaultdict(lambda: list())
     ngrams_all = defaultdict(lambda: list())
     index = defaultdict(lambda: list())

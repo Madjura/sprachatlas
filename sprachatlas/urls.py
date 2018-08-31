@@ -15,11 +15,12 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from django.urls import path
 
 from queryapp.views import query, process, get_provenance, check_all_steps_task_status, suggest_view, frequency_view, \
     query_db
 from statusapp.views import status
-from subwordapp.views import bigrams
+from subwordapp.views import bigrams, process_subwords, similarity
 from uploadapp.views import UploadView
 
 urlpatterns = [
@@ -36,4 +37,6 @@ urlpatterns = [
     url(r'^top-frequencies/(?P<pk>[0-9]+)$', frequency_view, name="top_frequencies"),
     url(r'^$', query),
     url(r'^bigrams/$', bigrams, name="bigrams"),
+    path("process-subword/", process_subwords, name="process_subwords"),
+    path("similarity/", similarity, name="similarity")
 ]

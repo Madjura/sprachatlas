@@ -3,16 +3,17 @@ import re
 import numpy
 
 
-def load_theutonista(path):
-    with open(path, "r", encoding="utf8") as f:
-        lines = f.readlines()
+def load_theutonista(paths):
     out = []
-    for line in lines:
-        try:
-            start, end, content = line.split("\t")
-            out.append((start, end, content))
-        except ValueError:
-            print(f"ERROR LINE: {line}")
+    for path in paths:
+        with open(path, "r", encoding="utf8") as f:
+            lines = f.readlines()
+        for line in lines:
+            try:
+                start, end, content = line.split("\t")
+                out.append((start, end, content))
+            except ValueError:
+                print(f"ERROR LINE: {line}")
     return out
 
 

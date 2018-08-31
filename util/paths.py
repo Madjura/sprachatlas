@@ -66,6 +66,8 @@ TAGGER_TO_LANGUAGE = defaultdict(lambda: None)
 # define more languages here
 TAGGER_TO_LANGUAGE["german"] = STANFORD_GERMAN_PATH
 
+SUBWORD_MAIN_PATH = "E:\PycharmProjects\sprachatlas\dragn-folders\subword"
+SUBWORD_MODEL_PATH = os.path.join(SUBWORD_MAIN_PATH, "models")
 ALL = [
     MAIN_FOLDER,
     TEXT_PATH,
