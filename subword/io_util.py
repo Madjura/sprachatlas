@@ -5,6 +5,7 @@ import numpy
 import os
 
 from subword.util import make_word_vectors
+from util.paths import SUBWORD_MODEL_PATH
 
 
 def load_vectorspace_model(l1=False):
@@ -23,6 +24,11 @@ def load_vectorspace_model(l1=False):
     with open(os.path.join("models", f"words_all{t}.p"), "rb") as f:
         words_all = pickle.load(f)
     return initial, updated, initial_r, updated_r, words_all
+
+
+def load_graph(alias):
+    with open(os.path.join(SUBWORD_MODEL_PATH, alias.identifier, "bigram_graph.json"), "r") as f:
+        return f.read()
 
 
 def save_vectorspace_model(initial, updated, initial_r, updated_r, words_all, l1=False, modelpath="models",
@@ -57,3 +63,10 @@ def save_word_vectors(words_all, updated, m, l1=False, modelpath="models", alias
         word_vectors[word] = vectors
     with open(os.path.join(modelpath, alias_text, f"word_vectors{t}.p"), "wb") as f:
         pickle.dump(word_vectors, f)
+
+
+def save_bigram_graph(g, modelpath="models", alias_text=""):
+    p = os.path.join(modelpath, alias_text, "bigram_graph.json")
+    print(p)
+    with open(p, "w") as f:
+        f.write(g.to_json())

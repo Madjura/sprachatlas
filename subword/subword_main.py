@@ -1,7 +1,8 @@
 import os
 
-from subword.io_util import load_vectorspace_model, save_vectorspace_model, save_word_vectors
-from subword.parse_subword import window_ngrams
+from subword.freqs_to_graph import freqs_to_graph
+from subword.io_util import load_vectorspace_model, save_vectorspace_model, save_word_vectors, save_bigram_graph
+from subword.parse_subword import window_ngrams, ngram_freqs
 from subword.similarity import vector_similarities
 from subword.util import normalize_vectors
 from subword.vectorspace import vectorspace_from_theutonista
@@ -31,7 +32,11 @@ def create_vectorspace_and_word_vectors_texts(alias, l1=False, m=2000):
     modelpath = SUBWORD_MODEL_PATH
     for text in alias.texts.all():
         p.append(os.path.join(paths.TEXT_PATH, text.name))
+
     ngrams, readable, index, words_all = window_ngrams(p)
+    freqs, freqs_readable = ngram_freqs(ngrams, readable)
+    g = freqs_to_graph(freqs, freqs_readable)
+
     tmp = [item for sublist in list(ngrams.values()) for item in sublist]
     flat = [x for s in tmp for x in s]
     initial, updated, initial_r, updated_r = vectorspace_from_theutonista(flat, readable, l1=l1, m=m)
@@ -42,6 +47,7 @@ def create_vectorspace_and_word_vectors_texts(alias, l1=False, m=2000):
     save_vectorspace_model(initial, updated, initial_r, updated_r, words_all, alias_text=alias.identifier,
                            modelpath=modelpath)
     save_word_vectors(words_all, updated, m, alias_text=alias.identifier, modelpath=modelpath)
+    save_bigram_graph(g, modelpath=modelpath, alias_text=alias.identifier)
 
 
 if __name__ == "__main__":

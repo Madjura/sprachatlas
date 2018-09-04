@@ -1,4 +1,5 @@
 import os
+from collections import defaultdict
 
 from django.db import IntegrityError
 from django.shortcuts import render
@@ -7,17 +8,29 @@ from django.shortcuts import render
 # Create your views here.
 from queryapp.forms import ProcessForm
 from queryapp.views import query
+from subword.io_util import load_graph
 from subword.similarity import vector_similarities_compare, vector_similarities_text
 from subword.subword_main import create_vectorspace_and_word_vectors_texts
-from subwordapp.forms import SimilarityForm
+from subwordapp.forms import SimilarityForm, BigramGraphForm
 from subwordapp.models import SubwordText, SubwordAlias
 from util import paths
 
 
 def bigrams(request):
-    with open("E:\PycharmProjects\sprachatlas\subword\\test_graph.json", "r") as f:
-        graph = f.read()
-    return render(request, "subwordapp/bigrams.html", {"graph_elements": graph})
+    processed = os.listdir(paths.SUBWORD_MODEL_PATH)
+    context = {}
+    if request.method == "POST":
+        bigramgraphform = BigramGraphForm(text_choices=processed, data=request.POST)
+        context["bigramform"] = bigramgraphform
+        if bigramgraphform.is_valid():
+            texts = bigramgraphform.cleaned_data["texts"]
+            alias = SubwordAlias.objects.get(identifier=texts[0])
+            graph = load_graph(alias)
+            context["graph_elements"] = graph
+            return render(request, "subwordapp/bigrams.html", context)
+    elif request.method == "GET":
+        context["bigramform"] = BigramGraphForm(text_choices=processed)
+        return render(request, "subwordapp/bigrams.html", context)
 
 
 def process_subwords(request):
@@ -53,6 +66,27 @@ def process_subwords(request):
         return render(request, "subwordapp/subword_process.html", context)
 
 
+def _sim_alphabetical(sim, compare=False):
+    alphabetical = defaultdict(lambda: defaultdict(lambda: None))
+    for k, v in sim.items():
+        if compare:
+            alphabetical[k[0]][k] = list(v)
+        else:
+            vals = sorted(list(v.items()), key=lambda j: j[1], reverse=True)
+            alphabetical[k[0]][k] = vals
+    t = []
+    for k, v in alphabetical.items():
+        if compare:
+            t.append((k, v))
+        else:
+            tt = []
+            for kk, vv in v.items():
+                tt.append((kk, vv))
+            tt = sorted(tt, key=lambda j: j[1])
+            t.append((k, tt))
+    return sorted(t, key=lambda k: k[0])
+
+
 def similarity(request):
     context = {"comparetwo": False}
     processed = os.listdir(paths.SUBWORD_MODEL_PATH)
@@ -69,11 +103,13 @@ def similarity(request):
                 alias1 = SubwordAlias.objects.get(identifier=texts[0])
                 alias2 = SubwordAlias.objects.get(identifier=texts[1])
                 cosines = vector_similarities_compare(alias1, alias2)
+                cosines = _sim_alphabetical(cosines, compare=True)
                 context["cosines"] = cosines
                 return render(request, "subwordapp/similarity.html", context)
             else:
                 alias = SubwordAlias.objects.get(identifier=texts[0])
                 cosines = vector_similarities_text(alias)
+                cosines = _sim_alphabetical(cosines)
                 context["cosines"] = cosines
                 return render(request, "subwordapp/similarity.html", context)
     elif request.method == "GET":

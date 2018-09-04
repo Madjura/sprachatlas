@@ -48,11 +48,13 @@ def vector_similarities_text(alias):
     cosines = defaultdict(lambda: defaultdict(float))
     for i, (term, centroid) in enumerate(centroids):
         for term2, centroid2 in centroids[i + 1:]:
-            cosines[term][term2] = cosine(centroid, centroid2)
+            sim = cosine(centroid, centroid2)
+            cosines[term][term2] = sim
+            cosines[term2][term] = sim
     for k, v in cosines.items():
         cosines[k] = dict(v)
-    import pprint
-    pprint.pprint(cosines)
+    # import pprint
+    # pprint.pprint(cosines)
     return dict(cosines)
 
 

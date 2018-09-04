@@ -16,5 +16,17 @@
 <script src="{% static 'queryapp/js/jquery.tablesorter.js' %}"></script>
 <script src="{% static 'queryapp/js/jquery.get-word-by-event.js' %}"></script>
 <link rel="stylesheet" type="text/css" href="{% static 'queryapp/css/result.css' %}"/>
+<div class="row">
+    {% if bigramform %}
+        <form action="{% url 'bigrams' %}" method="post" id="bigram-form">
+            {% csrf_token %}
+            {% for field in bigramform %}
+                <label for="{{ field.auto_id }}">{{ field.label }}</label> {{ field }}<br/>
+            {% endfor %}
+            <input id="process-submit" type="submit" value="Process" name="process">
+        </form>
+    {% endif %}
+</div>
+
 <div id="cy"></div>
 {% endblock %}
