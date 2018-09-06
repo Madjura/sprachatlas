@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block content %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'queryapp/css/result.css' %}"/>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'subwordapp/css/subword.css' %}"/>
+    <div class="row">
+        <div class="col-sm-12">
+            {% if error %}
+                <div class="row">
+                    {{ error }}
+                </div>
+            {% endif %}
+            {% if similarityform %}
+                <form action="{% url 'similarity' %}" method="post" id="similarity-form">
+                    {% csrf_token %}
+                    {% for field in similarityform %}
+                        <label for="{{ field.auto_id }}">{{ field.label }}</label> {{ field }}<br/>
+                    {% endfor %}
+                    <input id="process-submit" type="submit" value="Process" name="process">
+                </form>
+            {% endif %}
+        </div>
+    </div>
+    {% if cosines %}
+        <div id="accordion">
+            {% for k, v in cosines %}
+                <div class="card">
+                    <div class="card-header" id="heading-{{ k }}">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapse-{{ k }}" aria-expanded="false" aria-contols="collapse-{{ k }}">
+                                {{ k }}
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapse-{{ k }}" class="panel-collapse collapse" aria-labelledby="heading-{{ k }}" data-parent="#accordion">
+                        <div class="card-body">
+
+                            <div id="accordionInner">
+                                {% for kk, vv in v %}
+                                    <div class="card">
+                                        <div class="card-header" id="headingInner-{{ kk }}-{{ forloop.counter }}">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseInner-{{ kk }}-{{ forloop.counter }}" aria-expanded="false" aria-controls="collapseInner-{{ kk }}-{{ forloop.counter }}">
+                                                    {{ kk }}
+                                                </button>
+                                            </h5>
+                                        </div>
+
+                                        <div id="collapseInner-{{ kk }}-{{ forloop.counter }}" class="panel-collapse collapse" aria-labelledby="headingInner-{{ kk }}-{{ forloop.counter }}" data-parent="#accordianInner">
+                                            <div class="card-body">
+                                                {% for s, score in vv %}
+                                                    <p>{{ s }}: {{ score }}</p>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+{% endblock %}

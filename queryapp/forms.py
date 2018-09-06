@@ -49,8 +49,6 @@ class QueryFormDb(QueryForm):
             (alias.pk, alias.identifier) for alias in Alias.objects.filter(processed=True)]
 
 
-
-
 class ProcessForm(forms.Form):
     """Form to initate the processing of texts with."""
     # the texts to be processed, multiple can be selected

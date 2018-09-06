@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+<script src="{% static 'dragn/js/jquery-3.1.1.min.js' %}"></script>
+<script src="{% static 'queryapp/js/cytoscape.js' %}"></script>
+<script src="{% static 'queryapp/js/cytoscape-menu.js' %}"></script>
+<script src="{% static 'queryapp/js/weaver.js' %}"></script>
+<script src="{% static 'queryapp/js/layout.js' %}"></script>
+<script src="{% static 'queryapp/js/distant-modal.js' %}"></script>
+<script src="{% static 'queryapp/js/jquery.tablesorter.js' %}"></script>
+<script src="{% static 'queryapp/js/jquery.get-word-by-event.js' %}"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'queryapp/css/result.css' %}"/>
+<div class="row">
+    <div class="col-sm-12">
+        {% if processform %}
+            <form action="{% url 'process_subwords' %}" method="post" id="process-form">
+                {% csrf_token %}
+                {% for field in processform %}
+                    <label for="{{ field.auto_id }}">{{ field.label }}</label> {{ field }}<br/>
+                {% endfor %}
+                <input id="process-submit" type="submit" value="Process" name="process">
+            </form>
+        {% endif %}
+    </div>
+</div>
+
+{% endblock %}

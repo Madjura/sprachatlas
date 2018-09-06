@@ -17,7 +17,7 @@ parameters = {
 
 
 def freqs_to_graph(freqs, readable):
-    # TODO: n-gram freqs need work, bigrams should be fine
+    freqs = readable  # TODO: experimental
     nodes = defaultdict(lambda: None)
     for char, nexts in freqs[2].items():
         start = nodes[char]

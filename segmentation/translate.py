@@ -24,7 +24,7 @@ def teuthonista_to_string(raw):
                     del processed[-1]
                     processed.append("z")  # TODO: check if this works always!
                     continue
-                elif raw[i+1].isdigit():
+                elif i+1 < len(raw) and raw[i+1].isdigit():
                     d = int(raw[i+1])
                     if d in [2, 8]:
                         processed.append("s")
@@ -35,10 +35,12 @@ def teuthonista_to_string(raw):
                 else:
                     processed.append("s")
                 continue
-            if c == "k" and raw[i+1].isdigit():
+            if c == "k" and i+1 < len(raw) and raw[i+1].isdigit():
                 d = int(raw[i+1])
                 if d == 2:
                     processed.append("ck")
+                else:
+                    processed.append(c)
                 continue
             if processed and processed[-1] == c and c in "aeiou":
                 continue  # double vocals make no sense, maybe?
@@ -96,28 +98,35 @@ def get_theutonista_tail(raw, pos, i):
     return match, 0  # the 0 should not be used every, should be safe
 
 
+def len_check(charcount, word):
+    w = word.replace("sch", "s")  # workaround for sch
+    w = w.replace("ch", "c")  # workaround for ch
+    return charcount >= len(w)
+
+
 def add_theutonista_to_segmented(raw, segmented):
+    # special cases
+    # special = {
+    #     "u": "ao",
+    #     "ch": "x",
+    #     "z": "ts s9",
+    #     "s": "s2 s8",
+    #     "sch": "any other s"
+    # }
+    # TODO: same word multiple times in line, is overriden currently, PROBABLY not a problem but maybe
     pos = 0
     done = {}
     raw = raw.lower()
     for word in segmented:
         word = word.lower()
         lastchar = word[-1]
-        # special cases
-        special = {
-            "u": "ao",
-            "ch": "x",
-            "z": "ts s9",
-            "s": "s2 s8",
-            "sch": "any other s"
-        }
         charcount = 0
         prevchar = ""
         next_seg = raw[pos:]
         for i, c in enumerate(next_seg):
             if c.isalpha():
                 charcount += 1
-                if c == lastchar and charcount >= len(word):
+                if c == lastchar and len_check(charcount, word):
                     # done, get everything until next char
                     done[word], j = get_theutonista_tail(raw, pos, i)
                     pos = j
