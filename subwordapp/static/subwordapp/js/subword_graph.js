@@ -77,6 +77,20 @@ function updateCy(elements) {
         layout.run();
     } catch (err) {
     }
+
+    $("#bigramfilter").keyup(function() {
+        let input = $("#bigramfilter").val();
+        let nodes = cy.nodes();
+        nodes.forEach(function(ele) {
+            let len = input.length;
+            let id = ele.id();
+            if (id.slice(0, len) !== input) {
+                ele.hide();
+            }
+        });
+    });
+
+
     cy.nodes().on("tap", function (e) {
         // this check is needed for cross browser compability
         var target = browserTarget(e);
@@ -265,6 +279,8 @@ function updateCy(elements) {
                 title: "Show only this and directly connected",
                 selector: "node",
                 onClickFunction: function (event) {
+                    cy.nodes().show();
+                    cy.edges().show();
                     var target = browserTarget(event);
                     var edges = target.connectedEdges();
                     var connectedNodes = edges.connectedNodes();
