@@ -26,8 +26,12 @@ def load_vectorspace_model(l1=False):
     return initial, updated, initial_r, updated_r, words_all
 
 
-def load_graph(alias):
-    with open(os.path.join(SUBWORD_MODEL_PATH, alias.identifier, "bigram_graph.json"), "r") as f:
+def load_graph(alias, readable=True):
+    if readable:
+        r = "readable"
+    else:
+        r = "all"
+    with open(os.path.join(SUBWORD_MODEL_PATH, alias.identifier, f"bigram_graph__{r}.json"), "r") as f:
         return f.read()
 
 
@@ -65,8 +69,12 @@ def save_word_vectors(words_all, updated, m, l1=False, modelpath="models", alias
         pickle.dump(word_vectors, f)
 
 
-def save_bigram_graph(g, modelpath="models", alias_text=""):
-    p = os.path.join(modelpath, alias_text, "bigram_graph.json")
+def save_bigram_graph(g, modelpath="models", alias_text="", readable=True):
+    if readable:
+        r = "readable"
+    else:
+        r = "all"
+    p = os.path.join(modelpath, alias_text, f"bigram_graph__{r}.json")
     print(p)
     with open(p, "w") as f:
         f.write(g.to_json())

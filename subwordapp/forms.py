@@ -23,6 +23,7 @@ class BigramGraphForm(forms.Form):
     # the texts to be processed, multiple can be selected
     texts = fields.MultipleChoiceField(required=True, help_text="Select all texts to process.",
                                        widget=forms.CheckboxSelectMultiple())
+    readable = fields.BooleanField(required=False, initial=True)
 
     def __init__(self, text_choices=None, *args, **kwargs):
         """

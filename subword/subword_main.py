@@ -35,7 +35,7 @@ def create_vectorspace_and_word_vectors_texts(alias, l1=False, m=2000):
 
     ngrams, readable, index, words_all = window_ngrams(p)
     freqs, freqs_readable = ngram_freqs(ngrams, readable)
-    g = freqs_to_graph(freqs, freqs_readable)
+    g_readable, g_all = freqs_to_graph(freqs, freqs_readable)
 
     tmp = [item for sublist in list(ngrams.values()) for item in sublist]
     flat = [x for s in tmp for x in s]
@@ -47,7 +47,8 @@ def create_vectorspace_and_word_vectors_texts(alias, l1=False, m=2000):
     save_vectorspace_model(initial, updated, initial_r, updated_r, words_all, alias_text=alias.identifier,
                            modelpath=modelpath)
     save_word_vectors(words_all, updated, m, alias_text=alias.identifier, modelpath=modelpath)
-    save_bigram_graph(g, modelpath=modelpath, alias_text=alias.identifier)
+    save_bigram_graph(g_readable, modelpath=modelpath, alias_text=alias.identifier)
+    save_bigram_graph(g_all, modelpath=modelpath, alias_text=alias.identifier, readable=False)
 
 
 if __name__ == "__main__":
