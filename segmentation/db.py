@@ -4,6 +4,7 @@ from pprint import pprint
 import MySQLdb
 
 from sprachatlas.settings import WIKIPEDIA_DB_USER, WIKIPEDIA_DB_PASSWORD
+from util.paths import SUBWORD_AUGMENT_PATH
 
 
 def get_total_words_count_wikipedia():
@@ -62,7 +63,7 @@ def get_wordcounts_bavarian(words=None, ignore_case=True):
 
 def augment_freqs(d):
     # add all words that are missing from wikipedia but we encounter here
-    with open("E:\PycharmProjects\sprachatlas\segmentation\word_augment.txt", "r") as f:
+    with open(SUBWORD_AUGMENT_PATH, "r") as f:
         cc = f.read().split("\n")
     for c in cc:
         d[c] = 100

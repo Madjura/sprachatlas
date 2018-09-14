@@ -30,10 +30,9 @@
             {% else %}
                 <a class="btn btn-default" href="{% url 'admin:index' %}">Login</a>
             {% endif %}
-            <a class="btn btn-default" href="{% url 'status_detail' %}">Status</a>
             <a class="btn btn-default" href="{% url 'top_frequencies' %}">Top frequencies</a>
-            <a class="btn btn-default" href="{% url 'bigrams' %}">Bigram graph (WIP)</a>
             <a class="btn btn-default" href="{% url 'process_subwords' %}">Vectorspace models</a>
+            <a class="btn btn-default" href="{% url 'bigrams' %}">Bigram graph</a>
             <a class="btn btn-default" href="{% url 'similarity' %}">Vectorspace similarity</a>
         </div>
 

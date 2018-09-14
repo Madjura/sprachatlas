@@ -24,8 +24,9 @@ def bigrams(request):
         context["bigramform"] = bigramgraphform
         if bigramgraphform.is_valid():
             texts = bigramgraphform.cleaned_data["texts"]
+            readable = bigramgraphform.cleaned_data["readable"]
             alias = SubwordAlias.objects.get(identifier=texts[0])
-            graph = load_graph(alias)
+            graph = load_graph(alias, readable=readable)
             context["graph_elements"] = graph
             return render(request, "subwordapp/bigrams.html", context)
     elif request.method == "GET":
