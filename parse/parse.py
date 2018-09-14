@@ -62,6 +62,7 @@ konsonanten = (l_laute | r_reduktion | r_laute | nasale | ach_laute | ich_laute 
 konsonant_or_vokal = (konsonanten | vokale).setResultsName(">KonsonantOrVokal", listAllMatches=True)
 # .setResultsName("ParseAll", listAllMatches=True)
 parse_all = OneOrMore(konsonant_or_vokal).setResultsName(">ParseAll", listAllMatches=True)
+
 """
 start = time.time()
 #u5-2nd2a2vi5-s7we2ne,u5-2ndn4gs7da5-2ndni-s

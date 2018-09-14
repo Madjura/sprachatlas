@@ -142,6 +142,8 @@ CELERY_BROKER_URL = 'amqp://localhost'
 WIKIPEDIA_DB_USER = "root"
 WIKIPEDIA_DB_PASSWORD = "password"
 
+DRAGN_LINE_COMBINE = 5
+
 
 # use import.sql to import!
 # mysql -u root -p --default-character-set=utf8 --local-infile
