@@ -22,7 +22,11 @@ def vector_similarities(alias=None):
     centroids = list(centroids.items())
     cosines = defaultdict(lambda: defaultdict(float))
     for i, (term, centroid) in enumerate(centroids):
+        if len(term) == 1:
+            continue
         for term2, centroid2 in centroids[i+1:]:
+            if len(term) == 1:
+                continue
             cosines[term][term2] = cosine(centroid, centroid2)
     for k, v in cosines.items():
         cosines[k] = dict(v)
@@ -47,7 +51,11 @@ def vector_similarities_text(alias):
     centroids = list(centroids.items())
     cosines = defaultdict(lambda: defaultdict(float))
     for i, (term, centroid) in enumerate(centroids):
+        if len(term) == 1:
+            continue
         for term2, centroid2 in centroids[i + 1:]:
+            if len(term2) == 1:
+                continue
             sim = cosine(centroid, centroid2)
             cosines[term][term2] = sim
             cosines[term2][term] = sim
